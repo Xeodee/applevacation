@@ -6,6 +6,13 @@
  * To change this template use File | Settings | File Templates.
  */
 
+    var packageDollars = parseInt($('#totalPackagePrice').text().replace(/,/g, '')),
+        packageCents = parseInt($('.lowestprice .cents').text().replace(/\./g, '')),
+        totalPrice = packageDollars+"."+packageCents;
+
+        console.log(parseFloat(totalPrice).toFixed(2));
+
+
 var eq = 0,
     blueLink,
     extrasJSON,
