@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component-type>
+    <id>templateModel_1_footer1</id>
+    <title>Footer Component Type</title>
+    <description>Footer Component Type</description>
+
+    <processor mode="view">
+        <id>jsp</id>
+        <jsp-path>/WEB-INF/pages/footer/templateModel_1_footer1.jsp</jsp-path>
+    </processor>
+</component-type>

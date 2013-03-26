@@ -1,0 +1,35 @@
+/* =============================================================================
+   Header
+   ========================================================================== */
+.header h1				{ padding:15px 0 5px 15px; }   
+   
+.shared					{ width:650px; height:43px; background:url(../images/b1_52/top_share_bg.png) top right no-repeat; background-position:98% 0%; float:right; }
+.shared ul#share 		{ float:right; padding:6px 10px 0 0; }
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+.shared ul#share 		{ width:340px; }	
+	
+}
+
+.shared ul#share li 	{ display:inline; font-family:'Lato', sans-serif; text-transform:uppercase; font-size:10px; border-right:1px dotted #94afc5; padding:0 12px; }
+.shared ul#share li img.heart { margin-bottom:-1px; }
+.shared ul#share li:last-child { border:none; padding-right:0px; }
+.shared ul#share li a 	{ color:#696969; }
+.shared ul#share li a .icon-blueheart{margin-top:5px}
+.shared ul#share li iframe { margin-bottom:-7px; }
+
+
+/* =============================================================================
+   Main
+   ========================================================================== */
+.top-main 				{ padding:15px; }
+.top-main p				{ font-size:14px; line-height:20px; color:#333; }
+.top-main p.sixty		{ width:603px; }
+.top-main p.travel-pic 	{ padding-right:40px; }
+
+.main					{ background:url(../images/experience_main_bg.jpg) top repeat-x #b9c5d5; padding:15px; }
+.main ul				{ margin:20px 0 0 50px; }
+.main ul li 			{ float:left; width:270px; margin:15px 15px 0 0; }
+.main ul li h2			{ color:#0081e6; font-size:16px; margin:5px 0; }
+.main ul li p			{ width:90%; }

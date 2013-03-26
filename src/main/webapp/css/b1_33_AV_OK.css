@@ -1,0 +1,110 @@
+#b1_33_AV_OK .extras .details p, #b1_33_AV_OK .extras.active .details p, #b1_33_AV_OK .hotel .details p span { font-size: 12px; }
+#b1_33_AV_OK .totalprice-list { bottom: auto;}
+#b1_33_AV_OK .totalprice-list p { color:#84939f; }
+#b1_33_AV_OK .totalprice-list p.extra { color: #d6674e; }
+#b1_33_AV_OK .totalprice-list p span.Price {color:#465a6b; width:auto; font-size:14px; line-height:18px}
+#b1_33_AV_OK .totalprice-list p.extra span.Price {color:#cf2b04; width:auto; font-size:14px; line-height:18px}
+#b1_33_AV_OK p.lock {position: absolute;right: 16px;top: 9px;}
+
+#b1_33_AV_OK .opt .details p, .opt.flight .details strong { color:#465a6b; }
+#b1_33_AV_OK .opt .details p span, #b1_33_AV_OK .opt .details p small{ color:#465a6b; }
+#b1_33_AV_OK .opt .details a { color: #81b3d9; }
+#b1_33_AV_OK .opt.active .details p { font-weight: normal; }
+#b1_33_AV_OK .opt.extras .details p:before { content: ""; }
+
+#b1_33_AV_OK #totalPackagePrice{font-size:34px;}
+
+#b1_33_AV_OK .opt.active .details p.lightBlue { color: #0086ee; text-transform: capitalize;}
+#b1_33_AV_OK .opt.active .details p span.included { color: #cf2b04; font-weight: bold; text-transform: uppercase; font-size: 10px; }
+#b1_33_AV_OK .opt.active .details p.lightBlue span { color: #0086ee; font-weight: bold; }
+
+#b1_33_AV_OK .Promo-code { width: 940px; margin: 0 auto; height: auto;  box-shadow: 0 1px 5px -1px rgba(0, 0, 0, 0.67); }
+#b1_33_AV_OK .Promo-code p { font-size: 14px; color: #465a6b; width: 400px; }
+#b1_33_AV_OK .Promo-code span.floatR { font-size: 10px; font-weight: bold; color: #465a6b; text-transform: uppercase; margin-right: 10px; }
+#b1_33_AV_OK .Promo-code .btn-light-blue { bottom: 10px; line-height: 33px; position: absolute; right: 0; width: 150px; }
+#b1_33_AV_OK .Promo-code .icon-greenrightarrow { position: absolute; right: -15px; }
+
+#b1_33_AV_OK .totalprice { bottom: 5px; float: right; font-family: 'Lato',sans-serif; position: absolute; top:auto; right: 20px; text-align: right; width: 170px; }
+
+
+#b1_33_AV_OK .total-vacation-security { background-color: #ffffff; widht: 100%; }
+#b1_33_AV_OK .total-vacation-security .label-large-orange {  margin: 20px 0 20px -13px; }
+#b1_33_AV_OK .total-vacation-security h4 { font-size: 16px; font-weight: bold; color: #000000; }
+
+#b1_33_AV_OK .filter-dropdown.small-value { margin-right: 20px; }
+#b1_33_AV_OK .filter-dropdown.small-value label{line-height:25px}
+
+#b1_33_AV_OK table.av-ok { color: #414042; font-weight: bold; font-size: 13px; }
+#b1_33_AV_OK table.av-ok td { text-align: center; padding: 15px 16px; border: 8px solid #ffffff; }
+#b1_33_AV_OK table.av-ok th { text-align: center; }
+#b1_33_AV_OK table.av-ok tr.yellow-row td { background-color: #f2dc79; }
+#b1_33_AV_OK table.av-ok tr.yellow-row td:first-child { background-color: #ffffff; text-align: left; padding-left: 0; }
+#b1_33_AV_OK table.av-ok tr.blue-row td { background-color: #ebf5f9; }
+#b1_33_AV_OK table.av-ok tr.blue-row td:first-child { background-color: transparent; text-align: left; padding-left: 0; }
+#b1_33_AV_OK table.av-ok span.checkbox { margin-left: 15px; margin-bottom: 5px; }
+
+#b1_33_AV_OK .total-price-wrapper { width: 120px; display: inline-block; float: right; margin-top: 80px; }
+
+#b1_33_AV_OK .vacation-price-details-div { border: medium none; height: 100px; }
+#b1_33_AV_OK .vacation-price-details-div p.price { font-size: 12px; font-weight: 400; }
+#b1_33_AV_OK .price b { font-size: 24px; font-weight: 900; }
+
+#b1_33_AV_OK span.icon-checked { background: url("../images/icon-greenclick.png") repeat scroll 0 0 transparent; height: 35px; width: 35px; background-position: center bottom !important; display: block; text-indent: -9999px; }
+#b1_33_AV_OK .btn-light-blue span.icon-checked { margin-left: -15px; }
+
+#b1_33_AV_OK #add-it { width: 100px; line-height: 33px; }
+#b1_33_AV_OK .add-it-wrapper { width: 300px; height: 33px; background-color: #dddddd; border-radius: 3px; margin: 10px 0; }
+#b1_33_AV_OK .add-it-wrapper p { line-height: 33px; padding-left: 10px; }
+#b1_33_AV_OK span.total-text { font-weight: bold; font-size: 10px; color: #000000; }
+#b1_33_AV_OK span.total { font-weight: bold; font-size: 14px; color: #000000; }
+
+#b1_33_AV_OK .row { border-bottom: solid 1px #94b4cb; height: 100px; background: url("../images/triangle-bkd.png") no-repeat scroll 380px center transparent;position:relative }
+#b1_33_AV_OK .row h4 { font-weight: bold; font-size: 16px; color: #000000; }
+#b1_33_AV_OK .row .description { width: 422px; padding: 20px 0;position:relative }
+#b1_33_AV_OK .row.yellow-row { border-top: solid 1px #94b4cb; background-color: #f2dc79;}
+#b1_33_AV_OK .row.firstRow {margin-top:-20px;padding-top:8px;}
+#b1_33_AV_OK .row.yellow-row span.icon-checked { margin: 0 auto; }
+#b1_33_AV_OK .row .vacation-price-details-div { padding: 30px 20px 0 0; width: 120px; height: auto; }
+#b1_33_AV_OK .row .logobox { text-align: center; color: #cf2b04; font-size: 10px; text-transform: uppercase; font-weight: bold; padding: 20px 0; width: 150px; display: inline-block; }
+#b1_33_AV_OK .row-content-block { padding: 20px 0 30px; position: relative; }
+#b1_33_AV_OK .red-text { color: #cc3300;position:absolute;top:3px }
+#b1_33_AV_OK .description.has-red-text { padding-top: 18px; }
+
+#b1_33_AV_OK .row .vacation-price-details-div.has-button { padding-top: 20px;padding-right:5px;position:absolute;right:0;bottom:5px }
+#b1_33_AV_OK .row .vacation-price-details-div.has-button a.btn-light-grey { width: 90px; }
+#b1_33_AV_OK .row .vacation-price-details-div.has-button p.inline-block { margin: 0; }
+#b1_33_AV_OK .vacation-price-details-div p.inline-block { margin-bottom: 0; }
+
+#b1_33_AV_OK .secondary .row { height: 140px; background-position: 220px center; position:relative}
+#b1_33_AV_OK .secondary .row.yellow-row span.icon-checked { margin-top: 20px; }
+#b1_33_AV_OK .secondary .row .description { width: 300px; }
+
+#b1_33_AV_OK .row .row-form { width: 150px;  padding-top: 20px;}
+#b1_33_AV_OK .row .row-form .small { width: 65px; margin-right: 10px; margin-bottom: 10px; }
+#b1_33_AV_OK .row .row-form .small.schedule-for { width: 140px; }
+#b1_33_AV_OK .row .row-form input.datepicker { width: 140px; background-position: 105px 3px; }
+#b1_33_AV_OK .row .row-form input.datepicker:hover { width: 140px; background-position: 105px 3px; }
+#b1_33_AV_OK .row .vacation-price-details-div a.btn-light-blue { width: 90px; line-height: 33px; }
+
+#b1_33_AV_OK #adventure .row.yellow-row { background-color: transparent; }
+#b1_33_AV_OK .back-to-top { position: absolute; right: 10px; bottom: 10px; font-weight: bold; }
+
+#b1_33_AV_OK .complete-booking-wrapper { width: 360px; line-height: 33px; height: 33px; background-color: #dddddd; border-radius: 3px; padding-left: 10px;  }
+#b1_33_AV_OK .complete-booking-wrapper #complete-booking { line-height: 33px; width: 180px; }
+#b1_33_AV_OK .complete-booking-wrapper #complete-booking .icon-greenrightarrow { margin-right: -15px; }
+.check-row{float:left}
+.checklist{height:115px;border-bottom:solid 1px #94B4CB;background-color:#F2DC79;padding-top:16px}
+.checklist .description{width:580px}
+.checklist .description p{color:#414042;font-size:14px;}
+.check-row{float:left;margin-right:60px}
+.checklist-row{margin-top:18px;float:left}
+.check-row-text{float:left}
+.check-row span.checkbox{margin-left:12px;margin-top:13px;margin:13px 10px 0 10px}
+.check-row-text{color:#414042;}
+
+/* jQuery Extras */
+
+#b1_33_AV_OK .logobox{position: relative;}
+#b1_33_AV_OK .logobox img{position: absolute; left: 9px; z-index: 100;}
+
+

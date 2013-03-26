@@ -1,0 +1,10 @@
+.Hotel_Details_Layer-overview { width: 730px; }
+.Hotel_Details_Layer-overview .wc-nav ul li a { padding: 14px 3.18em; }
+.Hotel_Details_Layer-overview .content { height: 510px; margin-bottom: 10px; overflow-y: auto; }
+
+.content p { color: #333333; line-height: 24px; padding-bottom: 12px; }
+
+.right-side { width: 275px; margin-left: 34px; }
+.right-side p { padding-bottom: 4px; }
+.right-side .big-image { padding-bottom: 6px; }
+.right-side .little-image { padding-bottom: 30px; }

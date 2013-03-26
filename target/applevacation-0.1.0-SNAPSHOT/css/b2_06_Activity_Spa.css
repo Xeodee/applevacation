@@ -1,0 +1,119 @@
+#b2_06_Activity_Spa .lCol { background-color: rgba(255, 255, 255, 0.3); }
+#b2_06_Activity_Spa .lCol .wc-header h1 { margin-bottom: 0; }
+#b2_06_Activity_Spa .lCol .wc-header .headermatches { width: 430px; line-height: 60px;}
+#b2_06_Activity_Spa span.matchnumber { font-size: 30px; }
+#b2_06_Activity_Spa span.matches { margin-left: 5px; font-size: 10px; text-transform: uppercase; font-weight: bold; color: #465a6b; vertical-align: top; }
+#b2_06_Activity_Spa .lCol .wc-header .headermatches .right { margin-top: 10px; width: 155px;  }
+#b2_06_Activity_Spa .lCol .wc-header .headermatches .right span.matches { }
+#b2_06_Activity_Spa .small.departingfrom { width: 120px; margin-top: 18px; margin-left: 10px; }
+#b2_06_Activity_Spa .small.sortby.left { width: 170px; }
+#b2_06_Activity_Spa .headerright { margin-right: 25px; }
+#b2_06_Activity_Spa .headerright .left { margin-right: 5px; margin-top: 8px; }
+#b2_06_Activity_Spa .headerright span { margin-right: 10px; font-size: 10px; text-transform: uppercase; font-weight: bold; color: #465a6b; padding-top: 6px; }
+#b2_06_Activity_Spa .dates-for-travel { width: 190px; }
+#b2_06_Activity_Spa .wc-nav { border-bottom: none; }
+#b2_06_Activity_Spa .narrow-content { margin-bottom: 0; }
+
+#b2_06_Activity_Spa .wide-content { position: relative; }
+#b2_06_Activity_Spa .wide-content h1 { margin: 15px; }
+#b2_06_Activity_Spa .wide-content .leftcontent { width: 600px; margin: 25px 15px; font-size: 14px; }
+#b2_06_Activity_Spa .wide-content .leftcontent p { color: #333333; line-height: 20px; }
+#b2_06_Activity_Spa .wishlistshare { background: transparent url('../images/rowshare.png') top left; position: absolute; right: 0; top: 0; width: 406px; height: 33px; }
+#b2_06_Activity_Spa .wishlistshare a { color: #696969; font-size: 10px; float: left; padding: 10px; border-right: dotted 1px #a3b9cc; margin: 5px 0; padding: 5px 10px; }
+#b2_06_Activity_Spa .wishlistshare a.last { border: none; }
+#b2_06_Activity_Spa .wishlistshare span { margin-right: 5px;}
+#b2_06_Activity_Spa .wishlistshare .wishlistsharelinks { margin-right: 15px; }
+#b2_06_Activity_Spa .wishlistshare .wishlistsharelinks .icon-small-arrow1 { margin-top: 2px; }
+#b2_06_Activity_Spa .wishlistshare .wishlistsharelinks img { float: left; margin-top: -4px; }
+#b2_06_Activity_Spa .facebooklink { position: absolute; padding: 10px; width: 180px; right: 0;  top: 0; z-index: 10; }
+#b2_06_Activity_Spa .facebooklink img { float: left; margin-top: -5px; }
+
+#b2_06_Activity_Spa img#travelagewestaward { margin: 25px 0; float: right; margin-right: 60px; }
+
+#b2_06_Activity_Spa .lCol .wc-header .right span.departingfrom{color: #465A6B; font-size: 10px; font-weight: 900; padding-right: 3px; text-transform: uppercase; line-height: 15px; margin:0}
+#b2_06_Activity_Spa  .departureCityLink{font-size: 10px; font-weight: 900; text-align: right; text-transform: uppercase; width: 148px; line-height:10px}
+#b2_06_Activity_Spa  span.icon-smallblue-rightarrow{margin-right:0}
+
+#b2_06_Activity_Spa .apple-recommended .package-view-results { box-shadow: none; height: 140px; margin: 0; background: none; }
+#b2_06_Activity_Spa .apple-recommended .package-view-price { box-shadow: none; height: 140px; background: none; }
+#b2_06_Activity_Spa .apple-recommended.vacation-price-details-div { height: 100px; border: none; }
+#b2_06_Activity_Spa .package-wrapper { }
+#b2_06_Activity_Spa .package-wrapper.last { border-bottom: none; }
+#b2_06_Activity_Spa .package-wrapper.apple-recommendation { padding: 40px 20px; }
+#b2_06_Activity_Spa .package-wrapper.apple-recommendation div.right { width: 450px; font-size: 14px; margin-top: -10px; }
+#b2_06_Activity_Spa span.apple-recommends { font-size: 14px; font-weight: bold; color: #005f9a; text-transform: uppercase; margin: 0 10px; }
+#b2_06_Activity_Spa span.apple-recommends .about-rating { margin-top: 0; float: right; }
+#b2_06_Activity_Spa .apple-recommended .find-vacation-r1 { border: none; }
+#b2_06_Activity_Spa .apple-recommended .find-vacation-r2 { border: none; }
+#b2_06_Activity_Spa span.city-type { color: #465A6B; display: block; font-size: 11px; font-weight: bold; line-height: 14px; margin-top: 10px; }
+#b2_06_Activity_Spa .apple-recommended span.hotel-rating-type { font-weight: normal; }
+#b2_06_Activity_Spa .apple-recommended .stay-links-listview { padding: 0; }
+#b2_06_Activity_Spa .apple-recommended .search-icons-span { padding-left: 0; }
+#b2_06_Activity_Spa .apple-recommended .price-based-on { color: #333333; font-size: 12px; font-weight: 400; }
+#b2_06_Activity_Spa .apple-recommended .view-room-details { font-size: 12px; font-weight: 400; }
+#b2_06_Activity_Spa .about-rating { background: url("../images/question-mark-icon.png") no-repeat scroll left top transparent; display: inline-block; float: left; font-size: 11px !important; height: 20px; margin-left: 8px; margin-top: 6px; width: 15px; }
+#b2_06_Activity_Spa .apple-recommended .include-details { margin-top: 0px; }
+#b2_06_Activity_Spa .apple-recommended .find-vacation-r2 ul li { font-size: 10px; color: #465a6b; text-transform: uppercase; }
+#b2_06_Activity_Spa .apple-recommended .find-vacation-r2 h2 { font-size: 14px; margin: 0; }
+#b2_06_Activity_Spa .apple-recommended .vacation-price-details-div p.price { font-size: 12px; font-weight: 400; }
+#b2_06_Activity_Spa .apple-recommended .price b { font-size: 24px; font-weight: 900; }
+#b2_06_Activity_Spa .fv-img-container { width: 170px; }
+#b2_06_Activity_Spa .hotel-features { width: 50%; border-right: 1px dotted #689acb; margin-top: 10px; }
+#b2_06_Activity_Spa .trip-features { width: 50%; margin-top: 10px; }
+
+#b2_06_Activity_Spa .find-vacation-content{padding:0 7px}
+#b2_06_Activity_Spa .find-vacation-content .find-vacation-r2{padding-left:25px}
+#b2_06_Activity_Spa .find-vacation-content  .find-vacation-r1 img{width:170px}
+#b2_06_Activity_Spa .find-vacation-content .recommend{background:rgba(255,255,255,0.6); filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#60ffffff', endColorstr='#60ffffff');}
+
+
+#b2_06_Activity_Spa .apple-recommended .find-vacation-content { float: none; height: auto; padding: 0; margin: 15px 5px; }
+#b2_06_Activity_Spa .apple-recommended .fv-img-container { margin-top: 15px; }
+#b2_06_Activity_Spa .entry-footer { padding: 15px 20px; width: 100%;}
+#b2_06_Activity_Spa a.see-dates { font-size: 10px; line-height: 14px; font-weight: bold; text-transform: uppercase; float: right; }
+#b2_06_Activity_Spa span.availability { color: #465a6b; font-size: 14px; font-weight: bold; float: right; margin-right: 40px; }
+
+
+#b2_06_Activity_Spa .apple-recommended { width: 230px; float: left; display: inline-block; margin: 10px 6px 15px; }
+#b2_06_Activity_Spa .apple-recommended .package-view-results { width: auto; float: none; height: auto; }
+#b2_06_Activity_Spa .apple-recommended .package-view-price { width: auto; float: none; height: auto; }
+#b2_06_Activity_Spa .apple-recommended .find-vacation-r1 { height: auto; float: none; width: none; }
+#b2_06_Activity_Spa .apple-recommended .find-vacation-r2 { height: auto; width: auto; float: none; padding: 0 10px; }
+#b2_06_Activity_Spa .apple-recommended .entry-footer { padding: 15px; }
+#b2_06_Activity_Spa .apple-recommended .vacation-price-details-div { border: medium none; height: 64px; margin: 0 10px; padding: 10px 0; width: auto; border-top: 1px solid #689ACB; }
+#b2_06_Activity_Spa .apple-recommended .vacation-price-details-div p.left { padding-top: 10px;  }
+#b2_06_Activity_Spa .apple-recommended .include-details { width: 100%; }
+#b2_06_Activity_Spa .apple-recommended .hotel-features { padding: 5px 0; width: auto; border: none; border-top: 1px solid #689ACB; }
+#b2_06_Activity_Spa .apple-recommended .trip-features { width: auto; padding: 0 5px; margin: 0; margin-bottom: 10px; }
+#b2_06_Activity_Spa .apple-recommended .view-details {  font-size: 10px; text-transform: uppercase; padding-top: 5px; }
+#b2_06_Activity_Spa .apple-recommended .stay-links-listview { width: 65%; } 
+#b2_06_Activity_Spa .apple-recommended .search-icons-span { padding-left: 0; width: 100%; margin-bottom: 10px; }
+#b2_06_Activity_Spa .apple-recommended .fv-img-container .discount-flag { top: 100px; }
+#b2_06_Activity_Spa .apple-recommended span.availability { float: none; } 
+#b2_06_Activity_Spa .apple-recommended .apple-recommends-wrapper { margin-left: 10px; margin-top: 5px; }
+#b2_06_Activity_Spa .apple-recommended span.apple-recommends { color: #0086EE; font-size: 10px; font-weight: bold; margin: 0 2px; text-transform: uppercase; line-height: 17px;}
+#b2_06_Activity_Spa .apple-recommended span.apple-recommends .about-rating { float: right; margin-top: 0; }
+#b2_06_Activity_Spa .apple-recommended .fv-img-container { margin-top: 5px; }
+
+#b2_06_Activity_Spa .icon-package a{
+	background: url("../images/icon-package-off.png") no-repeat top left !important; 
+	padding-left:33px !important;
+	
+}
+#b2_06_Activity_Spa .icon-package a:hover, #b2_06_Activity_Spa .icon-package.current a{
+	background: url("../images/icon-package.png") no-repeat top left !important; 
+}
+#b2_06_Activity_Spa .icon-list a{
+	background: url("../images/icon-list-off.png") no-repeat top left !important; 
+	padding-left:33px !important;
+}
+#b2_06_Activity_Spa .icon-list a:hover, #b2_06_Activity_Spa .icon-list.current a{
+	background: url("../images/icon-list.png") no-repeat top left !important; 
+}
+#b2_06_Activity_Spa .icon-map a{
+	background: url("../images/icon-map-off.png") no-repeat top left !important; 
+	padding-left:33px !important;
+}
+#b2_06_Activity_Spa .icon-map a:hover, #b2_06_Activity_Spa .icon-map.current a{
+	background: url("../images/icon-map.png") no-repeat top left !important; 
+}

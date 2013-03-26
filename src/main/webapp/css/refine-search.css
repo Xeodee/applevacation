@@ -1,0 +1,20 @@
+/* =============================================================================
+   Refine Search
+   ========================================================================== */
+
+
+/* sidebar section */
+#refine-search				{ position:relative; float:left; }
+#refine-search .refine-top  { position:absolute; top:-2px; left:-10px; z-index:1000; background:url(../images/b1_52/refine_search_top.png) no-repeat; width:230px; height:41px; font-size:18px; font-family:'Lato', sans-serif; font-weight:bold; color:#fff; text-shadow:1px 1px 0 rgba(0, 0, 0, 0.3); padding:7px 0 0 35px; }
+#filter_side				{ width:213px; background-color:#b8c8d7; border:4px solid #fff; padding:50px 0 10px 0; float:left; position:relative; min-height:300px; }
+#filter_side h2.title		{ font-family:'Lato', sans-serif; color:#465a6b; font-size:14px; margin-bottom:10px; text-transform:uppercase; font-weight:bold; padding-left:24px; }
+#filter_side h2.title img.tooltip { margin-left:3px; }
+#filter_side h2.title span	{ color:#465a6b; font-weight:normal; font-size:10px; display:block; }
+#filter_side p				{ text-transform:uppercase; font-family:'Lato', sans-serif; font-size:14px; color:#000; padding-left:24px; font-weight:normal; }
+#filter_side p strong		{ display:block; float:left; width:57px; }
+#filter_side .hr			{ height:1px; border-bottom:1px solid #91b0ca; width:100%; margin:10px 0; }
+#filter_side .hr-dot		{ height:1px; border-bottom:1px dotted #91b0ca; width:100%; margin:10px 0; }
+#filter_side select.style_drop { margin-left:13px; }
+.AppleRatingDropdown{margin:10px auto 0;width:172px;height:33px}
+
+#refine-search .text-shadow {clear:both}

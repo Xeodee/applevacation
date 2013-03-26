@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component-type>
+    <id>templateModel_1_header4</id>
+    <title>Header Component Type</title>
+    <description>Header Component Type</description>
+
+    <processor mode="view">
+        <id>jsp</id>
+        <jsp-path>/WEB-INF/pages/header/templateModel_1_header4.jsp</jsp-path>
+    </processor>
+</component-type>

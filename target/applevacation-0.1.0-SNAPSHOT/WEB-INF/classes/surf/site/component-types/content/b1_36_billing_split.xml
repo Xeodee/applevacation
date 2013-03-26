@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component-type>
+    <id>b1_36_billing_split</id>
+    <title>b1_36_billing_split</title>
+    <description>b1_36_billing_split</description>
+
+    <processor mode="view">
+        <id>jsp</id>
+        <jsp-path>/WEB-INF/pages/content/jsp/b1_36_billing_split.jsp</jsp-path>
+    </processor>
+</component-type>

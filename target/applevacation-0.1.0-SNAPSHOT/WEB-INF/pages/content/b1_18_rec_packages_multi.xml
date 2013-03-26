@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<page> 
+   <id>b1_18_rec_packages_multi</id>
+   <title>b1_18_rec_packages_multi</title>
+   <template-instance>templateModel_1_instance2</template-instance>
+   <authentication>none</authentication>
+   <components>
+   	  <component>
+         <region-id>content</region-id>
+         <component-type-id>b1_18_rec_packages_multi</component-type-id>
+     	 <chrome>box</chrome>
+      </component>   
+   </components>
+</page>

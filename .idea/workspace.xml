@@ -1,0 +1,1345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="applevacation:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="af42d42e-2530-40bd-b73f-6178e40a578b" name="Default" comment="" />
+    <ignored path="applevacation.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="$PROJECT_DIR$/src/main/java/com/kcdataservices/affiliate/commonresponse/ApplicationInfo.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362527232986" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/kcdataservices/affiliate/flights/FlightOption.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362527232986" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/kcdataservices/affiliate/flights/Occupancy.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362527232986" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/kcdataservices/affiliate/flights/InBoundFlight.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362527232986" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/kcdataservices/affiliate/flights/Price.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362527232986" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/kcdataservices/affiliate/flights/FlightSegment.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362527232986" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/kcdataservices/affiliate/flights/OutBoundFlight.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362527232986" ignored="false" />
+    <file path="/applicationContext.xml" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362527283243" ignored="false" />
+    <file path="/pom.xml" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1363729011758" ignored="false" />
+    <file path="/JetPayService.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362528905741" ignored="false" />
+    <file path="/spring.properties" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362530317024" ignored="false" />
+    <file path="/web-application-config.xml" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362796378470" ignored="false" />
+    <file path="/spring-servlet.xml" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362531061422" ignored="false" />
+    <file path="/web.xml" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362774930430" ignored="false" />
+    <file path="/UserController.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362534409072" ignored="false" />
+    <file path="/b1_41_flight_only_02.jsp" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362534450809" ignored="false" />
+    <file path="/controller-servlet.xml" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362796020404" ignored="false" />
+    <file path="/HotelListingWebScript.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362597057909" ignored="false" />
+    <file path="/fragment.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1363725416175" ignored="false" />
+    <file path="/PageController.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1363305117802" ignored="false" />
+    <file path="/urlrewrite.xml" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362614417841" ignored="false" />
+    <file path="$USER_HOME$/spring-surf-application-spring-travel/pom.xml" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362621043401" ignored="false" />
+    <file path="/a.dummy" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1363800816799" ignored="false" />
+    <file path="$USER_HOME$/spring-surf-application-spring-travel/src/main/java/org/springframework/webflow/samples/booking/ApplicationConversionService.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362620364837" ignored="false" />
+    <file path="/ApplicationConversionService.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362620340345" ignored="false" />
+    <file path="$USER_HOME$/spring-surf-application-spring-travel/src/main/webapp/WEB-INF/config/data-access-config.xml" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362621753702" ignored="false" />
+    <file path="/data-access-config.xml" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362620836655" ignored="false" />
+    <file path="$USER_HOME$/spring-surf-application-spring-travel/src/main/webapp/WEB-INF/web.xml" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362621266555" ignored="false" />
+    <file path="$USER_HOME$/spring-surf-application-spring-travel/src/main/webapp/WEB-INF/urlrewrite.xml" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362621911482" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/webapp/WEB-INF/views/app/tiles.xml" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362623956144" ignored="false" />
+    <file path="/tiles.xml" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362629834433" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/webapp/WEB-INF/layouts/tiles.xml" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630627947" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/webapp/WEB-INF/layouts/baseLayout.jsp" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362624924243" ignored="false" />
+    <file path="/baseLayout.jsp" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362623894880" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/webapp/WEB-INF/views/home.jsp" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630780307" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/webapp/WEB-INF/views/tiles.xml" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630594098" ignored="false" />
+    <file path="/home.jsp" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362625049192" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/resources/META-INF/spring/travel/servlet-context.xml" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630702927" ignored="false" />
+    <file path="/servlet-context.xml" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630702927" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/webapp/WEB-INF/views/app/b1_18_rec_packages.jsp" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362625555395" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/org/springframework/samples/travel/web/HotelsMvcController.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631492214" ignored="false" />
+    <file path="/HotelsMvcController.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631462815" ignored="false" />
+    <file path="/*.regexp" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362627682090" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/webapp/WEB-INF/web.xml" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362629485541" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/pom.xml" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631947015" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/hotels/RatePlan.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/flights/FlightSegment.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/search/VideoResult.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/itinerary/GuestInfoType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/services/PriceService.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/insurance/InsuranceType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/hotels/Room.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/flights/InBoundFlight.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/hotels/HotelOptionType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/flights/FlightSegmentType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/packages/SelectedMultiDestinationPackageType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/itinerary/PassportInfoType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/common/VehicleRequestOptionsType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/common/ObjectFactory.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630865758" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/hotels/ObjectFactory.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630865758" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/services/ImageService.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/services/VideoService.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631619635" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/packages/SelectedPackageType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/flights/OutBoundFlight.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/airports/RangeService.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/services/ServiceType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/flights/FlightAvailabilityType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/search/UXResult.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/search/PriceResult.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/common/AgeCodeType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630865759" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/restservices/BookingRequest.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/flights/ObjectFactory.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630865759" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/vehicles/VehicleAvailabilityType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/common/CreditCardType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630865759" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/search/SearchForm.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630865759" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/common/PaymentHistoryType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/common/CabinTypeType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630865759" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/jetpay/JetPayService.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630865759" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/flights/FlightOption.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/vehicles/VehicleOptionType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/common/VehicleClassType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630865759" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/common/FlightTripType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630865759" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/common/DestinationOptionsType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/services/ServiceGroupType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/insurance/SelectedInsuranceType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630865759" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/hotels/RoomCategory.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/itinerary/ItineraryHeaderType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/itinerary/ItineraryResponseType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/hotels/SelectedHotelType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/common/AirRequestOptionsType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/search/ImageResult.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/services/UXService.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/packages/ObjectFactory.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630865759" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/flights/FlightType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/restservices/ItineraryAvailability.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/itinerary/ItineraryPriceType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/common/PassengerType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/hotels/HotelAvailabilityType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/commonrequest/CommonRequestType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/itinerary/ItineraryRequestType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/commonrequest/ObjectFactory.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630865760" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/common/TimeOfTheDayType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630865760" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/maxmind/services/OmniReader.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/flights/FlightOptionType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/bookpricerequest/BookPriceItineraryRequest.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/common/OccupancyType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/vehicles/SelectedVehicleType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/airports/Airport.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/services/SelectedServiceType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/services/ObjectFactory.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630865760" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/itinerary/ObjectFactory.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630865760" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/commonresponse/CommonResponseType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/commonresponse/ApplicationInfo.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/common/BooleanFlagType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630865761" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/availabilityresponse/ObjectFactory.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630865761" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/common/SearchCriteriaType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/bookpriceresponse/BookPriceItineraryResponse.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/availabilityrequest/ItineraryAvailabilityRequest.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/common/MultiDestSearchCriteriaType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/availabilityrequest/ObjectFactory.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630865761" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/insurance/ObjectFactory.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630865761" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/common/MealPlanType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630865761" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/flights/Price.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630875638" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/flights/Carrier.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/flights/CodeShareCarrier.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/hotels/Occupancy.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/hotels/RoomType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/flights/CarrierType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/itinerary/ItineraryChargesType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/services/ChildPriceType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/common/Passenger.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/hotels/HotelOption.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/flights/FlightPriceType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/flights/FareBasisCode.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/common/FlightPreferencesType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/common/PriceType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/common/PaxTypePriceBreakupType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/common/PaymentInformationType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/common/HotelRequestOptionsType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/flights/Occupancy.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/hotels/ResortArea.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/hotels/RoomCategoryType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/flights/SelectedFlightType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/hotels/RatePlanType.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/com/kcdataservices/affiliate/availabilityresponse/ItineraryAvailabilityResponse.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362630868092" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/webapp/WEB-INF/views/b1_5_home_new.jsp" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631224690" ignored="false" />
+    <file path="/b1_5_home_new.jsp" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362794427898" ignored="false" />
+    <file path="/VideoService.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631845543" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/livedemo/XMLMarshall.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631650539" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/livedemo/search/UXResult.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631650539" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/livedemo/restservices/ItineraryAvailability.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631650539" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/livedemo/search/VideoResult.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631650539" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/livedemo/airports/RangeService.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631650539" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/livedemo/airports/Airport.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631650539" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/livedemo/search/SearchForm.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631649406" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/livedemo/Account.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631686244" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/livedemo/Pasttrips.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631686244" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/livedemo/services/ImageService.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631650539" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/livedemo/jetpay/JetPayService.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631649407" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/livedemo/search/ImageResult.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631650539" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/livedemo/services/PriceService.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631650539" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/livedemo/user/User.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631650539" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/livedemo/search/PriceResult.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631650539" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/livedemo/services/VideoService.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631650539" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/livedemo/services/UXService.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631650539" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/livedemo/DummyDB.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631649705" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/livedemo/UserController.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631686244" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/livedemo/restservices/BookingRequest.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631650539" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/livedemo/webscripts/HotelListingWebScript.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631650539" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/livedemo/controller/PageController.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631686244" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/net/phenomenon/applevac/livedemo/Account.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631748956" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/net/phenomenon/applevac/livedemo/Pasttrips.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362631748956" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/net/phenomenon/applevac/livedemo/services/VideoService.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362632071847" ignored="false" />
+    <file path="$USER_HOME$/spring-travel-master/server/src/main/java/net/phenomenon/applevac/livedemo/UserController.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362632049728" ignored="false" />
+    <file path="$USER_HOME$/wcmquickstart/wcmquickstartwebsite/.idea/workspace.xml" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362781025812" ignored="false" />
+    <file path="/surf-config.xml" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362775053519" ignored="false" />
+    <file path="/JsonView.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362783513170" ignored="false" />
+    <file path="/b1_18_rec_packages.jsp" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1363304421730" ignored="false" />
+    <file path="/templateModel_1.ftl" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362788972648" ignored="false" />
+    <file path="/b1_13_booking_search.jsp" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1363117576790" ignored="false" />
+    <file path="/ServiceAvailability.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1363299768578" ignored="false" />
+    <file path="/b1_33_extrassummary.jsp" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1364238767744" ignored="false" />
+    <file path="/Dummy.txt" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1363919919322" ignored="false" />
+    <file path="/Room.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1363730808980" ignored="false" />
+    <file path="/jquery.extrasApp.js" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1364321034219" ignored="false" />
+    <file path="/templateModel_1_footer1.jsp" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1363762016797" ignored="false" />
+    <file path="/dummy.xml" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1363796589450" ignored="false" />
+    <file path="/b1_33_AV_OK.css" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1364255549930" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="applevacation" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="PageController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/phenomenon/applevac/livedemo/controller/PageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="84" column="38" selection-start="3173" selection-end="3173" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="b1_33_extrassummary.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/content/jsp/b1_33_extrassummary.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="598" column="59" selection-start="24386" selection-end="24386" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1364238774000" expanded="false" signature="25943:25955" placeholder="..." />
+                <marker date="1364238774000" expanded="false" signature="26349:26363" placeholder="..." />
+                <marker date="1364238774000" expanded="false" signature="26871:26883" placeholder="..." />
+                <marker date="1364238774000" expanded="false" signature="27277:27291" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Room.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kcdataservices/affiliate/hotels/Room.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="80" column="23" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.extrasApp.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.extrasApp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="106" column="1" selection-start="4231" selection-end="4231" vertical-scroll-proportion="0.9262899">
+              <folding>
+                <marker date="1364321070000" expanded="false" signature="983:998" placeholder="..." />
+                <marker date="1364321070000" expanded="false" signature="1063:1076" placeholder="..." />
+                <marker date="1364321070000" expanded="false" signature="1152:1167" placeholder="..." />
+                <marker date="1364321070000" expanded="false" signature="1632:1645" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="b1_33_AV_OK.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/b1_33_AV_OK.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="98" column="128" selection-start="7135" selection-end="7135" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="templateModel_1_footer1.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/footer/templateModel_1_footer1.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="479" column="66" selection-start="12234" selection-end="12234" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RatePlanType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kcdataservices/affiliate/hotels/RatePlanType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="70" column="13" selection-start="3100" selection-end="3100" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="240" column="24" selection-start="8975" selection-end="8975" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1363729018000" expanded="false" signature="8813:8972" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XMLMarshall.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/phenomenon/applevac/livedemo/XMLMarshall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="21" selection-start="974" selection-end="1083" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoomType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kcdataservices/affiliate/hotels/RoomType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="79" selection-start="1868" selection-end="1868" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/content/jsp/b2_8_special_listing_book_it.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/content/jsp/hotel_details_layer_overview.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/content/jsp/vacation_finder_results.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/content/jsp/b1_5_home_new.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/net/phenomenon/applevac/livedemo/search/SearchForm.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/content/jsp/b1_13_booking_search.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/net/phenomenon/applevac/livedemo/restservices/ServiceAvailability.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/content/jsp/b1_18_rec_packages.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/net/phenomenon/applevac/livedemo/controller/PageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/phenomenon/applevac/livedemo/jetpay/JetPayService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kcdataservices/affiliate/hotels/Room.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/footer/templateModel_1_footer1.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/content/jsp/b1_33_extrassummary.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/b1_33_AV_OK.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/jquery.extrasApp.js" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="applevacation" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="applevacation" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="applevacation" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="820" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="applevacation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="applevacation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="applevacation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="applevacation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="applevacation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="applevacation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="applevacation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="applevacation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="applevacation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="applevacation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="applevacation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="applevacation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="applevacation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="footer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="applevacation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="applevacation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="applevacation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="applevacation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.side.proportion" value="0.36763006" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.phenomenon.applevac.livedemo.restservices" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate" />
+      <recent name="C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\webapp\js" />
+      <recent name="C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\webapp\images" />
+      <recent name="C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\webapp\WEB-INF\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\webapp\css" />
+      <recent name="C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\webapp\js\json" />
+      <recent name="C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\webapp\js" />
+      <recent name="C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\webapp\WEB-INF\jsp" />
+      <recent name="C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\webapp\WEB-INF\pages\content\jsp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.dmserver.run.DMServerRunConfigurationType:id" factoryName="Spring dmServer (Local)">
+      <deployment />
+      <server-settings>
+        <option name="MBeanPassword" value="springsource" />
+        <option name="MBeanPort" value="9875" />
+        <option name="MBeanUserName" value="admin" />
+      </server-settings>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="false" name="applevacation [org.codehaus.mojo:tomcat-maven-plugin:1.0-beta-1:run]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="org.codehaus.mojo:tomcat-maven-plugin:1.0-beta-1:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="applevacation [org.codehaus.mojo:tomcat-maven-plugin:1.0-beta-1:stop]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="org.codehaus.mojo:tomcat-maven-plugin:1.0-beta-1:stop" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Tomcat 7.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0">
+      <option name="UPDATING_POLICY" value="update-resources" />
+      <deployment>
+        <artifact name="applevacation:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/applevacation" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_applevacation" />
+        <option name="JNDI_PORT" value="1098" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49048" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel">
+        <option name="bootstrapPath" />
+        <option name="jrebelArgs" />
+        <option name="loggingEnabled" value="false" />
+        <option name="useBootstrapDefaults" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="applevacation:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Maven.applevacation [org.codehaus.mojo:tomcat-maven-plugin:1.0-beta-1:run]" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.applevacation [org.codehaus.mojo:tomcat-maven-plugin:1.0-beta-1:stop]" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af42d42e-2530-40bd-b73f-6178e40a578b" name="Default" comment="" />
+      <created>1362526466685</created>
+      <updated>1362526466685</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1440" height="820" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39857143" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32714286" sideWeight="0.4878049" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.49510404" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3653846" sideWeight="0.652568" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22022955" sideWeight="0.67285717" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32714286" sideWeight="0.5071736" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32857144" sideWeight="0.9411765" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kcdataservices/affiliate/servicesavailabilityresponse/ServicesAvailabilityResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="41" selection-start="1540" selection-end="1568" vertical-scroll-proportion="0.40350878" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/content/jsp/b1_13_booking_search.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1409" column="105" selection-start="72316" selection-end="72316" vertical-scroll-proportion="1.0271903" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/phenomenon/applevac/livedemo/restservices/ServiceAvailability.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="307" column="53" selection-start="15273" selection-end="15273" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/content/jsp/b1_5_home_new.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1045" column="42" selection-start="48207" selection-end="48240" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/content/jsp/b1_18_rec_packages.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="472" column="120" selection-start="21986" selection-end="22030" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/phenomenon/applevac/livedemo/jetpay/JetPayService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="6" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kcdataservices/affiliate/hotels/RoomType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="79" selection-start="1868" selection-end="1868" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/phenomenon/applevac/livedemo/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="38" selection-start="3173" selection-end="3173" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/phenomenon/applevac/livedemo/XMLMarshall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="21" selection-start="974" selection-end="1083" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="240" column="24" selection-start="8975" selection-end="8975" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1363729018000" expanded="false" signature="8813:8972" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kcdataservices/affiliate/hotels/RatePlanType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="13" selection-start="3100" selection-end="3100" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kcdataservices/affiliate/hotels/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="23" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/footer/templateModel_1_footer1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="479" column="66" selection-start="12234" selection-end="12234" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/b1_33_AV_OK.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="128" selection-start="7135" selection-end="7135" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/content/jsp/b1_33_extrassummary.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="598" column="59" selection-start="24386" selection-end="24386" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1364238774000" expanded="false" signature="25943:25955" placeholder="..." />
+            <marker date="1364238774000" expanded="false" signature="26349:26363" placeholder="..." />
+            <marker date="1364238774000" expanded="false" signature="26871:26883" placeholder="..." />
+            <marker date="1364238774000" expanded="false" signature="27277:27291" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.extrasApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="1" selection-start="4231" selection-end="4231" vertical-scroll-proportion="0.9262899">
+          <folding>
+            <marker date="1364321070000" expanded="false" signature="983:998" placeholder="..." />
+            <marker date="1364321070000" expanded="false" signature="1063:1076" placeholder="..." />
+            <marker date="1364321070000" expanded="false" signature="1152:1167" placeholder="..." />
+            <marker date="1364321070000" expanded="false" signature="1632:1645" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>applevacation:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36763006" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (applevacation)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36763006" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>applevacation</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36763006" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20000002" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36763006" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

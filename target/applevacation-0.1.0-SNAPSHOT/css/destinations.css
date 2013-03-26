@@ -1,0 +1,41 @@
+#destinations .lCol .wc-header h1 { margin-bottom: 0; }
+#destinations .wc-header { background-color: #f0f7fc; } 
+#destinations .wc-nav { background-color: #f0f7fc; } 
+#destinations .lCol .wc-header .right { height: 50px; margin-top: 10px; color: #707070; font-size: 12px; }
+#destinations .lCol .wc-header .right .relatedsearches { font-size: 10px; text-transform: uppercase; font-weight: bold; color: #465a6b; padding-top: 6px; }
+#destinations .lCol .wc-header .right a { padding: 4px; border: 1px solid #CACACA; border-radius: 5px 5px 5px 5px; font-size: 14px; }
+#destinations .lCol .wc-header span.left { margin-left: 15px; margin-bottom: 15px; font-size: 14px; }
+#destinations .lCol .wc-header span.searchterm { color: #0086ee; }
+#destinations .small.sortby.left { width: 160px; margin-right: 20px; }
+#destinations .headerright { padding-bottom: 5px; }
+#destinations .headerright .left { margin-right: 5px; margin-top: 6px; }
+#destinations .headerright span { margin-right: 10px; font-size: 10px; text-transform: uppercase; font-weight: bold; color: #465a6b; padding-top: 6px; }
+#destinations .bottom-content { padding-bottom: 20px; }
+#destinations .matchtext { float: left; margin-left: 30px; margin-top: 10px; text-align: center; width: 100px; }
+#destinations span.matchnumber { font-size: 30px; }
+#destinations span.matches { margin-left: 5px; font-size: 10px; text-transform: uppercase; font-weight: bold; color: #465a6b; }
+
+#destinations .wide-content { position: relative; }
+#destinations .wide-content h1 { margin: 15px; }
+#destinations .wide-content .leftcontent { width: 600px; margin: 25px 15px; font-size: 14px; }
+#destinations .wide-content .leftcontent p { color: #333333; }
+#destinations .wishlistshare { background: transparent url('../images/rowshare.png') top left; position: absolute; right: 0; top: 0; width: 406px; height: 33px; }
+#destinations .wishlistshare a { color: #696969; font-size: 10px; float: left; padding: 10px; border-right: dotted 1px #a3b9cc; margin: 5px 0; padding: 5px 10px; }
+#destinations .wishlistshare a.last { border: none; }
+#destinations .wishlistshare span { margin-right: 5px;}
+#destinations .wishlistshare .wishlistsharelinks { margin-right: 15px; }
+#destinations .wishlistshare .wishlistsharelinks .icon-small-arrow1 { margin-top: 2px; }
+#destinations .wishlistshare .wishlistsharelinks img { float: left; margin-top: -4px; }
+#destinations .facebooklink { position: absolute; padding: 10px; width: 180px; right: 0;  top: 0; z-index: 10; }
+#destinations .facebooklink img { float: left; margin-top: -5px; }
+
+
+#destinations img#travelagewestaward { margin-right: 60px; margin-top: 25px;  }
+
+#destinations .destination-content { padding: 35px 15px 15px; }
+#destinations .destination-entry { display: inline-block; float: left; width: 275px; margin-right: 45px; margin-bottom: 20px; }
+#destinations .destination-entry.end-row { margin-right: 0; }
+#destinations .destination-entry h3 { font-size: 16px; line-height: 32px; }
+#destinations .destination-entry p { font-size: 13px; }
+
+#destinations .Promo.TwoColumn a { bottom: 85px; color: #01468d; font-size: 14px; right: 25px; }

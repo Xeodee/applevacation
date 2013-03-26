@@ -1,0 +1,12 @@
+.Hotel_Details_Layer-maps { width: 742px; }
+.Hotel_Details_Layer-maps .wc-nav ul li a { padding: 14px 3.28em; }
+
+.Hotel_Details_Layer-maps #map { position: relative; height: 538px; }
+.Hotel_Details_Layer-maps #mapbg { position: absolute; }
+
+.Hotel_Details_Layer-maps #location { position: absolute; left: 430px; top: 182px; background: transparent url('../images/white-arrow-up.png') 20px top no-repeat; }
+.Hotel_Details_Layer-maps #location-content { width: 270px; padding: 15px 10px; background-color: #ffffff; margin-top: 8px; }
+.Hotel_Details_Layer-maps #map-close { position: absolute; right: 4px; top: 11px; }
+
+.hotel-name { color: #465a6b; font-size: 10px; font-weight: bold; text-transform: uppercase; }
+.city-name { color: #000000; font-size: 14px; font-weight: bold; border-bottom: solid 1px #b3cce5; padding-bottom: 9px; margin-bottom: 7px; }

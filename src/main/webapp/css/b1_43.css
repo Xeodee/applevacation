@@ -1,0 +1,20 @@
+.b1_34 .lCol{background: rgba(255, 255, 255, 0.95); filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#95ffffff', endColorstr='#95ffffff'); box-shadow: 0 1px 5px -1px rgba(0, 0, 0, 0.67); -webkit-box-shadow: 0 1px 5px -1px rgba(0, 0, 0, 0.67); -moz-box-shadow: 0 1px 5px -1px rgba(0, 0, 0, 0.67);}
+.b1_34 #b1_48_Search_other_content .headerright{margin-right: 20px;}
+.b1_34 #b1_48_Search_other_content .small.sortby.left{margin-right:15px}
+.b1_34 #b1_48_Search_other_content .small.sortby.left.smallDropdown{width:auto; margin-right:0}
+.b1_34 .subHeader{border-top:1px solid #CBCBCB; border-bottom:1px solid #CBCBCB; padding:5px 0}
+
+.b1_34 #b1_48_Search_other_content .bottom-content{margin:0; padding-bottom:20px; border-top:none; float: left;}
+
+.b1_34 #b1_48_Search_other_content .bottom-content .content-row{margin:0; padding: 20px 80px 20px 20px; float: left;}
+.b1_34 .find-vacation-content{padding:20px 8px 10px; border-bottom:1px solid #CBCBCB}
+
+.rightResult{ margin-bottom:0px !important}
+.sidebar-slidetoggle{ position:relative}
+.ButtonWrap{ position:absolute; right:10px; top:15px; cursor:pointer}
+
+.closeBtn .closeImg{ display:block}
+.openBtn .openImg{ display:block}
+
+.closeBtn .openImg{ display:none}
+.openBtn .closeImg{ display:none}

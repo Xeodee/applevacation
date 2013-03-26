@@ -1,0 +1,92 @@
+/* =============================================================================
+   Globals
+   ========================================================================== */
+.fb-icon_gradient { background: rgb(114,174,208); background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzcyYWVkMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjMlIiBzdG9wLWNvbG9yPSIjMTg3YmE1IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNiUiIHN0b3AtY29sb3I9IiMwZjdkYjAiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI5JSIgc3RvcC1jb2xvcj0iIzE1NzlhYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEzJSIgc3RvcC1jb2xvcj0iIzEzN2NhOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjE2JSIgc3RvcC1jb2xvcj0iIzEyN2FhZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjE5JSIgc3RvcC1jb2xvcj0iIzE4NzlhZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjIyJSIgc3RvcC1jb2xvcj0iIzEyN2NhNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI1JSIgc3RvcC1jb2xvcj0iIzE1N2JhYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ3JSIgc3RvcC1jb2xvcj0iIzE1N2JhYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzE0N2FhYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUzJSIgc3RvcC1jb2xvcj0iIzAxNjY5YSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjU5JSIgc3RvcC1jb2xvcj0iIzAwNjM5ZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjYzJSIgc3RvcC1jb2xvcj0iIzAxNjVhMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjcyJSIgc3RvcC1jb2xvcj0iIzAwNjU5YiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk3JSIgc3RvcC1jb2xvcj0iIzAwNjU5ZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDM2NTgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(114,174,208,1) 0%, rgba(24,123,165,1) 3%, rgba(15,125,176,1) 6%, rgba(21,121,171,1) 9%, rgba(19,124,169,1) 13%, rgba(18,122,173,1) 16%, rgba(24,121,174,1) 19%, rgba(18,124,166,1) 22%, rgba(21,123,172,1) 25%, rgba(21,123,172,1) 47%, rgba(20,122,171,1) 50%, rgba(1,102,154,1) 53%, rgba(0,99,158,1) 59%, rgba(1,101,160,1) 63%, rgba(0,101,155,1) 72%, rgba(0,101,157,1) 97%, rgba(0,54,88,1) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(114,174,208,1)), color-stop(3%,rgba(24,123,165,1)), color-stop(6%,rgba(15,125,176,1)), color-stop(9%,rgba(21,121,171,1)), color-stop(13%,rgba(19,124,169,1)), color-stop(16%,rgba(18,122,173,1)), color-stop(19%,rgba(24,121,174,1)), color-stop(22%,rgba(18,124,166,1)), color-stop(25%,rgba(21,123,172,1)), color-stop(47%,rgba(21,123,172,1)), color-stop(50%,rgba(20,122,171,1)), color-stop(53%,rgba(1,102,154,1)), color-stop(59%,rgba(0,99,158,1)), color-stop(63%,rgba(1,101,160,1)), color-stop(72%,rgba(0,101,155,1)), color-stop(97%,rgba(0,101,157,1)), color-stop(100%,rgba(0,54,88,1))); 
+background: -webkit-linear-gradient(top,  rgba(114,174,208,1) 0%,rgba(24,123,165,1) 3%,rgba(15,125,176,1) 6%,rgba(21,121,171,1) 9%,rgba(19,124,169,1) 13%,rgba(18,122,173,1) 16%,rgba(24,121,174,1) 19%,rgba(18,124,166,1) 22%,rgba(21,123,172,1) 25%,rgba(21,123,172,1) 47%,rgba(20,122,171,1) 50%,rgba(1,102,154,1) 53%,rgba(0,99,158,1) 59%,rgba(1,101,160,1) 63%,rgba(0,101,155,1) 72%,rgba(0,101,157,1) 97%,rgba(0,54,88,1) 100%); 
+background: -o-linear-gradient(top,  rgba(114,174,208,1) 0%,rgba(24,123,165,1) 3%,rgba(15,125,176,1) 6%,rgba(21,121,171,1) 9%,rgba(19,124,169,1) 13%,rgba(18,122,173,1) 16%,rgba(24,121,174,1) 19%,rgba(18,124,166,1) 22%,rgba(21,123,172,1) 25%,rgba(21,123,172,1) 47%,rgba(20,122,171,1) 50%,rgba(1,102,154,1) 53%,rgba(0,99,158,1) 59%,rgba(1,101,160,1) 63%,rgba(0,101,155,1) 72%,rgba(0,101,157,1) 97%,rgba(0,54,88,1) 100%); background: -ms-linear-gradient(top,  rgba(114,174,208,1) 0%,rgba(24,123,165,1) 3%,rgba(15,125,176,1) 6%,rgba(21,121,171,1) 9%,rgba(19,124,169,1) 13%,rgba(18,122,173,1) 16%,rgba(24,121,174,1) 19%,rgba(18,124,166,1) 22%,rgba(21,123,172,1) 25%,rgba(21,123,172,1) 47%,rgba(20,122,171,1) 50%,rgba(1,102,154,1) 53%,rgba(0,99,158,1) 59%,rgba(1,101,160,1) 63%,rgba(0,101,155,1) 72%,rgba(0,101,157,1) 97%,rgba(0,54,88,1) 100%); background: linear-gradient(to bottom,  rgba(114,174,208,1) 0%,rgba(24,123,165,1) 3%,rgba(15,125,176,1) 6%,rgba(21,121,171,1) 9%,rgba(19,124,169,1) 13%,rgba(18,122,173,1) 16%,rgba(24,121,174,1) 19%,rgba(18,124,166,1) 22%,rgba(21,123,172,1) 25%,rgba(21,123,172,1) 47%,rgba(20,122,171,1) 50%,rgba(1,102,154,1) 53%,rgba(0,99,158,1) 59%,rgba(1,101,160,1) 63%,rgba(0,101,155,1) 72%,rgba(0,101,157,1) 97%,rgba(0,54,88,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#72aed0', endColorstr='#003658',GradientType=0 ); 
+}
+p 								{ font-size:14px  }
+.wc-nav ul li a					{ font-weight:normal; }
+
+
+/* =============================================================================
+   Main
+   ========================================================================== */
+.content						{padding:0; }
+.advice_button					{ width:177px; height:33px; color:#fff; font-size:14px; padding:5px 10px; float:right; }
+.advice_button img				{ margin:0 5px -8px 0; }
+
+p.items							{ padding:15px 20px; border-bottom:1px solid #ccc; margin-bottom:10px; }
+
+.box							{ width:100%; padding:10px 0; border-bottom:1px solid #ccc; background:url(../images/resort_box_bg.jpg) bottom right no-repeat #fff; position:relative; }
+.box.last						{ border-bottom:none; }
+.box .section					{ padding-left:20px; width:132px; float:left; }
+.box .section h3				{ font-size:11px; text-transform:uppercase; color:#b60909; margin:0 0 5px 0; }
+.box .section p					{ font-size:12px; color:#333333; }
+.box .section p.added			{ font-size:10px !important; text-transform:uppercase; }
+.box .image						{ float:left; width:130px; margin-right:21px; }
+.box .details					{ float:left; width:659px; }
+.box .details p.breadcrumbs		{ color:#465a6b; font-size:11px !important; text-transform:uppercase; font-weight:bold; }
+.box .details h2				{ margin:0 0 5px 0; color:#0086ee; font-size:16px; }
+.box .details ul				{ position:absolute; right:20px; bottom:5px; }
+.box .details ul li				{ float:left; padding:0 10px; border-right:1px dotted #a3b9cc; font-size:12px; }
+.box .details ul li.last		{ border:none; }
+.box .details ul li img.arr		{ margin:7px 5px 0 0; display:block; float:left; }
+.box .details ul li img.del		{ margin:0 4px 0 0; display:block; float:left; }
+.box .details ul li span		{ float:left; display:block; margin:2px 4px 0 0; }
+h2.smalltop						{ font-size:11px; color:#0086ee; }
+p.times							{ font-size:16px !important; color:#000; margin-bottom:10px; }
+
+.reachpoint-row{color:#333;display:inline-block; width:100%}
+.reachpoint-row .datespan{color:#333;font-size:13px;padding:0 12px 0 5px;font-weight:400}
+.content .reachpoint-row p{display:inline-block;color:#333;font-size:13px;font-weight:400} 
+.reachpoint-row i{font-size:16px;line-height:12px;padding:0 5px}
+.box .details .btn-light-blue{position:absolute;right:15px;top:15px;padding:0 15px;line-height:33px}
+.table-time,.table-date{font-size:13px;font-weight:400;color:#576979;text-shadow:1px 1px 1px #fff;}
+.travel-table{ width:100%; margin-top:30px; height:340px}
+.table-time-col{ width:48px; height:355px; float:left}
+.table-time{ width:48px; height:80px; text-align:center; padding-top:5px; border-bottom:1px solid #dce4e9; border-right:1px solid #dce4e9}
+.table-empty{ width:48px; height:36px}
+.table-date-col{ width:129px; float:left}
+.table-date{ width:100%; height:36px; text-align:center; padding-top:8px; border-right:1px solid #dce4e9; border-bottom: 1px solid #DCE4E9; }
+.table-date-inner-col{float:left; width:129px; border-right:1px solid #dce4e9; height:320px;position:relative }
+.table-selection{ width:100%;padding:10px ;background:none repeat scroll 0 0 rgba(113, 186, 238, 0.4); position:relative}
+.table-selection h6{color:#1675d5;font-size:12px;font-weight:900}
+.table-selection b{color:#333;font-size:12px;font-weight:900;padding-top:5px}
+.table-selection p{color:#333;font-size:12px;}
+.table-selection .icon-Airflight{margin-right:10px}
+.table-selection .icon-transfer{margin-right:10px}
+.iconTitle{width:100%;float:left}
+.sel-2{height:159px}
+.sel-1{height:80px}
+.sel-auto{height:auto;display:inline-block}
+.marginTop{margin-top:2px}
+.iconTitle.Flight h6{width:55px;float:right;;padding-top:8px;}
+.iconTitle.Transport h6{padding-top:0;width:55px;float:right}
+.bottomsel{position:absolute;bottom:0}
+.table-selection.bg-white{background-color:#fff}
+.table-selection.hover{background-color:#ffe57f}
+.calenderView{position:relative}
+.calenderView .travel-to-content li h4{padding-top:0}
+.calenderView .travel-to-content{border-bottom:0 ;padding:0;margin-top:-5px;box-shadow:none;-webkit-box-shadow:none}
+h6.Recommended-text{background: url("../images/greenclick.png") no-repeat scroll left top transparent;color: #005f9a;font-size: 10px;
+    font-weight: 600;padding-left: 15px;text-transform: uppercase;}
+
+
+
+
+
+
+
+
+
+
+
+
+.vacation-Extras-Col{ width:145px; float: left; margin-top: 13px;}
+.vacation-Extras-Col h5 {font-size:13px; color:#333333;}
+.vacation-Extras-Col h6 {font-size:11px; color:#0b4fad}
+.vacation-Extras h3 {color: #333333;float: left;font-size: 20px;margin-top: 67px;padding: 0 20px; width:224px}
+.vacation-ExtrasCol-img {background-color: #0383FE;border: 4px solid #FFFFFF;box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.65);float: left;margin-right: 14px;width: 100px; margin-top:23px}
+.vacation-ExtrasCol-img.rotate10 img {margin: -3px 0 0 -3px;transform: rotate(10deg);width:100px;}

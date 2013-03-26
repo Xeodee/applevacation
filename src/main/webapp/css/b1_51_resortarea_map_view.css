@@ -1,0 +1,93 @@
+#b1_51_resortarea_map_view .lCol .wc-header h1 { margin-bottom: 0; }
+#b1_51_resortarea_map_view .wc-header { background-color: #f0f7fc; position: relative; } 
+#b1_51_resortarea_map_view .wc-nav { background-color: #f0f7fc; } 
+#b1_51_resortarea_map_view .lCol .wc-header .right span.departingfrom { font-size: 10px; text-transform: uppercase; font-weight: 900; color: #465a6b; padding-right:3px }
+#b1_51_resortarea_map_view .departureCityLink { font-size: 10px; text-transform: uppercase; font-weight: 900; width:148px; text-align:right}
+#b1_51_resortarea_map_view .headerright { margin-top: 25px; width: 170px; }
+#b1_51_resortarea_map_view .headerright span.left { margin-left: 0; }
+#b1_51_resortarea_map_view .matchtext { float: left; margin-left: 125px; margin-top: 10px; text-align: center; width: 100px; }
+#b1_51_resortarea_map_view span.matchnumber { font-size: 30px; }
+#b1_51_resortarea_map_view span.matches { margin-left: 5px; font-size: 10px; text-transform: uppercase; font-weight: bold; color: #465a6b; }
+#b1_51_resortarea_map_view .lCol .wc-header span.rivieramaya { font-size: 10px; text-transform: uppercase; font-weight: bold; color: #465a6b; left: 15px; position: absolute; top: 50px; }
+#b1_51_resortarea_map_view .lCol .wc-header span.searchterm { color: #0086ee; }
+
+#b1_51_resortarea_map_view .bottom-content { padding: 20px 30px; }
+#b1_51_resortarea_map_view .bottom-content h2 { font-weight: bold; }
+#b1_51_resortarea_map_view .bottom-content p { color: #363636; font-size: 14px; }
+#b1_51_resortarea_map_view .bottom-content input { width: 150px; margin-left: 10px; }
+#b1_51_resortarea_map_view .bottom-content .explorefrom { font-size: 10px; text-transform: uppercase; font-weight: bold; color: #465a6b; margin-top: 10px; }
+#b1_51_resortarea_map_view .bottom-content .explorefrominput { margin-left: 10px; width: 150px; }
+
+
+#b1_51_resortarea_map_view .dates-for-travel { width: 190px; }
+#b1_51_resortarea_map_view .wc-nav { border-bottom: none; }
+#b1_51_resortarea_map_view .narrow-content { margin-bottom: 0; }
+
+#b1_51_resortarea_map_view .wide-content { position: relative; }
+#b1_51_resortarea_map_view .wide-content h1 { margin: 15px; }
+#b1_51_resortarea_map_view .wide-content .leftcontent { width: 780px; margin: 25px 15px; }
+#b1_51_resortarea_map_view .wide-content .leftcontent p { color: #333333; }
+#b1_51_resortarea_map_view .wide-content .heroimage { }
+#b1_51_resortarea_map_view .wishlistshare { background: transparent url('../images/rowshare.png') top left; position: absolute; right: 170px; top: 0; width: 406px; height: 33px; }
+#b1_51_resortarea_map_view .wishlistshare a { color: #696969; font-size: 10px; float: left; padding: 10px; border-right: dotted 1px #a3b9cc; margin: 5px 0; padding: 5px 10px; }
+#b1_51_resortarea_map_view .wishlistshare a.last { border: none; }
+#b1_51_resortarea_map_view .wishlistshare span { margin-right: 5px;}
+#b1_51_resortarea_map_view .wishlistshare .wishlistsharelinks { margin-right: 15px; }
+#b1_51_resortarea_map_view .wishlistshare .wishlistsharelinks .icon-small-arrow1 { margin-top: 2px; }
+#b1_51_resortarea_map_view .wishlistshare .wishlistsharelinks img { float: left; margin-top: -4px; }
+#b1_51_resortarea_map_view .facebooklink {position: absolute; padding: 10px; width: 180px; right: 0;  top: 0; z-index: 10; }
+#b1_51_resortarea_map_view .facebooklink img { float: left; margin-top: -5px; }
+
+#b1_51_resortarea_map_view .bluebar { position: absolute; width: 100%; height: 45px; background-color: rgba(1, 70, 141, .9); top: 70px; }
+#b1_51_resortarea_map_view .bluebar .weather ul { margin: 0; }
+#b1_51_resortarea_map_view .bluebar .weather ul li { border-right: 1px dotted #D2DEEB; display: block; float: left; height: 45px; padding: 8px 6px 0 8px; width: 170px; }
+#b1_51_resortarea_map_view .bluebar .weather ul li.date { padding: 8px; width: 100px; text-align: center; }
+#b1_51_resortarea_map_view .bluebar .weather ul li.date p { font-size: 12px; color: #ffffff; }
+#b1_51_resortarea_map_view .bluebar .weather ul li .icon { float: left; height: 35px; margin: -2px 8px 0 0; text-indent: -9999px; width: 35px; }
+#b1_51_resortarea_map_view .bluebar .weather ul li.current p { color: #FFFFFF; font-size: 9px; text-transform: uppercase; }
+#b1_51_resortarea_map_view .bluebar .weather ul li.current p .hot { display: block; font-size: 2em; font-weight: 700; }
+#b1_51_resortarea_map_view .bluebar .weather ul li .icon.sunny { background: url("../images/icon-weather-sunny.png") no-repeat scroll center center transparent; } 
+#b1_51_resortarea_map_view .Add-ExtrasBkd { border: none; background: #002d62; }
+#b1_51_resortarea_map_view .Add-ExtrasCol-1 { margin-top: 0; width: 160px; text-align: left; padding: 0 15px; }
+#b1_51_resortarea_map_view .Add-ExtrasBkd h3 { color: #ffffff; font-size: 24px; font-weight: 100; width: 150px; margin-top: 40px; }
+#b1_51_resortarea_map_view .Add-ExtrasBkd span { color: #acddfe; font-size: 16px; }
+#b1_51_resortarea_map_view .Add-ExtrasBkd h5 { font-size: 13px; font-weight: 400; margin-top: 12px; float: none; }
+#b1_51_resortarea_map_view .Add-ExtrasCol-3 { width: 160px; }
+#b1_51_resortarea_map_view .Add-ExtrasCol-3 a { color: #56baff; }
+#b1_51_resortarea_map_view a.learnmore { float: left; font-size: 10px; color: #56baff; }
+
+#b1_51_resortarea_map_view #map { position: relative; height: 510px; }
+#b1_51_resortarea_map_view #mapbg { position: absolute; }
+#b1_51_resortarea_map_view #plus { position: absolute; left: 45px; bottom: 80px; }
+#b1_51_resortarea_map_view #minus { position: absolute; left: 45px; bottom: 55px; }
+#b1_51_resortarea_map_view #location { position: absolute; left: 357px; top: 182px; background: transparent url('../images/white-arrow-up.png') 20px top no-repeat; }
+#b1_51_resortarea_map_view #location-content { width: 270px; padding: 20px; background-color: #ffffff; margin-top: 8px; }
+#b1_51_resortarea_map_view #map-close { position: absolute; right: 4px; top: 11px; }
+
+#b1_51_resortarea_map_view .vacation-packages { color: #465A6B; font-size: 10px; font-weight: bold; text-transform: uppercase; }
+#b1_51_resortarea_map_view .city { font-size: 14px; font-weight: bold; border-bottom: 1px solid #e4e4e0; margin-bottom: 5px; }
+#b1_51_resortarea_map_view .location-city a { font-weight: bold; }
+#b1_51_resortarea_map_view .location-city { padding: 2px 0; }
+
+#b1_51_resortarea_map_view .icon-package a{
+	background: url("../images/icon-package-off.png") no-repeat top left !important; 
+	padding-left:33px !important;
+	
+}
+#b1_51_resortarea_map_view .icon-package a:hover, #b1_51_resortarea_map_view .wc-nav ul li.current.icon-package a{
+	background: url("../images/icon-package.png") no-repeat top left !important; 
+}
+#b1_51_resortarea_map_view .icon-list a{
+	background: url("../images/icon-list-off.png") no-repeat top left !important; 
+	padding-left:33px !important;
+}
+#b1_51_resortarea_map_view .icon-list a:hover, #b1_51_resortarea_map_view .wc-nav ul li.current.icon-list a{
+	background: url("../images/icon-list.png") no-repeat top left !important; 
+}
+#b1_51_resortarea_map_view .icon-map a{
+	background: url("../images/icon-map-off.png") no-repeat top left !important; 
+	padding-left:33px !important;
+}
+#b1_51_resortarea_map_view .icon-map a:hover, #b1_51_resortarea_map_view .wc-nav ul li.current.icon-map a{
+	background: url("../images/icon-map.png") no-repeat top left !important; 
+}

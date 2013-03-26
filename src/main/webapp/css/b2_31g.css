@@ -1,0 +1,19 @@
+.b2_31g { }
+.b2_31g .content { background-color: #ffffff; }
+.b2_31g .content h3 { font-size: 14px; font-weight: bold; }
+.b2_31g .content p { border-bottom: 1px solid #d0dce6; font-weight: bold; margin-left: 20px; padding: 10px 0; }
+.b2_31g .content p:last-child { border: none; }
+.b2_31g .content p.close { border: none; }
+
+.b2_31g .content .hawaii { width: 520px; height: 20px; margin-left: 20px; border-bottom: 1px solid #d0dce6; }
+.b2_31g .content .hawaii-city { width: auto; margin-right: 28px; height: 20px; float: left; display: inline-block; }
+.b2_31g .content .hawaii-city.last { margin: 0; }
+.b2_31g .content .hawaii-city span.checkbox.floatL { display: inline-block; }
+.b2_31g .content .hawaii-city p { display: inline-block; margin: 0; padding: 0;  }
+
+.b2_31g .content a.view-all { font-weight: bold; font-size: 10px; text-transform: uppercase; }
+.b2_31g .content a.view-all img { margin-left: 5px; }
+.b2_31g .content span.checkbox.floatL { margin-top: 9px; }
+
+.b2_31g .footer { background-color: #ffffff; }
+.b2_31g .footer a.cancel { font-weight: bold; font-size: 10px; text-transform: uppercase; margin-top: 10px; }

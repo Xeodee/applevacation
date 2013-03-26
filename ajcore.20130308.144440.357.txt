@@ -1,0 +1,287 @@
+---- AspectJ Properties ---
+AspectJ Compiler 1.6.6 built on Wednesday Sep 30, 2009 at 18:55:14 GMT
+---- Dump Properties ---
+Dump file: ajcore.20130308.144440.357.txt
+Dump reason: org.aspectj.weaver.BCException
+Dump on exception: true
+Dump at exit condition: abort
+---- Exception Information ---
+---- System Properties ---
+java.runtime.name=Java(TM) SE Runtime Environment
+sun.boot.library.path=C:\Program Files (x86)\Java\jdk1.7.0_13\jre\bin
+java.vm.version=23.7-b01
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+guice.disable.misplaced.annotation.check=true
+path.separator=;
+idea.launcher.port=7532
+java.vm.name=Java HotSpot(TM) Client VM
+file.encoding.pkg=sun.io
+user.country=US
+user.script=
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=C:\Users\psyc\Desktop\applevacation_surf\applevacation
+java.runtime.version=1.7.0_13-b20
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.endorsed.dirs=C:\Program Files (x86)\Java\jdk1.7.0_13\jre\lib\endorsed
+os.arch=x86
+java.io.tmpdir=C:\Users\psyc\AppData\Local\Temp\
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+user.variant=
+os.name=Windows 8
+classworlds.conf=C:\Maven\bin\m2.conf
+sun.jnu.encoding=Cp1252
+java.library.path=C:\Program Files (x86)\Java\jdk1.7.0_13\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\IntelliJ IDEA 12.0.3\bin\..\.\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Java\jdk1.7.0_13\bin;C:\Program Files (x86)\Git\cmd;c:\intellij idea 12.0.3\jre\jre\bin;.
+java.specification.name=Java Platform API Specification
+java.class.version=51.0
+sun.management.compiler=HotSpot Client Compiler
+os.version=6.2
+user.home=C:\Users\psyc
+user.timezone=America/Los_Angeles
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+file.encoding=UTF-8
+idea.launcher.bin.path=C:\IntelliJ IDEA 12.0.3\bin
+java.specification.version=1.7
+java.class.path=C:\Maven\boot\plexus-classworlds-2.4.jar;C:\IntelliJ IDEA 12.0.3\lib\idea_rt.jar
+user.name=psyc
+java.vm.specification.version=1.7
+sun.java.command=com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher --no-plugin-registry --fail-fast --strict-checksums --update-snapshots org.codehaus.mojo:aspectj-maven-plugin:1.0:compile
+java.home=C:\Program Files (x86)\Java\jdk1.7.0_13\jre
+sun.arch.data.model=32
+user.language=en
+java.specification.vendor=Oracle Corporation
+awt.toolkit=sun.awt.windows.WToolkit
+java.vm.info=mixed mode, sharing
+java.version=1.7.0_13
+java.ext.dirs=C:\Program Files (x86)\Java\jdk1.7.0_13\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+sun.boot.class.path=C:\Program Files (x86)\Java\jdk1.7.0_13\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.7.0_13\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.7.0_13\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.7.0_13\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.7.0_13\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.7.0_13\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.7.0_13\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.7.0_13\jre\classes
+java.vendor=Oracle Corporation
+maven.home=C:\Maven
+file.separator=\
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+sun.io.unicode.encoding=UnicodeLittle
+sun.cpu.endian=little
+sun.desktop=windows
+sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86
+---- Command Line ---
+-outxml
+-source
+1.6
+-target
+1.6
+-classpath
+C:\Users\psyc\.m2\repository\antlr\antlr\2.7.6\antlr-2.7.6.jar;C:\Users\psyc\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\psyc\.m2\repository\asm\asm\3.3.1\asm-3.3.1.jar;C:\Users\psyc\.m2\repository\c3p0\c3p0\0.9.1.2\c3p0-0.9.1.2.jar;C:\Users\psyc\.m2\repository\cglib\cglib\2.2.2\cglib-2.2.2.jar;C:\Users\psyc\.m2\repository\com\jetpay\sax\JetPay\1.0\JetPay-1.0.jar;C:\Program Files (x86)\Java\jdk1.7.0_13\lib\tools.jar;C:\Users\psyc\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\psyc\.m2\repository\commons-codec\commons-codec\1.3\commons-codec-1.3.jar;C:\Users\psyc\.m2\repository\commons-collections\commons-collections\3.1\commons-collections-3.1.jar;C:\Users\psyc\.m2\repository\commons-digester\commons-digester\1.6\commons-digester-1.6.jar;C:\Users\psyc\.m2\repository\commons-el\commons-el\1.0\commons-el-1.0.jar;C:\Users\psyc\.m2\repository\commons-fileupload\commons-fileupload\1.1.1\commons-fileupload-1.1.1.jar;C:\Users\psyc\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\psyc\.m2\repository\commons-io\commons-io\1.1\commons-io-1.1.jar;C:\Users\psyc\.m2\repository\commons-lang\commons-lang\2.5\commons-lang-2.5.jar;C:\Users\psyc\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\psyc\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\psyc\.m2\repository\javassist\javassist\3.12.1.GA\javassist-3.12.1.GA.jar;C:\Users\psyc\.m2\repository\javax\persistence\persistence-api\1.0.2\persistence-api-1.0.2.jar;C:\Users\psyc\.m2\repository\javax\servlet\com.springsource.javax.servlet\2.5.0\com.springsource.javax.servlet-2.5.0.jar;C:\Users\psyc\.m2\repository\javax\servlet\jstl\1.1.0\jstl-1.1.0.jar;C:\Users\psyc\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;C:\Users\psyc\.m2\repository\javax\transaction\jta\1.1\jta-1.1.jar;C:\Users\psyc\.m2\repository\jaxen\jaxen\1.1.1\jaxen-1.1.1.jar;C:\Users\psyc\.m2\repository\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar;C:\Users\psyc\.m2\repository\nu\validator\htmlparser\htmlparser\1.0.5\htmlparser-1.0.5.jar;C:\Users\psyc\.m2\repository\org\aopalliance\com.springsource.org.aopalliance\1.0.0\com.springsource.org.aopalliance-1.0.0.jar;C:\Users\psyc\.m2\repository\org\apache\abdera\abdera-client\0.4.0-incubating\abdera-client-0.4.0-incubating.jar;C:\Users\psyc\.m2\repository\org\apache\abdera\abdera-core\0.4.0-incubating\abdera-core-0.4.0-incubating.jar;C:\Users\psyc\.m2\repository\org\apache\abdera\abdera-extensions-html\0.4.0-incubating\abdera-extensions-html-0.4.0-incubating.jar;C:\Users\psyc\.m2\repository\org\apache\abdera\abdera-extensions-json\0.4.0-incubating\abdera-extensions-json-0.4.0-incubating.jar;C:\Users\psyc\.m2\repository\org\apache\abdera\abdera-extensions-main\0.4.0-incubating\abdera-extensions-main-0.4.0-incubating.jar;C:\Users\psyc\.m2\repository\org\apache\abdera\abdera-i18n\0.4.0-incubating\abdera-i18n-0.4.0-incubating.jar;C:\Users\psyc\.m2\repository\org\apache\abdera\abdera-parser\0.4.0-incubating\abdera-parser-0.4.0-incubating.jar;C:\Users\psyc\.m2\repository\org\apache\abdera\abdera-server\0.4.0-incubating\abdera-server-0.4.0-incubating.jar;C:\Users\psyc\.m2\repository\org\apache\commons\com.springsource.org.apache.commons.logging\1.1.1\com.springsource.org.apache.commons.logging-1.1.1.jar;C:\Users\psyc\.m2\repository\org\apache\geronimo\specs\geronimo-activation_1.0.2_spec\1.1\geronimo-activation_1.0.2_spec-1.1.jar;C:\Users\psyc\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0.1\geronimo-stax-api_1.0_spec-1.0.1.jar;C:\Users\psyc\.m2\repository\org\apache\log4j\com.springsource.org.apache.log4j\1.2.15\com.springsource.org.apache.log4j-1.2.15.jar;C:\Users\psyc\.m2\repository\org\apache\myfaces\core\myfaces-api\1.1.5\myfaces-api-1.1.5.jar;C:\Users\psyc\.m2\repository\org\apache\myfaces\core\myfaces-impl\1.1.5\myfaces-impl-1.1.5.jar;C:\Users\psyc\.m2\repository\org\apache\ws\commons\axiom\axiom-api\1.2.5\axiom-api-1.2.5.jar;C:\Users\psyc\.m2\repository\org\apache\ws\commons\axiom\axiom-impl\1.2.5\axiom-impl-1.2.5.jar;C:\Users\psyc\.m2\repository\org\aspectj\com.springsource.org.aspectj.runtime\1.6.6.RELEASE\com.springsource.org.aspectj.runtime-1.6.6.RELEASE.jar;C:\Users\psyc\.m2\repository\org\freemarker\freemarker\2.3.13\freemarker-2.3.13.jar;C:\Users\psyc\.m2\repository\org\hibernate\hibernate-c3p0\3.6.3.Final\hibernate-c3p0-3.6.3.Final.jar;C:\Users\psyc\.m2\repository\org\hibernate\hibernate-commons-annotations\3.2.0.Final\hibernate-commons-annotations-3.2.0.Final.jar;C:\Users\psyc\.m2\repository\org\hibernate\hibernate-core\3.6.3.Final\hibernate-core-3.6.3.Final.jar;C:\Users\psyc\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.0-api\1.0.0.Final\hibernate-jpa-2.0-api-1.0.0.Final.jar;C:\Users\psyc\.m2\repository\org\htmlparser\htmlparser\1.6\htmlparser-1.6.jar;C:\Users\psyc\.m2\repository\org\json\json\20070829\json-20070829.jar;C:\Users\psyc\.m2\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;C:\Users\psyc\.m2\repository\org\springframework\org.springframework.aop\3.2.1.RELEASE\org.springframework.aop-3.2.1.RELEASE.jar;C:\Users\psyc\.m2\repository\org\springframework\org.springframework.aspects\3.2.1.RELEASE\org.springframework.aspects-3.2.1.RELEASE.jar;C:\Users\psyc\.m2\repository\org\springframework\org.springframework.beans\3.2.1.RELEASE\org.springframework.beans-3.2.1.RELEASE.jar;C:\Users\psyc\.m2\repository\org\springframework\org.springframework.context\3.2.1.RELEASE\org.springframework.context-3.2.1.RELEASE.jar;C:\Users\psyc\.m2\repository\org\springframework\org.springframework.core\3.2.1.RELEASE\org.springframework.core-3.2.1.RELEASE.jar;C:\Users\psyc\.m2\repository\org\springframework\org.springframework.oxm\3.2.1.RELEASE\org.springframework.oxm-3.2.1.RELEASE.jar;C:\Users\psyc\.m2\repository\org\springframework\org.springframework.transaction\3.2.1.RELEASE\org.springframework.transaction-3.2.1.RELEASE.jar;C:\Users\psyc\.m2\repository\org\springframework\org.springframework.web\3.2.1.RELEASE\org.springframework.web-3.2.1.RELEASE.jar;C:\Users\psyc\.m2\repository\org\springframework\spring-asm\3.0.0.RELEASE\spring-asm-3.0.0.RELEASE.jar;C:\Users\psyc\.m2\repository\org\springframework\spring-beans\3.2.1.RELEASE\spring-beans-3.2.1.RELEASE.jar;C:\Users\psyc\.m2\repository\org\springframework\spring-context\3.0.0.RELEASE\spring-context-3.0.0.RELEASE.jar;C:\Users\psyc\.m2\repository\org\springframework\spring-context-support\3.0.0.RELEASE\spring-context-support-3.0.0.RELEASE.jar;C:\Users\psyc\.m2\repository\org\springframework\spring-core\3.2.1.RELEASE\spring-core-3.2.1.RELEASE.jar;C:\Users\psyc\.m2\repository\org\springframework\spring-expression\3.0.0.RELEASE\spring-expression-3.0.0.RELEASE.jar;C:\Users\psyc\.m2\repository\org\springframework\spring-orm\3.2.1.RELEASE\spring-orm-3.2.1.RELEASE.jar;C:\Users\psyc\.m2\repository\org\springframework\spring-oxm\3.2.1.RELEASE\spring-oxm-3.2.1.RELEASE.jar;C:\Users\psyc\.m2\repository\org\springframework\spring-web\3.0.0.RELEASE\spring-web-3.0.0.RELEASE.jar;C:\Users\psyc\.m2\repository\org\springframework\spring-webmvc\3.0.0.RELEASE\spring-webmvc-3.0.0.RELEASE.jar;C:\Users\psyc\.m2\repository\org\springframework\extensions\surf\spring-surf\1.0.0.M2\spring-surf-1.0.0.M2.jar;C:\Users\psyc\.m2\repository\org\springframework\extensions\surf\spring-surf-api\1.0.0.M2\spring-surf-api-1.0.0.M2.jar;C:\Users\psyc\.m2\repository\org\springframework\extensions\surf\spring-surf-core\1.0.0.M2\spring-surf-core-1.0.0.M2.jar;C:\Users\psyc\.m2\repository\org\springframework\extensions\surf\spring-surf-core-configservice\1.0.0.M2\spring-surf-core-configservice-1.0.0.M2.jar;C:\Users\psyc\.m2\repository\org\springframework\extensions\surf\spring-webscripts\1.0.0.M2\spring-webscripts-1.0.0.M2.jar;C:\Users\psyc\.m2\repository\org\springframework\extensions\surf\spring-webscripts-api\1.0.0.M2\spring-webscripts-api-1.0.0.M2.jar;C:\Users\psyc\.m2\repository\org\springframework\roo\org.springframework.roo.annotations\1.0.2.RELEASE\org.springframework.roo.annotations-1.0.2.RELEASE.jar;C:\Users\psyc\.m2\repository\org\tuckey\urlrewritefilter\3.1.0\urlrewritefilter-3.1.0.jar;C:\Users\psyc\.m2\repository\rhino\js\1.6R7\js-1.6R7.jar;C:\Users\psyc\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\psyc\Desktop\applevacation_surf\applevacation\target\classes
+-aspectpath
+C:\Users\psyc\.m2\repository\org\springframework\org.springframework.aspects\3.2.1.RELEASE\org.springframework.aspects-3.2.1.RELEASE.jar
+-d
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\target\classes
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\vehicles\VehicleAvailabilityType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\commonrequest\ObjectFactory.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\flights\CarrierType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\hotels\RoomCategory.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\maxmind\model\Omni.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\flights\Occupancy.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\flights\SelectedFlightType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\net\phenomenon\applevac\livedemo\XMLMarshall.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\net\phenomenon\applevac\livedemo\services\VideoService.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\PaxTypePriceBreakupType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\flights\InBoundFlight.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\insurance\SelectedInsuranceType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\PaymentInformationType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\commonresponse\ObjectFactory.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\itinerary\package-info.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\flights\OutBoundFlight.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\services\ServiceType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\hotels\ObjectFactory.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\MealPlanType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\bookpricerequest\ObjectFactory.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\MultiDestSearchCriteriaType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\VehicleClassType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\commonresponse\ApplicationInfo.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\hotels\SelectedHotelType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\hotels\AmenityType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\flights\Carrier.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\packages\SelectedPackageType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\net\phenomenon\applevac\livedemo\search\VideoResult.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\availabilityrequest\ItineraryAvailabilityRequest.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\packages\package-info.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\net\phenomenon\applevac\livedemo\airports\Airport.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\itinerary\ItineraryHeaderType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\net\phenomenon\applevac\livedemo\Account.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\itinerary\GuestPriceBreakupType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\CreditCardType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\net\phenomenon\applevac\livedemo\airports\RangeService.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\net\phenomenon\applevac\livedemo\services\UXService.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\DestinationOptionsType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\services\package-info.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\net\phenomenon\applevac\livedemo\restservices\BookingRequest.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\AgeCodeType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\flights\ObjectFactory.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\itinerary\GuestInfoType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\services\ObjectFactory.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\AgencyType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\availabilityrequest\package-info.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\net\phenomenon\applevac\livedemo\search\ImageResult.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\insurance\InsuranceType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\net\phenomenon\applevac\livedemo\search\SearchForm.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\flights\FlightPriceType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\FlightTripType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\AirRequestOptionsType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\net\phenomenon\applevac\livedemo\restservices\ItineraryAvailability.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\maxmind\services\OmniReader.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\flights\FlightAvailabilityType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\net\phenomenon\applevac\livedemo\webscripts\HotelListingWebScript.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\PriceType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\availabilityresponse\package-info.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\Passenger.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\net\phenomenon\applevac\livedemo\util\JsonView.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\hotels\Room.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\net\phenomenon\applevac\livedemo\UserController.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\net\phenomenon\applevac\livedemo\Pasttrips.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\hotels\package-info.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\bookpricerequest\BookPriceItineraryRequest.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\hotels\HotelOptionType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\commonrequest\package-info.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\net\phenomenon\applevac\livedemo\search\UXResult.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\flights\package-info.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\hotels\ResortArea.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\package-info.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\net\phenomenon\applevac\livedemo\search\PriceResult.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\vehicles\package-info.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\itinerary\CancellationRulesType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\net\phenomenon\applevac\livedemo\jetpay\JetPayService.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\itinerary\ObjectFactory.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\flights\FlightType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\itinerary\ItineraryRequestType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\bookpriceresponse\BookPriceItineraryResponse.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\CabinTypeType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\BooleanFlagType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\services\ChildPriceType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\packages\ObjectFactory.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\net\phenomenon\applevac\livedemo\services\PriceService.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\vehicles\SelectedVehicleType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\vehicles\ObjectFactory.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\flights\CodeShareCarrier.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\commonrequest\CommonRequestType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\flights\FareBasisCodeType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\TimeOfTheDayType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\ApplicationInfoType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\TravelClubType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\itinerary\ItineraryPriceType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\PassengerType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\ResortAreaType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\packages\SelectedMultiDestinationPackageType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\OccupancyType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\SearchCriteriaType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\hotels\HotelAvailabilityType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\hotels\RatePlanType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\bookpriceresponse\package-info.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\itinerary\PassportInfoType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\flights\FlightOptionType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\services\SelectedServiceType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\net\phenomenon\applevac\livedemo\DummyDB.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\hotels\RoomType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\HotelRequestOptionsType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\AgentType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\itinerary\ItineraryResponseType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\Agency.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\flights\FlightSegmentType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\hotels\Occupancy.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\flights\FlightOption.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\bookpricerequest\package-info.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\flights\FlightSegment.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\vehicles\VehicleOptionType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\availabilityresponse\ObjectFactory.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\ErrorType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\insurance\package-info.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\PromotionType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\FlightPreferencesType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\hotels\VendorServiceType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\hotels\RatePlan.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\commonresponse\package-info.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\flights\Price.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\bookpriceresponse\ObjectFactory.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\net\phenomenon\applevac\livedemo\controller\PageController.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\PaymentHistoryType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\services\ServiceGroupType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\net\phenomenon\applevac\livedemo\services\ImageService.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\VehicleRequestOptionsType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\hotels\RoomCategoryType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\hotels\HotelOption.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\net\phenomenon\applevac\livedemo\user\User.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\availabilityresponse\ItineraryAvailabilityResponse.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\flights\FareBasisCode.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\itinerary\ItineraryChargesType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\commonresponse\CommonResponseType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\insurance\ObjectFactory.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\AddressType.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\common\ObjectFactory.java
+C:\Users\psyc\Desktop\applevacation_surf\applevacation\src\main\java\com\kcdataservices\affiliate\availabilityrequest\ObjectFactory.java
+---- Full Classpath ---
+Empty
+---- Compiler Messages ---
+info directory classpath entry does not exist: C:\Program Files (x86)\Java\jdk1.7.0_13\jre\lib\sunrsasign.jar
+info zipfile classpath entry does not exist: C:\Program Files (x86)\Java\jdk1.7.0_13\jre\classes
+abort ABORT -- (BCException) Unable to continue, this version of AspectJ supports classes built with weaver version 6.0 but the class org.springframework.beans.factory.aspectj.AbstractBeanConfigurerAspect is version 7.0
+when batch building BuildConfig[null] #Files=142 AopXmls=#0
+
+Unable to continue, this version of AspectJ supports classes built with weaver version 6.0 but the class org.springframework.beans.factory.aspectj.AbstractBeanConfigurerAspect is version 7.0
+when batch building BuildConfig[null] #Files=142 AopXmls=#0
+
+org.aspectj.weaver.BCException: Unable to continue, this version of AspectJ supports classes built with weaver version 6.0 but the class org.springframework.beans.factory.aspectj.AbstractBeanConfigurerAspect is version 7.0
+when batch building BuildConfig[null] #Files=142 AopXmls=#0
+
+	at org.aspectj.weaver.bcel.Utility.readAjAttributes(Utility.java:83)
+	at org.aspectj.weaver.bcel.BcelObjectType.ensureAspectJAttributesUnpacked(BcelObjectType.java:358)
+	at org.aspectj.weaver.bcel.BcelObjectType.<init>(BcelObjectType.java:149)
+	at org.aspectj.weaver.bcel.BcelWorld.buildBcelDelegate(BcelWorld.java:382)
+	at org.aspectj.weaver.bcel.BcelWorld.addSourceObjectType(BcelWorld.java:452)
+	at org.aspectj.weaver.bcel.BcelWeaver.addAspectsFromJarFile(BcelWeaver.java:268)
+	at org.aspectj.weaver.bcel.BcelWeaver.addLibraryJarFile(BcelWeaver.java:240)
+	at org.aspectj.ajdt.internal.core.builder.AjBuildManager.initBcelWorld(AjBuildManager.java:848)
+	at org.aspectj.ajdt.internal.core.builder.AjBuildManager.performBuild(AjBuildManager.java:245)
+	at org.aspectj.ajdt.internal.core.builder.AjBuildManager.batchBuild(AjBuildManager.java:182)
+	at org.aspectj.ajdt.ajc.AjdtCommand.doCommand(AjdtCommand.java:112)
+	at org.aspectj.ajdt.ajc.AjdtCommand.runCommand(AjdtCommand.java:60)
+	at org.aspectj.tools.ajc.Main.run(Main.java:355)
+	at org.aspectj.tools.ajc.Main.runMain(Main.java:234)
+	at org.codehaus.mojo.aspectj.AbstractAjcCompiler.execute(AbstractAjcCompiler.java:378)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:101)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:209)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:84)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:59)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.singleThreadedBuild(LifecycleStarter.java:183)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:161)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:320)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:156)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:537)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:196)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:290)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:230)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:409)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:352)
+	at org.codehaus.classworlds.Launcher.main(Launcher.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
+
+---- org.aspectj.weaver.bcel.BcelWorld@1d1d4b8 ----
+Shadow mungers:
+Empty
+Type mungers:
+Empty
+Late Type mungers:
+Empty

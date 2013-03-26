@@ -1,0 +1,109 @@
+/*
+///////////////////////////////////////////////////////////////////////////////
+-------------------------------------------------------------------------------
+Apple Vacations Offers CSS
+Version 1.0
+Last Updated: 09/24/2012
+
+Table of Contents:
+
+
+-------------------------------------------------------------------------------
+///////////////////////////////////////////////////////////////////////////////
+-------------------------------------------------------------------------------
+1. Popular Deals
+-------------------------------------------------------------------------------
+///////////////////////////////////////////////////////////////////////////////
+*/
+
+/* Outer Container */
+#deals-slider-outer {width:100%; min-width:1100px; height:195px; padding-top:22px; overflow:hidden; white-space:nowrap}
+
+/* Allows several deals to be present without breaking the floats */
+#deals-slider, .slider-wrap {width:9999px}
+
+/* Popular Deals Slider */
+#popular-deals {display:inline-block; display:block\9; float:left\9; margin:0 10px 0 0; height:173px; padding:0 0 0 60px; border-top-right-radius:8px; -moz-top-right-radius:8px; -webkit-top-right-radius:8px; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzdiYTZkNCIgc3RvcC1vcGFjaXR5PSIwLjgiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzdiYTZkNCIgc3RvcC1vcGFjaXR5PSIwLjgiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+background: -moz-linear-gradient(top,  rgba(123,166,212,0.8) 0%, rgba(123,166,212,0.8) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(123,166,212,0.8)), color-stop(100%,rgba(123,166,212,0.8))); background: -webkit-linear-gradient(top,  rgba(123,166,212,0.8) 0%,rgba(123,166,212,0.8) 100%); background: -o-linear-gradient(top,  rgba(123,166,212,0.8) 0%,rgba(123,166,212,0.8) 100%); background: -ms-linear-gradient(top,  rgba(123,166,212,0.8) 0%,rgba(123,166,212,0.8) 100%); background: linear-gradient(to bottom,  rgba(123,166,212,0.8) 0%,rgba(123,166,212,0.8) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc7ba6d4', endColorstr='#cc7ba6d4',GradientType=0 ); behavior: url(js/PIE.htc);}
+
+.deals-title {background:#7ba6d3\9; position:absolute; margin:60px 0 0 -90px; margin:0px 0 0 -60px \0/; width:150px; width:173px \0/; padding:20px 0 0 10px \0/; height:55px; text-transform:uppercase; color:#fff;  text-transform:uppercase; -moz-transform:rotate(270deg); -o-transform:rotate(270deg); -webkit-transform: rotate(270deg); transform: rotate(270deg); -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=6.123031769111886e-17, M12=1, M21=-1, M22=6.123031769111886e-17, SizingMethod='auto expand')"; }
+.deals-title h4 {font-size:12px}
+.deals-title h5 {font-size:16px}
+
+#deals {float:left; position:relative; overflow:hidden; height:195px; margin:-20px 10px 0 0px; padding:0 0 0 5px}
+
+
+#deals-pager {position:relative; z-index:10; float:left; display:block; width:37px; height:100%; padding:70px 0 0 0; }
+#deals-pager a {display:block; width:37px; height:37px; text-indent:-9999px; background:url(../images/btn-left-arrow.png) center center no-repeat; cursor:pointer}
+.reached-end #deals-pager a {background:url(../images/btn-right-arrow.png) center center no-repeat;}
+
+.deal-container {float:left; width:201px; height:195px; margin:0 6px 0 6px; background:#fff; border:3px solid #fff; -webkit-box-shadow: inset 0px 4px 3px 0px rgba(170, 167, 167, .3); box-shadow: inset 0px 4px 3px 0px rgba(170, 167, 167, .3);}
+.deal-container .title {padding:5px 6px}
+.deal-container h3 {font-size:11px; color:#465a6b; text-transform:uppercase; font-weight:900}
+.deal-container h4 {font-size:14px; color:#0086ee; font-weight:900}
+
+.deal-container .label-notification {position:absolute; margin:72px 0 0 -11px;}
+
+.deal-container .view-details {float:left; width:95px; padding:30px 0 0 15px; text-transform:uppercase; font-size:10px; font-weight:600}
+/*.deal-container .view-details a:after {margin:3px 2px 0 0; float:right; display:block; content:""; width:5px; height:7px; background:url(../images/icon-arrow.png) right center no-repeat}*/
+
+.offer {padding:18px 7px 0 0; color:#464646; font-size:10px; text-transform:uppercase; text-align:right; line-height:6px}
+.offer .price {position:relative; display:inline-block; margin:-3px 0 0 0; vertical-align:top; font-size:10px; font-weight:400}
+.offer .price strong {position:relative; display:inline-block; margin:2px 0 0 0; vertical-align:top; font-size:20px; font-weight:700  }
+
+
+
+/* Open / Close States For Each menu */
+#deals-slider.open #deals {width:642px}
+#deals-slider.closed #deals {width:215px}
+
+#deals-slider.open #special-offers .specials-hide a {background:url(../images/btn-collapse.png) -14px 8px no-repeat #0086ee;}
+#deals-slider.closed #special-offers .specials-hide a {background:url(../images/btn-collapse.png) 6px 8px no-repeat #0086ee;}
+
+/*
+///////////////////////////////////////////////////////////////////////////////
+-------------------------------------------------------------------------------
+2. Special Offers
+-------------------------------------------------------------------------------
+///////////////////////////////////////////////////////////////////////////////
+*/
+
+#special-offers {display:inline-block; width:100%; height:173px; padding:0 0 0 0px; border-top-left-radius:8px; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzdiYTZkNCIgc3RvcC1vcGFjaXR5PSIwLjgiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzdiYTZkNCIgc3RvcC1vcGFjaXR5PSIwLjgiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+background: -moz-linear-gradient(top,  rgba(123,166,212,å0.8) 0%, rgba(123,166,212,0.8) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(123,166,212,0.8)), color-stop(100%,rgba(123,166,212,0.8))); background: -webkit-linear-gradient(top,  rgba(123,166,212,0.8) 0%,rgba(123,166,212,0.8) 100%); background: -o-linear-gradient(top,  rgba(123,166,212,0.8) 0%,rgba(123,166,212,0.8) 100%); background: -ms-linear-gradient(top,  rgba(123,166,212,0.8) 0%,rgba(123,166,212,0.8) 100%); background: linear-gradient(to bottom,  rgba(123,166,212,0.8) 0%,rgba(123,166,212,0.8) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc7ba6d4', endColorstr='#cc7ba6d4',GradientType=0 );  behavior: url(js/PIE.htc);}
+
+
+#offers {float:left; width:645px; height:195px; margin:-20px 0 0 55px; margin-top:-75px\9;overflow:hidden }
+
+.specials-hide {}
+.specials-hide a {position:relative; z-index:2; cursor:pointer; margin:0 0 -173px 0; display:block;  height:173px; width:20px; background:url(../images/btn-collapse.png) left top no-repeat; border-top-left-radius:8px; text-indent:-9999px}
+
+
+.specials-title {background:#7ba6d3\9; position:relative; z-index:1; margin:60px 0 -135px -15px; margin:0px 0 0  0px \0/; width:150px; width:173px \0/; padding:20px 0 0 10px \0/; height:55px; text-transform:uppercase; color:#fff;  text-transform:uppercase; -moz-transform:rotate(270deg); -o-transform:rotate(270deg); -webkit-transform: rotate(270deg); transform: rotate(270deg); -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=6.123031769111886e-17, M12=1, M21=-1, M22=6.123031769111886e-17, SizingMethod='auto expand')"; }
+.specials-title h3 {font-size:16px}
+
+
+.offer-container {position:relative; float:left; width:201px; height:195px; margin:0 6px 0 6px; background:#fff; }
+.offer-container .photo {overflow:hidden; width:201px; height:195px; margin-bottom:-195px}
+.offer-container .title {position:relative; z-index:2; text-transform:uppercase; padding:21px 12px 0 12px}
+.offer-container .title h4 {color:#fff; font-size:12px}
+.offer-container .title h5 {color:#faac40; font-size:16px}
+.offer-container .link {position:absolute; bottom:0; padding:0 8px 12px 0; right:0}
+.offer-container .link a {color:#53d5fa}
+
+.offer-container .info {white-space:normal; font-size:11px; color:#fff; position:absolute; padding:0 0 12px 8px; width:120px; bottom:0; text-transform:uppercase}
+
+#offers-pager {float:left; display:block; width:37px; height:100%; padding:90px 0 0 0; padding:20px 0 0 0\9 }
+#offers-pager a {display:block; width:37px; height:37px; text-indent:-9999px; background:url(../images/btn-right-arrow.png) center center no-repeat; cursor:pointer}
+
+.reached-end #offers-pager a {background:url(../images/btn-left-arrow.png) center center no-repeat}
+
+
+
+
+
+
+
+
+
+
+

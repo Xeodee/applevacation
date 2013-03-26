@@ -1,0 +1,27 @@
+.b2_31_Account_Edit_Personal { }
+
+.b2_31_Account_Edit_Personal .content p { color: #333333; font-size: 14px; }
+
+.b2_31_Account_Edit_Personal .content .formbox { float: left; display: inline-block; }
+.b2_31_Account_Edit_Personal .content .formbox input.inner-shadow { width: 100%; }
+.b2_31_Account_Edit_Personal .content .formbox.first-name, .b2_31_Account_Edit_Personal .content .formbox.last-name { width: 215px; margin-right: 10px; }
+.b2_31_Account_Edit_Personal .content .formbox.input-info-dob, .b2_31_Account_Edit_Personal .content .formbox.address, .b2_31_Account_Edit_Personal .content .formbox.address2 { width: 325px; }
+.b2_31_Account_Edit_Personal .content .formbox.input-info-dob .filter-dropdown { width: 95px; margin-right: 10px; float: left; display: inline-block;}
+.b2_31_Account_Edit_Personal .content .formbox.city { width: 215px; margin-right: 10px; }
+.b2_31_Account_Edit_Personal .content .formbox.state { width: 96px; margin-right: 10px; } 
+.b2_31_Account_Edit_Personal .content .formbox.zip { width: 110px; }
+.b2_31_Account_Edit_Personal .content .formbox.mobile { width: 215px; margin-right: 10px; }
+.b2_31_Account_Edit_Personal .content .formbox.email { width: 300px; }
+
+.b2_31_Account_Edit_Personal .content .formbox p { font-weight: bold; color: #000000; padding: 10px 0; }
+
+
+.b2_31_Account_Edit_Personal .footer { }
+.b2_31_Account_Edit_Personal .footer a.cancel { font-weight: bold; font-size: 10px; text-transform: uppercase; margin-top: 10px; }
+
+
+.b2_31_Account_Edit_Personal .error p { color:#cc0000 !important; }
+.b2_31_Account_Edit_Personal .error input{background:url(../images/register_error_icon.png) 97% center no-repeat #F0D1D1}
+.b2_31_Account_Edit_Personal .error .dk_toggle{background:url("../images/bg-custom-select.png") no-repeat scroll right top #F0D1D1}
+.b2_31_Account_Edit_Personal .success input{background: url(../images/register_valid_icon.png) 97% center no-repeat #FFF;}
+.b2_31_Account_Edit_Personal .success:hover input{background: url(../images/register_valid_icon.png) 97% center no-repeat #C8ECFB;}

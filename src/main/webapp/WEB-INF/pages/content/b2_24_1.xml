@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<page> 
+   <id>b2_24_1</id>
+   <title>b2_24_1</title>
+   <template-instance>templateModel_1_instance1</template-instance>
+   <authentication>none</authentication>
+   <components>
+   	  <component>
+         <region-id>content</region-id>
+         <component-type-id>b2_24_1</component-type-id>
+     	 <chrome>box</chrome>
+      </component>   
+   </components>
+</page>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<page>
+   <id>b1_5_home_new</id>
+   <title>Home Page</title>
+   <template-instance>templateModel_1_instance1</template-instance>
+   <authentication>none</authentication>
+   <order-id>0</order-id>
+   <components>
+      <component>
+         <region-id>content</region-id>
+         <component-type-id>b1_5_home_new</component-type-id>
+     	 <chrome>box</chrome>
+      </component>   
+   </components>
+</page>

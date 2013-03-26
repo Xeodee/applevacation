@@ -1,0 +1,210 @@
+.clearfix 					{ clear:both; }
+.left 						{ float:left; }
+.right 						{ float:right; }
+#head						{ width:100%; height:53px; background-color:#1267b9; line-height:53px; }
+.contactus					{ position:absolute; left:20px; top:0; font-family:'Lato', sans-serif; color:#fff; font-size:14px; }
+.contactus a			{ font-size:11px; color:#fff; margin-left:10px; padding-left:10px; border-left:1px dotted #fff; }
+.contactus a.logo			{border-left:none}
+.contactus a.logo img		{ margin:10px 10px -5px 20px; }
+.contactus img.phoneicon	{ margin-right:5px; margin-bottom:-5px; }
+#head ul					{ width:962px; margin:0 auto; text-align:right; font-family:'Lato', sans-serif; }
+#head ul li					{ display:inline; font-size:14px; }
+#head ul li.first a			{ border-left:1px solid #7aa8d5; }
+#head ul li a				{ width:135px; text-align:center; line-height:53px; height:53px; background: rgb(17,103,186); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzExNjdiYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ4JSIgc3RvcC1jb2xvcj0iIzExNjdiYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjYwJSIgc3RvcC1jb2xvcj0iIzExNjNiNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjY5JSIgc3RvcC1jb2xvcj0iIzBlNWJhZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijc3JSIgc3RvcC1jb2xvcj0iIzBkNTFhMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk2JSIgc3RvcC1jb2xvcj0iIzA3MzI4MCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk4JSIgc3RvcC1jb2xvcj0iIzA0MzI3ZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwOTNhODYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top, rgba(17,103,186,1) 0%, rgba(17,103,186,1) 48%, rgba(17,99,181,1) 60%, rgba(14,91,173,1) 69%, rgba(13,81,162,1) 77%, rgba(7,50,128,1) 96%, rgba(4,50,127,1) 98%, rgba(9,58,134,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(17,103,186,1)), color-stop(48%,rgba(17,103,186,1)), color-stop(60%,rgba(17,99,181,1)), color-stop(69%,rgba(14,91,173,1)), color-stop(77%,rgba(13,81,162,1)), color-stop(96%,rgba(7,50,128,1)), color-stop(98%,rgba(4,50,127,1)), color-stop(100%,rgba(9,58,134,1))); 
+background: -webkit-linear-gradient(top, rgba(17,103,186,1) 0%,rgba(17,103,186,1) 48%,rgba(17,99,181,1) 60%,rgba(14,91,173,1) 69%,rgba(13,81,162,1) 77%,rgba(7,50,128,1) 96%,rgba(4,50,127,1) 98%,rgba(9,58,134,1) 100%); 
+background: -o-linear-gradient(top, rgba(17,103,186,1) 0%,rgba(17,103,186,1) 48%,rgba(17,99,181,1) 60%,rgba(14,91,173,1) 69%,rgba(13,81,162,1) 77%,rgba(7,50,128,1) 96%,rgba(4,50,127,1) 98%,rgba(9,58,134,1) 100%); 
+background: -ms-linear-gradient(top, rgba(17,103,186,1) 0%,rgba(17,103,186,1) 48%,rgba(17,99,181,1) 60%,rgba(14,91,173,1) 69%,rgba(13,81,162,1) 77%,rgba(7,50,128,1) 96%,rgba(4,50,127,1) 98%,rgba(9,58,134,1) 100%); 
+background: linear-gradient(to bottom, rgba(17,103,186,1) 0%,rgba(17,103,186,1) 48%,rgba(17,99,181,1) 60%,rgba(14,91,173,1) 69%,rgba(13,81,162,1) 77%,rgba(7,50,128,1) 96%,rgba(4,50,127,1) 98%,rgba(9,58,134,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1167ba', endColorstr='#093a86',GradientType=0 ); display:inline-block; border-right:1px solid #7aa8d5; color:#fff; font-weight:bold; }
+.selection_header 			{ width:960px; position:relative; padding-top:12px; margin-bottom:17px; border-top:none !important;margin:0 auto;   }
+.selection_header h1 		{ color:#465a6b; font-size:36px; font-weight:normal; font-family:'Rokkitt', serif; margin-bottom:7px; }
+.selection_header p.text-right { float:right; text-align:right; font-size:12px; color:#465a6b; font-family:'Lato', sans-serif; padding-right:20px; }
+
+/* =============================================================================
+   Options area
+   ========================================================================== */
+.options_box 				{ width:780px; float:left; }
+.opt						{ width:183px; float:left; min-height:174px; }
+
+.opt.hotel .title img		{ margin:0 3px -3px 6px; }
+.opt.flight .title img		{ margin:0 0px -8px 6px; }
+.opt.extras .title img		{ margin:0 0px -6px 6px; }
+.opt.travel .title img		{ margin:0 3px -3px 5px; }
+
+/* innactive state */
+.opt .title					{ width:100%; height:47px; line-height:47px; color:#0868aa; font-family:'Lato', sans-serif; font-size:18px; font-weight:normal; text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.7);padding:0 4px; border-right:1px solid #b1d3eb;background-color:#D9EEFB;  }
+.opt.extras .details p:before{content:"\00BB";margin-right:3px}
+
+.opt .details				{ min-height:127px;position:relative; padding:15px 10px 5px 10px; border-right:1px solid #cce0ed;
+ /*IE9 SVG, needs conditional override of 'filter' to 'none'*/  background: rgb(228,242,251); 
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U0ZjJmYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjE1JSIgc3RvcC1jb2xvcj0iI2RlZjBmYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjE5JSIgc3RvcC1jb2xvcj0iI2RkZWZmYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjIwJSIgc3RvcC1jb2xvcj0iI2RiZWRmOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjMyJSIgc3RvcC1jb2xvcj0iI2Q5ZWNmYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQzJSIgc3RvcC1jb2xvcj0iI2QyZTlmNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjYwJSIgc3RvcC1jb2xvcj0iI2NiZThmOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1jb2xvcj0iI2M0ZTNmNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjczJSIgc3RvcC1jb2xvcj0iI2M2ZTJmNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijc3JSIgc3RvcC1jb2xvcj0iI2MwZTNmNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjkzJSIgc3RvcC1jb2xvcj0iI2JjZGVmNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk4JSIgc3RvcC1jb2xvcj0iI2JiZGRmNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk4JSIgc3RvcC1jb2xvcj0iI2JjZGNmMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk5JSIgc3RvcC1jb2xvcj0iI2JjZGNmMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjNWU1ZmMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top, rgba(228,242,251,1) 0%, rgba(222,240,252,1) 15%, rgba(221,239,251,1) 19%, rgba(219,237,249,1) 20%, rgba(217,236,250,1) 32%, rgba(210,233,247,1) 43%, rgba(203,232,248,1) 60%, rgba(196,227,245,1) 70%, rgba(198,226,247,1) 73%, rgba(192,227,246,1) 77%, rgba(188,222,247,1) 93%, rgba(187,221,246,1) 98%, rgba(188,220,243,1) 98%, rgba(188,220,243,1) 99%, rgba(197,229,252,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(228,242,251,1)), color-stop(15%,rgba(222,240,252,1)), color-stop(19%,rgba(221,239,251,1)), color-stop(20%,rgba(219,237,249,1)), color-stop(32%,rgba(217,236,250,1)), color-stop(43%,rgba(210,233,247,1)), color-stop(60%,rgba(203,232,248,1)), color-stop(70%,rgba(196,227,245,1)), color-stop(73%,rgba(198,226,247,1)), color-stop(77%,rgba(192,227,246,1)), color-stop(93%,rgba(188,222,247,1)), color-stop(98%,rgba(187,221,246,1)), color-stop(98%,rgba(188,220,243,1)), color-stop(99%,rgba(188,220,243,1)), color-stop(100%,rgba(197,229,252,1))); 
+background: -webkit-linear-gradient(top, rgba(228,242,251,1) 0%,rgba(222,240,252,1) 15%,rgba(221,239,251,1) 19%,rgba(219,237,249,1) 20%,rgba(217,236,250,1) 32%,rgba(210,233,247,1) 43%,rgba(203,232,248,1) 60%,rgba(196,227,245,1) 70%,rgba(198,226,247,1) 73%,rgba(192,227,246,1) 77%,rgba(188,222,247,1) 93%,rgba(187,221,246,1) 98%,rgba(188,220,243,1) 98%,rgba(188,220,243,1) 99%,rgba(197,229,252,1) 100%);
+background: -o-linear-gradient(top, rgba(228,242,251,1) 0%,rgba(222,240,252,1) 15%,rgba(221,239,251,1) 19%,rgba(219,237,249,1) 20%,rgba(217,236,250,1) 32%,rgba(210,233,247,1) 43%,rgba(203,232,248,1) 60%,rgba(196,227,245,1) 70%,rgba(198,226,247,1) 73%,rgba(192,227,246,1) 77%,rgba(188,222,247,1) 93%,rgba(187,221,246,1) 98%,rgba(188,220,243,1) 98%,rgba(188,220,243,1) 99%,rgba(197,229,252,1) 100%);
+background: -ms-linear-gradient(top, rgba(228,242,251,1) 0%,rgba(222,240,252,1) 15%,rgba(221,239,251,1) 19%,rgba(219,237,249,1) 20%,rgba(217,236,250,1) 32%,rgba(210,233,247,1) 43%,rgba(203,232,248,1) 60%,rgba(196,227,245,1) 70%,rgba(198,226,247,1) 73%,rgba(192,227,246,1) 77%,rgba(188,222,247,1) 93%,rgba(187,221,246,1) 98%,rgba(188,220,243,1) 98%,rgba(188,220,243,1) 99%,rgba(197,229,252,1) 100%);
+background: linear-gradient(to bottom, rgba(228,242,251,1) 0%,rgba(222,240,252,1) 15%,rgba(221,239,251,1) 19%,rgba(219,237,249,1) 20%,rgba(217,236,250,1) 32%,rgba(210,233,247,1) 43%,rgba(203,232,248,1) 60%,rgba(196,227,245,1) 70%,rgba(198,226,247,1) 73%,rgba(192,227,246,1) 77%,rgba(188,222,247,1) 93%,rgba(187,221,246,1) 98%,rgba(188,220,243,1) 98%,rgba(188,220,243,1) 99%,rgba(197,229,252,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f2fb', endColorstr='#c5e5fc',GradientType=0 );}
+.opt .details p				{ font-family:'Lato', sans-serif; font-size:14px; color:#9BAAB4; line-height:18px;text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.7); }
+.opt .details p span		{display:block}
+.opt .details p strong		{ color:#9BAAB4; text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.7); }
+.opt.flight .details strong	{ color:#9BAAB4; display:block; float:left; width:48px; text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.7); }
+.opt.active .details p strong{color:#5F6062;}
+/* active state */
+.options_box .opt.active .title			{position:relative; width:100%; height:47px; line-height:47px; color:#fff; font-family:'Lato', sans-serif; font-size:18px; font-weight:normal; text-shadow:none !important; background:#4aac02; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#47a602', endColorstr='#4db402'); 
+background: -webkit-gradient(linear, left top, left bottom, from(#47a602), to(#4db402)); 
+background: -moz-linear-gradient(top,  #47a602,  #4db402); padding:0 4px; }
+.opt.active .details		{ min-height:127px; padding:15px 10px 5px 10px; background:#fff !important; }
+.opt.active .details p		{ font-family:'Lato', sans-serif; font-size:14px;font-weight:600; color:#5F6062; line-height:18px; }
+
+.opt.active .details p.black{ color:#000;font-weight:900 }
+.opt.active .details p span	{ font-size:12px; display:block; color:#465a6b;display:block }
+.opt.travel					{ position:relative; }
+.opt.travel .title			{ background:url(../images/travel_title.jpg) no-repeat ; filter:none; border:none; }
+.opt.travel .details		{ background:url(../images/details_travel.jpg) repeat-y ; filter:none;border-right:none }
+.opt.travel	.rightarrow		{ position:absolute; width:44px; height:171px; right:-42px; top:0px; background:url(../images/arrowpng.png) left top }
+.opt.travel.active .rightarrow {background:url(../images/bg-activearrow.png) right top no-repeat}
+.rightarrow img				{height:175px;}
+.activearrow				{display:none}
+.active	.activearrow		{display:block}
+.active	.arrowpng			{display:none}
+.right-arrow				{ position:absolute;right:-42px; top:-1px;background:url("../images/bookinghotel-transparent-arrow.png") no-repeat scroll right center transparent;}
+
+.opt .title span.icon		{ text-indent:-9999px; display:block; float:left; }
+.opt .details a{cursor:pointer;position:absolute;bottom:4px;font-size:10px;color:#0868aa;text-shadow:1px 1px 0px #FFFFFF;font-weight:600;right:4px;text-transform:uppercase}
+.opt.checked .title span.icon{background:url(../images/icon-greenclick.png);width:35px;height:35px;margin-top:5px}
+.opt.active .details.edit-change h6{font-size:12px;font-weight:900;color:#0086ee;line-height:18px}
+.opt.active .details.edit-change span{color:#465a6b;line-height:18px;font-size:12px;font-weight:400;}
+.opt .details.edit-change div{color:#465a6b;font-size:12px;font-weight:400}
+.opt .details.edit-change{color:#0086ee;font-size:11px;font-weight:900;position:relative}
+.opt .details.edit-change a{left:5px;}
+.opt .details.edit-change div.bottom-text{position:absolute;bottom:20px;left:5px}
+
+/* =============================================================================
+   Price
+   ========================================================================== */
+.totalprice					{ width:170px; float:right; position:absolute; top:100px; right:10px; text-align:right; font-family:'Lato', sans-serif; }
+.totalprice p				{ text-transform:uppercase; color:#465a6b; font-size:12px; font-weight:bold; }
+.totalprice p.per			{ font-size:10px; margin-top:-3px;font-weight:400 }
+.totalprice .lowestprice	{ font-size:40px; widows:163px; font-weight:bold; color:#465a6b; text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.7); }
+.totalprice .lowestprice span { font-size:22px; display:inline-block; height:39px; vertical-align:text-top; }
+.totalprice .lowestprice span.sign { margin:7px 0 0 15px; }
+.totalprice .lowestprice span.cents {height: 39px; margin-left: 2px; margin-right: 0; margin-top: 6px;}
+.totalprice-list{ bottom: 85px;float: right;position: absolute; right: 15px; text-align: right;width: 165px;padding-bottom:10px;border-bottom:solid 1px #bcd1df;box-shadow:0px 1px 0 0 #fff;-webkit-box-shadow:0px 1px 0 0 #fff}
+.totalprice-list p{text-transform:uppercase;font-size:12px;color:#465a6b;width:165px;display:block;text-align:left;line-height:18px;font-weight:600}
+.totalprice-list p span{font-weight:bold;float:left;width:11px}
+.totalprice-list p span.Price{float:right;text-align:right;width:60px}	
+.totalprice-list p.Promo-price{color:#01890d}
+/* =============================================================================
+							Select multiple rooms
+   ========================================================================== */
+.select-multiple-rooms-Leftcontainer .label-large-orange{margin-left:-9px}
+.select-multiple-rooms{width:942px;background:rgba(249,251,252,0.8);-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCF9FBFC,endColorstr=#CCF9FBFC);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCF9FBFC,endColorstr=#CCF9FBFC);
+zoom: 1;margin:0 auto;border-radius:0 0 10px 10px;-webkit-border-radius:0 0 10px 10px;-webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.67);
+-moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.67);box-shadow:0 1px 5px 0 rgba(0,0,0,0.67);}
+.select-multiple-rooms-Leftcontainer{width:285px;height:165px;background:url("../images/bg-triangle.png") no-repeat scroll right center transparent;float:left;padding-top:20px}
+.select-multiple-rooms-Leftcontainer h5{font-weight:600;font-size:14px;padding:25px 0 0 20px;color:#333}
+.RoomCheck{padding:5px 0 0 20px;font-size:12px;color:#333;float:left;line-height:16px}
+.RoomCheck input{ margin-right:5px;float:left}
+.room-list{margin-left:285px;padding-top:10px;padding-bottom:6px}
+.room-list .PriceLine .Price-block{font-size: 26px;line-height: 26px;}
+.room-list .PriceLine .price{color:#465a6b}
+.room-list li{width:656px;font-size:12px;border-top:solid 1px #c3d8e6;padding:5px 0;display:inline-block;box-shadow: 0 1px 0 0 #e8f2f8 inset;-webkit-box-shadow: 0 1px 0 0 #e8f2f8 inset;}	/*	Changed font-size:12px */
+.room-num{float:left;width:122px;margin-left:15px;font-size:12px;font-weight:600}	/* changed font-size:12px - Ronak*/
+.PriceLine{float:right;width:115px;text-align:right;margin-right:10px}
+.PriceLine .price{font-size:10px}
+.PriceLine .price b{font-size:26px}
+.PriceLine .inline-block{font-size:10px}
+.RoomsChange{float:right;width:190px; font-size:12px}	/* added font-size:12px - Ronak*/
+.RoomsChange a{display:block;font-size:10px;text-transform:uppercase}	/* changed font-size:10px - Ronak*/
+.room-list .active {background:#f9fbfc}
+.Select-room-type-text{text-transform:uppercase;color:#465a6b;font-size:12px}
+/**********More Vacations**********/
+.Vacations{width:942px;padding:10px 20px 20px 20px;background:rgba(249,251,252,0.8);-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCF9FBFC,endColorstr=#CCF9FBFC);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCF9FBFC,endColorstr=#CCF9FBFC);
+zoom: 1;margin:0 auto 10px;border-radius:0 0 10px 10px;-webkit-border-radius:0 0 10px 10px;-webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.67);
+-moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.67);box-shadow:0 1px 5px 0 rgba(0,0,0,0.67);}
+#vacationMain{ padding-bottom:30px}
+.promoCodeWrap{ margin-top:15px}
+.clost-text {cursor:pointer}
+.Vacations a.clost-text-bottom{cursor:pointer; margin-top:8px}
+.morevacations-list{width:900px;margin-top:10px;display:inline-block}
+.morevacations-list h6{color:#0086ee;font-size:10px;font-weight:600;margin-left:8px;margin-top:5px;text-transform: uppercase}
+.morevacations-list p{color:#333333;font-size:10px;font-weight:600;margin-left:8px;text-transform: uppercase}
+.morevacations-list li{float:left;position:relative;width:170px;height:155px;margin:0 5px;background-color:#fff;border-radius:5px;-webkit-border-radius:5px}
+.morevacations-list li img{}
+.morevacations-list li span{position:absolute;top:85px;left:-8px}
+.Vacations h3{color:#000000;font-weight:900;font-size:18px;float:left}
+.Vacations a{color:#0086ee;font-weight:900;font-size:11px;float:right;text-transform:uppercase;margin-top:5px}
+/*************************REVISED VERSION OF THE BOOKING TABS*********************************/
+.add-traveller-info .totalprice{top:157px}
+
+.bookingtabs 						{ width:100%; float:left; }
+.bookingtab							{ width:25%; float:left; min-height:174px;border-right:solid 1px #bed9eb;box-shadow:1px 0px 0px 0px #fff;-webkit-box-shadow:1px 0px 0px 0px #fff ;z-index:1}
+.bookingtab.hotel .title img		{ margin:0 3px -3px 6px; }
+.bookingtab.flight .title img		{ margin:0 0px -8px 6px; }
+.bookingtab.extras .title img		{ margin:0 0px -6px 6px; }
+.bookingtab.travel .title img		{ margin:0 3px -3px 5px; }
+/* innactive state */
+.bookingtab .title					{ width:100%; height:47px; line-height:47px; color:#0868aa; font-family:'Lato', sans-serif; font-size:18px; font-weight:normal; text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.7);padding:0 4px;background-color:#D9EEFB;  }
+.bookingtab.extras .details p:before{content:"\00BB";margin-right:3px}
+.bookingtab .details				{ height:127px;position:relative; padding:15px 10px 5px 10px; 
+ /*IE9 SVG, needs conditional override of 'filter' to 'none'*/  background: rgb(228,242,251); 
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U0ZjJmYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjE1JSIgc3RvcC1jb2xvcj0iI2RlZjBmYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjE5JSIgc3RvcC1jb2xvcj0iI2RkZWZmYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjIwJSIgc3RvcC1jb2xvcj0iI2RiZWRmOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjMyJSIgc3RvcC1jb2xvcj0iI2Q5ZWNmYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQzJSIgc3RvcC1jb2xvcj0iI2QyZTlmNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjYwJSIgc3RvcC1jb2xvcj0iI2NiZThmOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1jb2xvcj0iI2M0ZTNmNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjczJSIgc3RvcC1jb2xvcj0iI2M2ZTJmNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijc3JSIgc3RvcC1jb2xvcj0iI2MwZTNmNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjkzJSIgc3RvcC1jb2xvcj0iI2JjZGVmNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk4JSIgc3RvcC1jb2xvcj0iI2JiZGRmNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk4JSIgc3RvcC1jb2xvcj0iI2JjZGNmMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk5JSIgc3RvcC1jb2xvcj0iI2JjZGNmMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjNWU1ZmMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top, rgba(228,242,251,1) 0%, rgba(222,240,252,1) 15%, rgba(221,239,251,1) 19%, rgba(219,237,249,1) 20%, rgba(217,236,250,1) 32%, rgba(210,233,247,1) 43%, rgba(203,232,248,1) 60%, rgba(196,227,245,1) 70%, rgba(198,226,247,1) 73%, rgba(192,227,246,1) 77%, rgba(188,222,247,1) 93%, rgba(187,221,246,1) 98%, rgba(188,220,243,1) 98%, rgba(188,220,243,1) 99%, rgba(197,229,252,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(228,242,251,1)), color-stop(15%,rgba(222,240,252,1)), color-stop(19%,rgba(221,239,251,1)), color-stop(20%,rgba(219,237,249,1)), color-stop(32%,rgba(217,236,250,1)), color-stop(43%,rgba(210,233,247,1)), color-stop(60%,rgba(203,232,248,1)), color-stop(70%,rgba(196,227,245,1)), color-stop(73%,rgba(198,226,247,1)), color-stop(77%,rgba(192,227,246,1)), color-stop(93%,rgba(188,222,247,1)), color-stop(98%,rgba(187,221,246,1)), color-stop(98%,rgba(188,220,243,1)), color-stop(99%,rgba(188,220,243,1)), color-stop(100%,rgba(197,229,252,1))); 
+background: -webkit-linear-gradient(top, rgba(228,242,251,1) 0%,rgba(222,240,252,1) 15%,rgba(221,239,251,1) 19%,rgba(219,237,249,1) 20%,rgba(217,236,250,1) 32%,rgba(210,233,247,1) 43%,rgba(203,232,248,1) 60%,rgba(196,227,245,1) 70%,rgba(198,226,247,1) 73%,rgba(192,227,246,1) 77%,rgba(188,222,247,1) 93%,rgba(187,221,246,1) 98%,rgba(188,220,243,1) 98%,rgba(188,220,243,1) 99%,rgba(197,229,252,1) 100%);
+background: -o-linear-gradient(top, rgba(228,242,251,1) 0%,rgba(222,240,252,1) 15%,rgba(221,239,251,1) 19%,rgba(219,237,249,1) 20%,rgba(217,236,250,1) 32%,rgba(210,233,247,1) 43%,rgba(203,232,248,1) 60%,rgba(196,227,245,1) 70%,rgba(198,226,247,1) 73%,rgba(192,227,246,1) 77%,rgba(188,222,247,1) 93%,rgba(187,221,246,1) 98%,rgba(188,220,243,1) 98%,rgba(188,220,243,1) 99%,rgba(197,229,252,1) 100%);
+background: -ms-linear-gradient(top, rgba(228,242,251,1) 0%,rgba(222,240,252,1) 15%,rgba(221,239,251,1) 19%,rgba(219,237,249,1) 20%,rgba(217,236,250,1) 32%,rgba(210,233,247,1) 43%,rgba(203,232,248,1) 60%,rgba(196,227,245,1) 70%,rgba(198,226,247,1) 73%,rgba(192,227,246,1) 77%,rgba(188,222,247,1) 93%,rgba(187,221,246,1) 98%,rgba(188,220,243,1) 98%,rgba(188,220,243,1) 99%,rgba(197,229,252,1) 100%);
+background: linear-gradient(to bottom, rgba(228,242,251,1) 0%,rgba(222,240,252,1) 15%,rgba(221,239,251,1) 19%,rgba(219,237,249,1) 20%,rgba(217,236,250,1) 32%,rgba(210,233,247,1) 43%,rgba(203,232,248,1) 60%,rgba(196,227,245,1) 70%,rgba(198,226,247,1) 73%,rgba(192,227,246,1) 77%,rgba(188,222,247,1) 93%,rgba(187,221,246,1) 98%,rgba(188,220,243,1) 98%,rgba(188,220,243,1) 99%,rgba(197,229,252,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f2fb', endColorstr='#c5e5fc',GradientType=0 );}
+.bookingtab .details p				{ font-family:'Lato', sans-serif; font-size:14px; color:#9BAAB4; line-height:18px;text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.7); }
+.bookingtab .details p span		{display:block}
+.bookingtab .details p strong		{ color:#9BAAB4; text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.7); }
+.bookingtab.flight .details strong	{ color:#9BAAB4; display:block; float:left; width:48px; text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.7); }
+.bookingtab.active .details p strong{color:#5F6062;}
+/* active state */
+.bookingtabs .bookingtab:first-child .details   {border-radius:0 0 0 8px;-moz-border-radius:0 0 0 8px;-webkit-border-radius:0 0 0 8px;}
+.bookingtabs .bookingtab.active .title			{position:relative; width:100%; height:47px; line-height:47px; color:#fff; font-family:'Lato', sans-serif; font-size:18px; font-weight:normal; text-shadow:none !important; background:#4aac02; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#47a602', endColorstr='#4db402'); 
+background: -webkit-gradient(linear, left top, left bottom, from(#47a602), to(#4db402)); 
+background: -moz-linear-gradient(top,  #47a602,  #4db402); padding:0 4px; }
+.bookingtab.active .details		{ height:127px; padding:15px 10px 5px 10px; background:#fff !important; box-shadow: 1px 0 3px 0 rgba(0, 0, 0, 0.25) inset;-webkit-box-shadow: 1px 0 3px 0 rgba(0, 0, 0, 0.25) inset;}
+.bookingtab.active .details p		{ font-family:'Lato', sans-serif; font-size:14px;font-weight:600; color:#5F6062; line-height:18px; }
+.bookingtab.active .details p.black{ color:#000;font-weight:900 }
+.bookingtab.active .details p span	{ font-size:12px; display:block; color:#465a6b;display:block }
+.bookingtab.travel					{ position:relative; }
+.bookingtab.travel	.rightarrow		{ position:absolute; width:44px; height:171px; right:-42px; top:0px; background:url(../images/arrowpng.png) left top }
+.bookingtab.travel.active .rightarrow {background:url(../images/bg-activearrow.png) right top no-repeat}
+.bookingtab .title span.icon		{ text-indent:-9999px; display:block; float:left; }
+.bookingtab .details a{cursor:pointer;position:absolute;bottom:4px;font-size:10px;color:#0868aa;text-shadow:1px 1px 0px #FFFFFF;font-weight:600;right:4px;text-transform:uppercase}
+.bookingtab.checked .title span.icon{background:url(../images/icon-greenclick.png);width:35px;height:35px;margin-top:5px}
+.bookingtabs .bookingtab.active .title:after ,.options_box .opt.active .title:after{border-left: 10px solid transparent;border-right: 10px solid transparent; border-top: 8px solid #4DB302; content: "";height: 0;left: 0;margin-left: 10px;position: absolute;top: 100%;width: 0;z-index: 1;}
+
+.Package-edit-footer{position:absolute;left:0;bottom:0;width:100%}
+.opt.hotel .package-includes{border-radius:0 0 0 8px;-webkit-border-radius:0 0 0 8px;}
+.package-includes{margin:0;cursor:pointer;font-weight:600;width:100%;height:33px;line-height:33px;
+background: rgb(70,163,206);background: -moz-linear-gradient(top,  rgba(70,163,206,1) 0%, rgba(70,163,206,1) 50%, rgba(30,154,201,1) 51%, rgba(30,154,201,1) 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(70,163,206,1)), color-stop(50%,rgba(70,163,206,1)), color-stop(51%,rgba(30,154,201,1)), color-stop(100%,rgba(30,154,201,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(70,163,206,1) 0%,rgba(70,163,206,1) 50%,rgba(30,154,201,1) 51%,rgba(30,154,201,1) 100%); background: -o-linear-gradient(top,  rgba(70,163,206,1) 0%,rgba(70,163,206,1) 50%,rgba(30,154,201,1) 51%,rgba(30,154,201,1) 100%); 
+background: -ms-linear-gradient(top,  rgba(70,163,206,1) 0%,rgba(70,163,206,1) 50%,rgba(30,154,201,1) 51%,rgba(30,154,201,1) 100%);
+background: linear-gradient(to bottom,  rgba(70,163,206,1) 0%,rgba(70,163,206,1) 50%,rgba(30,154,201,1) 51%,rgba(30,154,201,1) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#46a3ce', endColorstr='#1e9ac9',GradientType=0 ); }
+.opt .details.edit-change .package-includes span{font-size:12px;font-weight:400;color:#fff;line-height:33px;margin-left:15px}
+.package-includes.expand a.closed {background:url(../images/white-icon-expander.png) 0px 0px no-repeat;bottom:12px;left:162px}
+.package-includes.closed a.closed {background:url(../images/white-icon-expander.png) 0px -8px no-repeat;bottom:12px;left:162px}
+.opt .details.edit-change .Package-edit-footer a.view-edit{float:right;position:relative;margin-right:10px} 
+
+/*******/
+.right-custom-arrow{position:absolute;height:100%;right:-42px;top:0;width:44px}
+.opt .details.edit-change .change-open{border-bottom:dotted 1px #689acb;float:left;width:100%}
+.opt .details.edit-change .change-open a{float:right;font-sie:10px;font-weight:600;text-transform:uppercase;color:#0086ee;margin-top:6px;position:relative}
+.opt.active .details.edit-change h5{font-size:12px;font-weight:600;color:#999;line-height:18px;text-transform:uppercase}
+.opt .details.edit-change .change-repeaters .change-open:last-child{border-bottom:none}
+.options_box.expanded .opt .details{float:left;width:100%;height:100%}
+.options_box.expanded a.Closed{font-size:11px;font-weight:900;color:#0086ee;position:relative;margin-top:10px;float:left}
+.options_box.expanded a.Closed span{background: url("../images/icon-expander.png") no-repeat scroll -21px -8px transparent;
+    bottom:3px;height: 7px;width: 9px;position: absolute;right: -16px; transition: all 200ms ease 0s;}

@@ -1,0 +1,100 @@
+#deals-landing-page-only-4 .label-large-red-checked {
+    background: url("../images/label-large-value-red-check.png") no-repeat scroll left top transparent;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    height: 39px;
+    margin: 0 0 0 -14px;
+    padding: 8px 0 0 25px;
+    position: relative;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    text-transform: capitalize;
+    width: 230px;
+}
+#deals-landing-page-only-4 h2 {
+    margin: 0 !important;
+}
+#deals-landing-page-only-4 .find-vacation-r2{
+	padding:20px 0 0 0;	
+}
+#deals-landing-page-only-4 .dates-for-travel a{
+	font-size:12px !important;	
+}
+#deals-landing-page-only-4 .special-deal-package{
+	border-bottom:none !important;	
+}
+
+#deals-landing-page-only-4 .special-deals{
+	height:auto !important;	
+}
+#deals-landing-page-only-4 .rating-plus-orange{
+	color:#f57f36;
+	font-size:16px;
+	float:left;
+	position:relative;
+	top: 5px;
+	padding:0 4px 0 0;
+}
+#deals-landing-page-only-4 .about-rating{
+	 background: url("../images/question-mark-icon.png") no-repeat scroll 0 6px transparent;
+    float: left;
+    font-size: 11px !important;
+    height: 27px;
+	padding:0;
+	margin:0 0 0 2px !important;
+    position: absolute;
+    width: 15px;
+}
+#deals-landing-page-only-4 .oneColumn {
+	position:relative;	
+    height: 215px;
+    margin-left: 0;
+    width: 308px;
+}
+#deals-landing-page-only-4 .PromoB{
+    display: inline-block;
+    margin-top: 0;
+    position: relative;
+}
+
+#deals-landing-page-only-4 .PromoB img {
+    border-radius: 4px 4px 4px 4px;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+#deals-landing-page-only-4 .PromoB a {
+    bottom: 20px;
+    color: #53D5FA;
+    font-size: 10px;
+    font-weight: 600;
+    position: absolute;
+    right: 40px;
+    text-transform: uppercase;
+}
+#back-to-top{
+	background:#c2d9e9;
+	border:2px solid #fff;
+	width:99px;
+	height:60px;
+	padding:14px;
+	position:fixed;
+	margin-left:970px;
+	bottom:-4px;
+	border-top-left-radius:8px; -webkit-border-top-left-radius:8px; -moz-border-top-left-radius:8px; border-top-right-radius:8px; -webkit-border-top-right-radius:8px; -moz-border-top-right-radius:8px; 
+	font-size:16px;
+	font-weight:bold;
+}
+#back-to-top a .back-icon{
+	float:left;
+	padding:0 5px 0 0;
+}
+#back-to-top a .back-copy{
+	float:left;
+	text-decoration:none;
+	color:#000;
+}
+#wrapper{
+	position:relative;	
+}

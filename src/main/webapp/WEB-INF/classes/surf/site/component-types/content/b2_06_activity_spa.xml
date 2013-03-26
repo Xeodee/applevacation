@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component-type>
+    <id>b2_06_activity_spa</id>
+    <title>Main Component Type</title>
+    <description>Main Component Type</description>
+
+    <processor mode="view">
+        <id>jsp</id>
+        <jsp-path>/WEB-INF/pages/content/jsp/b2_06_activity_spa.jsp</jsp-path>
+    </processor>
+</component-type>

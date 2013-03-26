@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<page>
+   <id>hotel_details_layer_picture_it</id>
+   <title>Home Page</title>
+   <template-instance>templateModel_2_instance1</template-instance>
+   <authentication>none</authentication>
+   <order-id>0</order-id>
+   <components>
+      <component>
+         <region-id>content</region-id>
+         <component-type-id>hotel_details_layer_picture_it</component-type-id>
+     	 <chrome>box</chrome>
+      </component>   
+   </components>
+</page>

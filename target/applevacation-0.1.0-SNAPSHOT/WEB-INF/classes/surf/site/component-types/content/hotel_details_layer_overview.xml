@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component-type>
+    <id>hotel_details_layer_overview</id>
+    <title>Main Component Type</title>
+    <description>Main Component Type</description>
+
+    <processor mode="view">
+        <id>jsp</id>
+        <jsp-path>/WEB-INF/pages/content/jsp/hotel_details_layer_overview.jsp</jsp-path>
+    </processor>
+</component-type>

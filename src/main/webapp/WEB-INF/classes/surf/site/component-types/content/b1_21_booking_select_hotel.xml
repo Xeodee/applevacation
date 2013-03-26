@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component-type>
+    <id>b1_21_booking_select_hotel</id>
+    <title>Main Component Type</title>
+    <description>Main Component Type</description>
+
+    <processor mode="view">
+        <id>jsp</id>
+        <jsp-path>/WEB-INF/pages/content/jsp/b1_21_booking_select_hotel.jsp</jsp-path>
+    </processor>
+</component-type>

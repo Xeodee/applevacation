@@ -1,0 +1,25 @@
+#b1_48_Search_other_content .lCol .wc-header h1 { margin-bottom: 0; }
+#b1_48_Search_other_content .lCol .wc-header .right { height: 50px; }
+#b1_48_Search_other_content .lCol .wc-header .right .relatedsearches { font-size: 10px; text-transform: uppercase; font-weight: bold; color: #465a6b; padding-top: 6px; }
+#b1_48_Search_other_content .lCol .wc-header .right a { padding: 4px; border: 1px solid #CACACA; border-radius: 5px 5px 5px 5px; font-size: 14px; }
+#b1_48_Search_other_content .lCol .wc-header span.left { margin-left: 15px; margin-bottom: 15px; font-size: 14px; }
+#b1_48_Search_other_content .lCol .wc-header span.searchterm { color: #0086ee; }
+#b1_48_Search_other_content .small.sortby.left { width: 150px; margin-right: 20px; }
+#b1_48_Search_other_content .small.perpage { width: 70px; }
+#b1_48_Search_other_content .headerright { margin-right: 30px; }
+#b1_48_Search_other_content .headerright .left { margin-right: 5px; margin-top: 6px; }
+#b1_48_Search_other_content .headerright span { margin-right: 10px; font-size: 10px; text-transform: uppercase; font-weight: bold; color: #465a6b; padding-top: 6px; }
+#b1_48_Search_other_content .bottom-content { margin-bottom: 20px; }
+#b1_48_Search_other_content span.matchnumber { margin-left: 15px; font-size: 30px; }
+#b1_48_Search_other_content span.matches { margin-left: 5px; font-size: 10px; text-transform: uppercase; font-weight: bold; color: #465a6b; }
+#b1_48_Search_other_content .bottom-content .content-row { margin: 0 20px; border-bottom: solid 1px #cbcbcb; padding: 20px 80px 20px 0; line-height: 17px; }
+#b1_48_Search_other_content .bottom-content .content-row h3 { color: #0086ee; font-size: 16px; }
+#b1_48_Search_other_content .bottom-content .content-row h4 { color: #333333; font-size: 12px; font-weight: bold; }
+#b1_48_Search_other_content .bottom-content .content-row p { color: #333333; }
+#b1_48_Search_other_content .bottom-content .content-row img { float: left; margin-right: 20px; }
+#b1_48_Search_other_content .pagination { float: right; }
+#b1_48_Search_other_content .pagination a { background: transparent url('../images/pagination-bg.png') center no-repeat; padding-top: 6px; display: inline-block; float: left; color: #717171; height: 25px; width: 25px; text-align: center; margin-right: 6px; }
+#b1_48_Search_other_content .pagination a.left { background: transparent url('../images/pagination-arrow-left.png') center no-repeat; }
+#b1_48_Search_other_content .pagination a.right { background: transparent url('../images/pagination-arrow-right.png') center no-repeat; }
+#b1_48_Search_other_content .pagination a.current { background: transparent url('../images/pagination-bg-selected.png') center no-repeat; color: #f2f2f2; }
+#b1_48_Search_other_content .pagination a.ellipsis { background: transparent url('../images/pagination-bg-ellipsis.png') center no-repeat; }

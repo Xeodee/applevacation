@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<template-instance>
+  	<description>Instance of templateModel_1</description>
+   	<template-type>templateModel_1</template-type>
+   	
+   	<components>
+      <component>
+         <region-id>header</region-id>
+         <component-type-id>templateModel_1_header3</component-type-id>
+     	 <chrome>box</chrome>
+      </component>      
+      <component>
+         <region-id>footer</region-id>
+         <component-type-id>templateModel_1_footer1</component-type-id>
+     	 <chrome>box</chrome>
+      </component>      
+    </components> 
+</template-instance>

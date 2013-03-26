@@ -1,0 +1,48 @@
+.billing-wide-content .billing-content{padding:0 15px}
+.billing-wide-content .billing-content p{font-size:14px;color:#333;width:710px}
+.billing-wide-content .billing-content p strong{font-size:14px;color:#333;}
+.filter-row.input-info-block{padding-left:40px}
+.traveller-info{display:inline-block;padding-top:25px;position:relative}
+.primary-contact{display:inline-block;padding-top:25px}
+
+.primary-info{display:inline-block;padding-bottom:20px;border-bottom:solid 1px #bcd6e7;width:932px}
+.traveller-info.note{padding-top:35px}
+.traveller-info h5{font-size:18px;line-height:14px;font-weight:600;color:#465a6b;text-transform:uppercase}
+.input-info-title .filter-dropdown.small-value{width:93px;margin:9px 30px 0 0 }
+.input-info-dob .filter-dropdown.small-value{width:93px;margin:9px 8px 0 0;float:left;display:inline-block}
+.filter-block.input-info{margin-right:7px;width:237px}
+.filter-block.input-info_m{margin-right:7px;width:195px}
+.filter-row .input-info-title {display: inline-block; margin-right: 30px;vertical-align: bottom; width: 93px;}
+.filter-row .input-info-dob{display: inline-block; margin-right: 20px;vertical-align: bottom; width: 307px;}
+.input-info-dob h6{width:100%}
+.check-offers{display:inline-block;padding:20px 0 0 0px}
+.primary-contact p{padding-top:15px}
+/*********BILLING INFORMATION**************/
+.billing-information{display:inline-block;padding-top:25px;position:relative}
+.billing-information .check-offers{display:block;float:left}
+.verisign-img{width:85px;height:35px;background-image:url("../images/verisignlogo.png");display:inline-block;float:right;margin:-16px 0 0 6px}
+.verisign{position:absolute;right:10px;top:30px}
+.content .verisign p{font-size:14px;font-weight:900;color:#333;}
+.booking-search-footer.billing .btn-light-grey {width: 145px;}
+.booking-search-footer.billing .btn-dark-blue{margin-right:0}
+.filter-row .input-info-title.cardtype{width:190px}
+.input-info-title.cardtype .filter-dropdown.small-value{width:190px}
+.filter-row .input-info-title.expriation{width:205px;margin-right:20px}
+.filter-row .input-info-title.expriation .filter-dropdown.small-value {float:left;margin-right:7px}
+.input-info-title.expriation h6{width:100%}
+.filter-block.input-info.cardnumber{margin-right:27px}
+.filter-block.input-info.securitycode{width:150px}
+.filter-block.input-info.securitycode input{width:60px}
+.filter-block.input-info.securitycode p{font-size:14px;color:#277bb4;margin:18px 0 0 70px;width:150px}
+.filter-block.input-info.zipcode{width:125px;margin-right:0}
+.filter-block.billing-info{margin-right:30px;width:305px}
+.filter-block.input-info.city{margin-right:27px}
+.verification-text {position:absolute;width:480px;top:25px;left:320px}
+.mastercard-img{width:85px;height:38px;background-image:url("../images/mastercadeimg.png");display:inline-block;margin-right:10px}
+.visa-img{width:85px;height:38px;background-image:url("../images/visaimg.png");display:inline-block;}
+.billing-wide-content .billing-content .verification-text p{font-size:12px;color:#333;line-height:14px;width:480px}
+.terms-textarea{float:left;margin-top:9px;width:850px; height:125px;border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;padding:15px 0 15px 15px; background: #ededed; background: -moz-linear-gradient(top,  #ededed 1%, #ffffff 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ededed), color-stop(100%,#ffffff)); background: -webkit-linear-gradient(top,  #ededed 1%,#ffffff 100%); background: -o-linear-gradient(top,  #ededed 1%,#ffffff 100%); background: -ms-linear-gradient(top,  #ededed 1%,#ffffff 100%); background: linear-gradient(to bottom,  #ededed 1%,#ffffff 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#ffffff',GradientType=0 ); -webkit-box-shadow: inset 2px 2px 6px 0px rgba(0, 0, 0, .3); box-shadow: inset 2px 2px 6px 0px rgba(0, 0, 0, .3)}
+.terms-textarea textarea{resize:none; font-size:14px;  font-weight: 300;  border:0;width:833px;height:95px;background:transparent }
+.filter-row.textarea{border-bottom: 1px solid #BCD6E7;padding:10px 0 10px 30px;width:920px}
+.verising-footer{position:relative;height:100px}
+.billing-wide-content.term .traveller-info{padding-top:15px}

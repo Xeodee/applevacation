@@ -1,0 +1,2235 @@
+
+
+/*
+///////////////////////////////////////////////////////////////////////////////
+-------------------------------------------------------------------------------
+Apple Vacations Global CSS
+Version 1.0
+Last Updated: 09/03/2012
+
+Global Style Sheet
+
+Table of Contents:
+
+1. Globals
+	1.1 Browser Reset
+	1.2 General Tags
+		1.2.1 Headings
+		1.2.2 Font Styles & Colors
+		1.2.3 Anchors
+		1.2.4 Lists
+		1.2.5 Clearfix
+		1.2.6 Colors
+		
+2. Layout
+	2.1 Page Background
+	2.2 Header
+		2.2.1 Header Container
+		2.2.2 Logo
+		2.2.3 Contact Apple
+	2.3 Navigation
+		2.3.1 First Level Menu
+		2.3.2 Drop Downs
+	2.4 Footer
+		2.4.1 Sign Up Bar
+		2.4.2 Sign Up Bar - Message
+		2.4.3 Sign Up Bar - Sign up Field
+		2.4.4 Sign Up Bar - Follow Us
+		2.4.5 Footer Navigation
+		2.4.6 Footer Phone Number
+		2.4.7 Copyright
+	2.5 Dashboard
+		2.5.1 Dashboard Header
+		2.5.2 Dashboard Weather
+		2.5.3 Dashboard Expand
+		2.5.4 Dashboard Account Menu
+		2.5.5 Dashboard Account Menu Sub Menu
+		2.5.6 Dashboard Account Menu - Sub Menu - Upcoming Trip
+	2.6 Content Container
+	2.7 Wide Content
+		2.7.1 Wide Content Header
+		2.7.2 Wide Content Subnav
+		2.7.3 Wide Content Body
+		2.7.4 Content Columns
+		2.7.5 Share Bar
+	
+		
+3. Common Elements
+	3.1 Gradients
+	3.2 Rounded Corners
+	3.3 Borders
+	3.4 Vertical Padding
+	3.5 Icons
+	3.6 Labels
+		3.6.1 Large Labels
+		3.6.2 Small Labels
+	3.7 Form Elements
+		3.7.1 Inputs
+		3.7.2 Selects
+		3.7.3 Check Boxes
+	3.8 Buttons
+	3.9 Bread Crumbs
+	3.10 Pagination
+	3.1 Common Classes CSS
+4. Tool Kit CSS .
+	4.1 Side bars
+
+-------------------------------------------------------------------------------
+///////////////////////////////////////////////////////////////////////////////
+-------------------------------------------------------------------------------
+1. Globals
+-------------------------------------------------------------------------------
+///////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////
+1.1 Browser Reset
+////////////////////////////////////////////////////////
+*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {margin:0;padding:0}
+table {border-collapse:collapse;border-spacing:0; line-height:1; letter-spacing:1px;}
+fieldset,img {border:0}
+address,caption,cite,code,dfn,em,strong,th,var {font-style:normal;font-weight:normal}
+ol,ul {list-style:none}
+caption,th {text-align:left}
+h1,h2,h3,h4,h5,h6 {font-weight:normal}
+q:before,q:after {content:''}
+abbr,acronym { border:0}
+* {-moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; *behavior: url(css/boxsizing.htc); zoom:1}
+html, body {height:100%;}
+html {*overflow-x:hidden}
+body {width:100%; height:100%; background:#003775; font-family:'Lato', sans-serif; font-size:12px}
+button{border:0;padding:0}
+.pie{behavior: url(PIE.htc);}
+.fixed-layout-blacktransparent{z-index:9}
+
+/* Sticky Footer */
+#wrapper {min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -247px}
+#scroller-wrapper {min-height:100%; height:auto !important; height:100%; margin:0 auto -352px}
+.push {height:247px}
+.scroller-push {height:352px}
+
+/*
+////////////////////////////////////////////////////////
+1.2 General Tags
+////////////////////////////////////////////////////////
+
+--------------------------------------------------------
+1.2.1 Headings
+--------------------------------------------------------
+*/
+h1 {margin:0 0 20px 20px; font-size:38px; font-family:'Rokkitt', serif; color:#fff}
+h2 {}
+h3 {}
+h4 {font-size:13px; font-weight:400}
+h5 {}
+h6 {}
+
+.wide-content h1, .narrow-content h1 {margin:0; color:#465a6b}
+.wide-content h4, .narrow-content h4 {color:#465a6b; font-weight:700}
+
+/*
+--------------------------------------------------------
+1.2.2 Font Styles & Colors
+--------------------------------------------------------
+*/
+p {}
+strong {font-weight:700}
+em {font-style:italic}
+del {text-decoration: line-through; color:red}
+
+.gold {color:#faac40}
+
+/*
+--------------------------------------------------------
+1.2.3 Anchor Styles
+--------------------------------------------------------
+*/
+a {color:#0086ee; text-decoration:none}
+a:hover {text-decoration:underline}
+.nohover:hover {text-decoration:none; cursor:default}
+
+/*
+--------------------------------------------------------
+1.2.4 Lists
+--------------------------------------------------------
+*/
+ul {}
+ul li {}
+ol {}
+ol li {list-style:decimal}
+
+
+
+/*
+--------------------------------------------------------
+1.2.5 Clearfix
+--------------------------------------------------------
+*/
+.clearfix:after {content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0;}
+.clearfix {display:inline-block;}
+html[xmlns] .clearfix {display:block;}
+* html .clearfix {height:1%;}
+
+/*
+--------------------------------------------------------
+1.2.6 Colors
+--------------------------------------------------------
+*/
+.red {color:#CF2B05;}
+.red-bg {background:#CF2B05;}
+.green {color:#51BE01;}
+.green-bg {background:#51BE01;}
+.blue {color:#0186EF;}
+.blue-bg {background:#0186EF;}
+.brightBlue {color:#53D3FB;}
+.brightBlue-bg {background:#53D3FB;}
+.darkBlue {color:#02468D;}
+.darkBlue-bg {background:#02468D;}
+.paleBlue {color:#689ACB;}
+.paleBlue-bg {background:#689ACB;}
+.lightBlue {color:#C2D9E9;}
+.lightBlue-bg {background:#C2D9E9;}
+.grayBlue {color:#475A6B;}
+.grayBlue-bg {background:#475A6B;}
+.camoGreen {color:#515D2B;}
+.camoGreen-bg {background:#515D2B;}
+.sand {color:#8C7F5C;}
+.sand-bg {background:#8C7F5C;}
+.lightSand {color:#CBC0AC;}
+.lightSand-bg {background:#CBC0AC;}
+.maroon {color:#800941;}
+.maroon-bg {background:#800941;}
+.purple {color:#6B3255;}
+.purple-bg {background:#6B3255;}
+.orange {color:#E65C11;}
+.orange-bg {background:#E65C11;}
+.yellow {color:#FAAC40;}
+.yellow-bg {background:#FAAC40;}
+
+/*
+///////////////////////////////////////////////////////////////////////////////
+-------------------------------------------------------------------------------
+2. Layout
+-------------------------------------------------------------------------------
+///////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////
+2.1 Page Background
+////////////////////////////////////////////////////////
+*/
+#background {left: 0; top: 0; right:0; bottom:0; width:100%; min-width:1100px; height:auto; position:fixed; overflow:hidden; z-index: -1; background:#003775;}
+#background img {position:relative; top:0; width:100%; height:auto}
+
+/*
+////////////////////////////////////////////////////////
+2.2 Header
+////////////////////////////////////////////////////////
+
+--------------------------------------------------------
+2.2.1 Header Container
+--------------------------------------------------------
+*/
+#header {display:block; position:relative; *position:static; margin: 0 auto; padding: 22px 0 0 24px; min-width:1100px; height:93px;  background: -moz-linear-gradient(top, rgba(30,87,153,0.45) 0%, rgba(30,87,153,0.58) 70%, rgba(9,56,133,1) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(30,87,153,0.45)), color-stop(70%, rgba(30,87,153,0.58)), color-stop(100%, rgba(9,56,133,1))); background: -webkit-linear-gradient(top, rgba(30,87,153,0.45) 0%, rgba(30,87,153,0.58) 70%, rgba(9,56,133,1) 100%); background: -o-linear-gradient(top, rgba(30,87,153,0.45) 0%, rgba(30,87,153,0.58) 70%, rgba(9,56,133,1) 100%); background: -ms-linear-gradient(top, rgba(30,87,153,0.45) 0%, rgba(30,87,153,0.58) 70%, rgba(9,56,133,1) 100%); background: linear-gradient(to bottom, rgba(30,87,153,0.45) 0%, rgba(30,87,153,0.58) 70%, rgba(9,56,133,1) 100%); -pie-background: linear-gradient(to bottom, rgba(30,87,153,0.45) 0%, rgba(30,87,153,0.58) 70%, rgba(9,56,133,1) 100%);}
+
+/*
+--------------------------------------------------------
+2.2.2 Logo
+--------------------------------------------------------
+*/
+.apple-vacations {float:left}
+.apple-vacations a {display:block; width:246px; height:30px; background:url(../images/sprite.png) -1px -103px; text-indent:-9999px}
+
+
+/*
+--------------------------------------------------------
+2.2.3 Contact Apple
+--------------------------------------------------------
+*/
+.contact-apple {display:block; float:left; margin:10px 0 0 20px; padding:0 0 0 13px; background:url(../images/sprite.png) -587px -316px no-repeat; text-transform:uppercase}
+.contact-apple li {float:left; padding:0 10px; height:15px; line-height:1em}
+.contact-apple li:first-child {border-right:1px dotted #6b9fd1}
+.contact-apple a {color:#fff}
+.contact-apple .phone, .contact-apple .phone a {font-size:1.3em; color:#fff}
+.contact-apple .contact a {line-height:17px}
+
+
+
+/*
+////////////////////////////////////////////////////////
+2.3 Navigation
+////////////////////////////////////////////////////////
+
+--------------------------------------------------------
+2.3.1 First Level Menu
+--------------------------------------------------------
+*/
+#navigation {clear:both; margin:0 0 0 -25px; padding:11px 0 0 0}
+#navigation ul 	{margin:0}
+#navigation li {display:block; float:left; list-style:none}
+#navigation a {position:relative; display:block; height:30px; padding:3px 10px 14px 10px; border-right:1px solid #0a54a2; border-left:1px solid #689acb; color:#53d5fa; text-transform:uppercase; }
+
+/* Removes Borders from First and Last Child */
+#navigation .first a, #navigation ul li:first-child a {border-left:0; padding-left:25px}
+#navigation .last a, #navigation ul li:last-child a {border-right:0}
+
+/* Hover */
+#navigation a:hover, #navigation ul li.sfHover > a, #navigation ul li li.sfHover > a {text-decoration:none; background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,0.4) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,0.4))); background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.4) 100%); background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.4) 100%); background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.4) 100%); background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.4) 100%); -pie-background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.4) 100%);}
+
+
+/*
+--------------------------------------------------------
+2.3.2 Drop Downs
+--------------------------------------------------------
+*/
+#navigation .dropdown {display:none; position:absolute; z-index:5; left:2px; background:#e6edf3\9; background:rgba(255,255,255,.8); border-bottom-left-radius:8px; -webkit-border-bottom-left-radius:8px; -moz-border-bottom-left-radius:8px; border-bottom-right-radius:8px; -webkit-border-bottom-right-radius:8px; -moz-border-bottom-right-radius:8px; -webkit-box-shadow:  0px 2px 5px 0px rgba(0, 0, 0, .5); box-shadow:  0px 2px 5px 0px rgba(0, 0, 0, .5); padding:5px 5px 5px 0}
+
+/* Display Drop down on hover */
+#navigation ul li:hover .dropdown {display:block}
+
+/* Sets width of drop down menu based on the number of columns */
+#navigation .one-column {width:161px}
+#navigation .two-column {width:315px}
+#navigation .three-column {width:470px}
+#navigation .four-column {width:625px}
+#navigation .five-column {width:935px}
+
+/* Navigation Column CSS */
+#navigation .dropdown .dd-column {float:left; width:150px; *width:140px; height:195px; margin:0 0 0 5px; padding:5px; display:block; background:#fff}
+#navigation .dropdown .dd-column li {float:none}
+#navigation .dropdown .dd-column li a {height:auto !important; border-left:0; border-right:0; padding:0; display:inline-block}
+ 
+/* Adds Curves to the first and last drop down menu item */
+#navigation .dropdown .dd-column.first-column {border-bottom-left-radius:7px; -webkit-border-bottom-left-radius:7px; -moz-border-bottom-left-radius:7px}
+#navigation .dropdown .dd-column.last-column {border-bottom-right-radius:7px; -webkit-border-bottom-right-radius:7px; -moz-border-bottom-right-radius:7px}
+
+/* Drop Down Link Styles */
+#navigation .dd-column li {border-bottom:1px solid #f2f2f2; padding:4px 8px; line-height:12px}
+#navigation .dd-column li:last-child {border-bottom:0}
+#navigation .dd-column a {padding:0; color:#666; text-transform:capitalize}
+#navigation .dd-column .more a {font-size:10px; text-transform:uppercase; color:#1675d5}
+#navigation .dd-column .more a:after {content:''; display:inline-block; width: 0; height: 0; margin-left:5px; border-top: 3px solid transparent;border-bottom:3px solid transparent; border-left:3px solid #0066cc;}
+
+/* Photo */
+#navigation .dd-column .photo a, #navigation .dd-column .photo {position:relative; display:block; width:140px; height:80px; color:#fff; padding:0; margin:0; border:0}
+#navigation .dd-column .photo a img  {position:relative; z-index:1}
+#navigation .dd-column .photo a span {position:absolute; z-index:2; bottom:0; display:block; width:100%; padding:5px;  background:#01468d; background:rgba(1,70,141,.4); font-weight:700; text-transform:uppercase} 
+
+/*
+////////////////////////////////////////////////////////
+2.4 Footer
+////////////////////////////////////////////////////////
+*/
+
+#footer {width:100%;  min-width:1100px; height:247px; clear:both; color:#bcd2e2; background:#043b77}
+#footer a {color:#bcd2e2}
+
+/*
+--------------------------------------------------------
+2.4.1 Sign Up Bar
+--------------------------------------------------------
+*/
+#signup-bar 	{width:100%; min-width:1100px; height:48px;}
+#signup-bar h4 	{/*font-size:1.3em;*/font-size:16px; text-transform:uppercase}
+#signup-bar h5 	{float:left; padding:7px 10px 0 0; font-size:1em}
+
+/* default  */
+#signup-bar.default {background:#115ca1}
+#signup-bar.default .sign-up {width:485px;}
+
+/* signed up */
+#signup-bar.signedup {background:#ffcc33; color:#465a6b}
+#signup-bar.signedup .sign-up h5 {padding:5px 10px 0 0; font-size:14px}
+#signup-bar.signedup .sign-up .unsubscribe a {font-size:13px}
+
+#signup-bar.signedup .sign-up {width:516px;}
+
+/* default  */
+#signup-bar.thanks {background:#115ca1}
+#signup-bar.thanks .sign-up h5 {padding:5px 10px 0 0; font-size:1.3em}
+#signup-bar.thanks .sign-up {width:670px;}
+/*
+--------------------------------------------------------
+2.4.2 Sign Up Bar - Message
+--------------------------------------------------------
+*/
+#signup-bar .message {float:left; padding:15px 20px 0 20px; height:48px; background:url(../images/bg-triangle.png) right center no-repeat; text-shadow: 1px 1px 1px rgba(0,0,0,.2)}
+
+
+/*
+--------------------------------------------------------
+2.4.3 Sign Up Bar - Sign up field
+--------------------------------------------------------
+*/
+#signup-bar .sign-up {float:left; padding:10px 20px 0 15px; height:48px; background:url(../images/bg-triangle.png) right center no-repeat;}
+#signup-bar .sign-up input {outline:none; float:left; width:213px; height:26px; padding:0 10px; font-size:11px;font-weight:bold  }
+
+/* Hover */
+
+/* Submit Button */
+#signup-bar .sign-up input.newsletter-submit {display:block; margin:0 0 0 5px;  width:81px ; height:26px}
+
+/* Unsubscribe */
+#signup-bar .sign-up .unsubscribe {padding:8px 0 0 0;float:right}
+#signup-bar .unsubscribe a {color:#4297bc}
+
+/*
+--------------------------------------------------------
+2.4.4 Sign Up Bar - Follow Us
+--------------------------------------------------------
+*/
+#signup-bar .follow-us {float:left; width:290px; padding:10px 0 0 15px; height:48px}
+
+#signup-bar .follow-us ul {margin:3px 0 0 0}
+#signup-bar .follow-us ul li {float:left; padding:0 3px}
+#signup-bar .follow-us ul li a {display:block; width:24px; height:24px; text-indent:-9999px; overflow:hidden; background:url(../images/sprite.png)}
+
+/* Facebook */
+#signup-bar .follow-us ul li.facebook a {background-position: -1px -46px;}
+#signup-bar .follow-us ul li.twitter a {background-position: -27px -46px;}
+#signup-bar .follow-us ul li.youtube a {background-position: -53px -46px;}
+#signup-bar .follow-us ul li.flickr a {background-position: -79px -46px;}
+#signup-bar .follow-us ul li.pintrest a {background-position: -105px -46px;}
+#signup-bar .follow-us ul li.the-juice a {width:47px; background-position: -131px -46px;}
+
+
+/*
+--------------------------------------------------------
+2.4.5 Footer Navigation
+--------------------------------------------------------
+*/
+#footer-navigation {width:100%; min-width:1100px; background: #386393; /* Old browsers */ background: -moz-linear-gradient(top,  #386393 0%, #043b77 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#386393), color-stop(100%,#043b77)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(top,  #386393 0%,#043b77 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(top,  #386393 0%,#043b77 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(top,  #386393 0%,#043b77 100%); /* IE10+ */ background: linear-gradient(to bottom,  #386393 0%,#043b77 100%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#386393', endColorstr='#043b77',GradientType=0 ); /* IE6-9 */}
+
+.expanded #footer-navigation {height:163px}
+
+/* Nav Header BG */
+#footer-navigation .fn-header-bg {position:absolute; left:0; right:0; z-index:1; width:100%; min-width:1100px; height:43px; background:url(../images/bg-lines.png) top left repeat}
+
+/* Footer Nav */
+#footer-navigation ul {margin:0; padding:0 0 0 10px; float:left; position:relative; z-index:2}
+#footer-navigation ul li {float:left; position:relative; background:url(../images/bg-footer-divider.png) right bottom no-repeat;width:165px}
+#footer-navigation ul li a {display:inline-block;*display:inline;  max-height:43px; padding:20px 0 10px 15px; text-transform:uppercase; font-size:1em; color:#aac1d3}
+#footer-navigation ul li.last {background:none}
+
+/* Footer Nav Drop Down */
+#footer-navigation ul li ul {/* display:none; */position:absolute; padding:10px 0 0 15px; font-size:10px}
+/*#footer-navigation ul li:hover ul {display:block}*/
+#footer-navigation ul ul li {background:none; float:none; display:block; width:100%;}
+#footer-navigation ul ul li a {display:block; width:auto; height:auto; padding:3px 0}
+
+/*
+--------------------------------------------------------
+2.4.6 Footer Phone Number
+--------------------------------------------------------
+*/
+.footer-phone {position:relative; z-index:2; font-size:1em; float:right; padding:20px 20px 0 0}
+.footer-phone a {padding:0 0 0 20px; color:#fff; background:url(../images/icon-footer-phone.png) left center no-repeat}
+
+/*
+--------------------------------------------------------
+2.4.7 Copyright
+--------------------------------------------------------
+*/
+#footer .copyright { min-width:1100px; text-align:right; padding:10px 20px; color:#aac1d3; font-size:11px}
+
+/*
+--------------------------------------------------------
+2.4.8 Site Map
+--------------------------------------------------------
+*/
+.site-map {width:100%; height:0; border-bottom:1px solid #1f4f86}
+.site-map ul {float:right; margin:-25px 15px 0 0}
+.site-map li {float:left; padding:0 5px; font-size:11px; text-transform:uppercase}
+.site-map li:first-child {border-right:1px dotted #6b9fd1}
+
+/*
+////////////////////////////////////////////////////////
+2.5 Dashboard
+////////////////////////////////////////////////////////
+*/
+#dashboard {position:absolute; z-index:8; margin-top:-63px; *margin-top:-95px; right:0; width:438px; background:#01468d; border-bottom-left-radius:8px; -webkit-border-bottom-left-radius:8px; -moz-border-bottom-left-radius:8px; -webkit-box-shadow:  0px 1px 1px 0px rgba(0, 0, 0, .5); box-shadow:  0px 1px 1px 0px rgba(0, 0, 0, .5); color:#fff; text-transform:uppercase}
+
+/*
+--------------------------------------------------------
+2.5.1 Dashboard Header
+--------------------------------------------------------
+*/
+#dashboard .db-header {padding:10px 20px 10px 30px}
+
+/* Dashboard Account Info */
+#dashboard .db-header .db-account {float:left; width:200px}
+#dashboard .db-header .db-account h5 {font-size:14px; text-transform:capitalize}
+#dashboard .db-header .db-account ul {margin:0; font-size:11px; padding:5px 0 0 0}
+#dashboard .db-header .db-account ul li {float:left; padding:0 7px 0 0}
+#dashboard .db-header .db-account ul li a {color:#53d5fa}
+#dashboard .db-header .db-account ul li a:after {content:''; display:inline-block; width: 0; height: 0; margin:0 0 0 5px; border-top: 3px solid transparent;border-bottom:3px solid transparent; border-left:3px solid #53d5fa;}
+
+/* Dashboard Search */
+#dashboard .db-header .db-search {float:left; padding:8px 0 0 0}
+#dashboard .db-header .db-search input.search {width:185px; height:24px; font-size:1em; padding:0 10px; background:#bddaf6; background:url(../images/icon-search.png) right 2px no-repeat rgba(189,218,246,.4); border:1px solid #225e9c; border-radius:6px; -moz-border-radius:6px; -webkit-border-radius:6px; -webkit-box-shadow: inset 0px 2px 10px 0px rgba(0, 0, 0, .2); box-shadow: inset 0px 2px 10px 0px rgba(0, 0, 0, .2); font-size:13px; color:#fff}
+
+/* Hover */
+#dashboard .db-header .db-search input.search:hover {background:url(../images/icon-search.png) right 2px no-repeat rgba(189,218,246,.5) !important; outline:none}
+
+/* Focus */
+#dashboard .db-header .db-search input.search:focus {background:url(../images/icon-search.png) right 2px no-repeat rgba(189,218,246,.6); outline:none}
+
+/* Placeholder CSS */
+#dashboard .db-header .db-search input.search::-webkit-input-placeholder {color:#fff}
+#dashboard .db-header .db-search input.search:-moz-placeholder {color:#fff}
+
+/*
+--------------------------------------------------------
+2.5.2 Dashboard Weather
+--------------------------------------------------------
+*/
+
+#dashboard .weather {width:100%; background:url(../images/bg-lines.png) repeat; border-right:1px solid #01468d; border-right:1px solid #01468d}
+
+#dashboard .weather ul {padding:0 0 0 30px; margin:0}
+
+#dashboard .weather ul li {display:block; float:left; width:170px; height:45px; padding:8px 6px 0 8px; border-right:1px dotted #d2deeb}
+
+/* Date ------------------------- */
+#dashboard .weather ul li.date {width:48px; padding:8px 6px 0px 18px; background:url(../images/icon-today.png) 7px 10px no-repeat; font-size:11px; border-left:1px dotted #d2deeb}
+#dashboard .weather ul li.date p {text-align:center}
+#dashboard .weather ul li.date span {display:block; font-size:17px}
+
+/* Current Weather -------------- */
+#dashboard .weather ul li.current p {font-size:.7em}
+#dashboard .weather ul li.current p span {display:block; font-size:2em; font-weight:700}
+
+/* Temperature Colors ----------- */
+.cold {color:#53d5fa}
+.hot {color:#db3a16}
+
+.icon {float:left; width:35px; height:41px; margin:-2px 8px 0 0; text-indent:-9999px; background:url(../images/sprite.png);}
+
+/* Weather Icons ---------------- */
+/* Sunny */
+.sunny {background-position: 0 -5px;}
+
+/* Sunny Orange */
+.sunny-orange {background-position: -34px -5px ;}
+
+/* Day Partly Cloudy */
+.day-partly-cloudy {background-position: -74px -5px ;}
+
+/* Day Rain */
+.day-rain {background-position: -110px -2px;}
+
+/* Day Thunder Storm */
+.day-thunder-storm {background-position: -148px -2px;}
+
+/* Day Storm */
+.day-storm {background-position: -185px -1px;}
+
+/* Night */
+.night {background-position: -226px -7px;}
+
+/* Night Rain */
+.night-rain {background-position: -260px -6px;}
+
+/* Night Thunder Storm */
+.night-thunderstorm {background-position: -298px -3px;}
+
+/* Night Storm */
+.night-storm {background-position: -335px -5px;}
+
+/* Rain */
+.rainy {background-position: -370px -6px;}
+
+/* Storm */
+.storm {background-position: -407px -6px;}
+
+/* Thunder Storm */
+.thunder-storm {background-position: -445px -5px;}
+
+/* Partly Cloudy */
+.cloudy {background-position: -481px -7px;}
+
+/* Snow */
+.snow {background-position: -523px -7px;}
+
+/*
+--------------------------------------------------------
+2.5.3 Dashboard Expand
+--------------------------------------------------------
+*/
+.expand-promotions {padding:5px 10px; font-size:10px}
+.expand-promotions a {color:#fff; cursor:pointer}
+
+.expand-promotions a .icon-expand {display:block; float:left; margin:2px 10px 0 0; width:9px; height:7px}
+#dashboard.logged-out .expand-promotions a f-expand.closed {background:url(../images/icon-expander.png) 0 0 no-repeat}
+#dashboard.logged-in .expand-promotions a .icon-expand.closed {background:url(../images/icon-expander.png) -11px 0 no-repeat}
+#dashboard.logged-in .expand-promotions a .icon-expand.open {background:url(../images/icon-expander.png) -11px -8px no-repeat}
+
+/*
+--------------------------------------------------------
+2.5.4 Dashboard Account Menu
+--------------------------------------------------------
+*/
+#account-menu {display:none}
+#account-menu ul {margin:0}
+#account-menu ul li {}
+
+/* Account Menu Button --------------*/
+#account-menu ul li a {display:block; padding:8px; color:#53d5fa; font-size:11px; background: #1d4c81; background: -moz-linear-gradient(top,  #1d4c81 0%, #033873 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1d4c81), color-stop(100%,#033873)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(top,  #1d4c81 0%,#033873 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(top,  #1d4c81 0%,#033873 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(top,  #1d4c81 0%,#033873 100%); /* IE10+ */ background: linear-gradient(to bottom,  #1d4c81 0%,#033873 100%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d4c81', endColorstr='#033873',GradientType=0 ); /* IE6-9 */; cursor:pointer}
+
+#account-menu ul li a.active, #account-menu ul li a:hover {background:#1a92f0; color:#fff; text-decoration:none}
+#account-menu ul li a:hover .icon-expand {background:url(../images/icon-expander.png) 0 0 no-repeat}
+#account-menu ul li a .icon-expand {display:block; float:left; margin:2px 10px 0 0; width:9px; height:7px; background:url(../images/icon-expander.png) -11px 0 no-repeat}
+#account-menu ul li a.active .icon-expand {background:url(../images/icon-expander.png) 0px -8px no-repeat}
+
+/*
+--------------------------------------------------------
+2.5.5 Dashboard Account Menu Sub Menu
+--------------------------------------------------------
+*/
+/* Hide Sub Menus */
+#account-menu ul li > .sub-menu {display: none; font-size:11px; text-transform:capitalize}
+
+/* Display sub Menus */
+#account-menu ul li:target > .sub-menu {display: block;}
+
+#account-menu ul li > .sub-menu .content {padding:10px 0 10px 30px; height:auto; background:#fff; color:#465a6b; -webkit-box-shadow: inset 2px 2px 2px 0px rgba(0, 0, 0, .2); box-shadow: inset 2px 2px 2px 0px rgba(0, 0, 0, .2)}
+#account-menu ul li > .sub-menu .content.past-trips{padding:10px 8px}
+#account-menu ul li .sub-menu .Past-trip-info{border-bottom:solid 1px #b1c8e1;padding-bottom:20px;width:100%;display:inline-block;font-size:12px;color:#465a6b;font-weight:600}
+
+#account-menu ul li .sub-menu .Past-trip-info p{font-size:12px;color:#465a6b;font-weight:600}
+.flight-schedule .icon-greenflight_s{margin:2px 5px 0 0 }
+.resort-info .icon-greenresort_s{margin:2px 5px 0 0;float:left }
+.resort-info{margin-top:12px}
+.fligt-schedule-city{margin-left:15px}
+.Past-trip-image{float:left;margin-right:15px}
+.Past-trip-image span{vertical-align:top;margin-right:12px}
+.icon-arrowright{padding:0 4px}
+.sharediscount h6{font-size:14px;font-weight:400;color:#465a6b;padding:5px 0 12px 0}
+.content p.price{color: #636363;font-size: 18px;margin-let:20px} 
+.sharediscount span.btn-light-blue{line-height:33px;float:right;width:165px}
+.offer-text{text-transform:uppercase;width:115px;font-size:10px;display:inline-block;color:#465a6b;margin:5px 0 0 7px}
+
+
+
+/*
+--------------------------------------------------------
+2.5.6 Dashboard - Account Menu - Sub Menu - Upcoming Trip
+--------------------------------------------------------
+*/
+/* Title */
+#account-menu ul li .sub-menu h5 {font-size:14px; font-weight:700; padding:0 0 5px 0}
+
+/* Photo */
+#account-menu ul li .sub-menu .content .photo {float:left; width:118px; height:88px; overflow:hidden}
+#account-menu ul li .sub-menu .content .details {float:left; width:260px; padding:0 0 0 15px}
+#account-menu ul li .sub-menu .content .details ul {}
+#account-menu ul li .sub-menu .content .details ul li {display:block}
+#account-menu ul li .sub-menu .content .details ul li.flight {padding:4px 0 1px 20px;}
+#account-menu .flight:before {position:absolute; margin:-2px 0 0 -20px; content:""; display:block; width:15px; height:15px; background:url(../images/sprite.png) -275px -129px no-repeat}
+#account-menu ul li .sub-menu .content .details ul li span[class*="icon"] {position:absolute; margin: 0 0 0 -17px}
+#account-menu ul li .sub-menu .content .details ul li.hotel {margin:5px 0; padding:4px 0 1px 20px;}
+#account-menu ul li > .sub-menu .content .details ul li .date {width:53px}
+#account-menu .view-itinerary a {float:left; padding:0; background:none; text-transform:uppercase;font-size:10px;font-weight:900;color:#0086ee}
+#account-menu .view-itinerary a:after {content:''; display:inline-block; width: 0; height: 0; margin-left:5px; border-top: 3px solid transparent;border-bottom:3px solid transparent; border-left:3px solid #0066cc;}
+#account-menu .view-itinerary a:hover {background:none; color:#0086ee; text-decoration:underline}
+/*Extras*/
+#account-menu ul li .sub-menu .extras h5{border-bottom:solid 1px #c8d7e6} 
+#account-menu ul li .sub-menu .content.extras .details ul li p{margin-top:3px;color:#465a6b;font-size:10px;font-weight:900;margin-bottom:30px;text-transform:uppercase}
+#account-menu ul li .sub-menu .content.extras .details ul li p span{font-size:14px;}
+#account-menu ul li .sub-menu .content.extras .details ul li.view-itinerary{border-bottom:solid 1px #c8d7e6;display:inline-block;padding-bottom:2px;width:100%}
+
+#account-menu ul li .sub-menu .content.my-wish-list .details ul li.header-text{font-size:14px;font-weight:900;color:#465a6b;line-height:19px}
+#account-menu ul li .sub-menu .content.my-wish-list .details ul li.city-text{font-size:12px;font-weight:900;color:#465a6b;line-height:19px}
+/*Travel scrapbook */
+#account-menu ul li .sub-menu .content.travel-scrap-book .details ul li.TS-trptaken{text-transform:uppercase;}
+#account-menu ul li .sub-menu .content.travel-scrap-book .photo{width:90px;height:67px}
+.travel-scrap-book label{font-size:10px;font-weight:600;color:#999;margin-right:3px}
+.travel-scrap-book {font-size:10px;font-weight:600;color:#465a6b;}
+#account-menu ul li .sub-menu .content.travel-scrap-book .details ul li.header-text{font-size:14px;font-weight:900;color:#465a6b;line-height:19px}
+#account-menu ul li .sub-menu .content.travel-scrap-book .details ul li.city-text{font-size:12px;font-weight:900;color:#465a6b;line-height:19px}
+
+/*Wish list*/
+#account-menu ul li .sub-menu .content.my-wish-list .photo{width:90px;height:67px}
+#account-menu ul li .sub-menu .content.my-wish-list .details ul li.wishlist-added {padding:4px 0 1px 13px; background:url(../images/greenheart.png) left center no-repeat;text-transform:uppercase;}
+.wishlist-added  label{font-size:10px;font-weight:600;color:#999;margin-right:3px}
+.wishlist-added {font-size:10px;font-weight:600;color:#465a6b;}
+/*Travel Friends */
+#account-menu ul li a {}
+#account-menu .sub-menu .travel-friends li a{background:transparent;padding:0;margin-right:6px;float:left}
+#account-menu .sub-menu .travel-friends h6{font-size:12px;font-weight:900;color:#465a6b}
+#account-menu .sub-menu .travel-friends ul{margin:12px 0 0 0 }
+#account-menu .sub-menu .travel-friends .view-itinerary{float:left;margin-top:8px}
+/* Text */
+#account-menu .sub-menu li {font-size:10px}
+/*
+////////////////////////////////////////////////////////
+2.6 Content Containers
+////////////////////////////////////////////////////////
+*/
+/* Outer most wrapper, clears headers and footers, 
+adds padding to the top and bottom, and sets a minimum 
+width */
+#content-container {width:100%; min-width:1100px; clear:both; padding:55px 0 55px 0}
+
+/* Aligns Content Container to the left hand side of the window */
+.content-left {padding:0 0 0 30px}
+
+/* Centers the content within the Content Container */
+.content-center {width:960px;margin:0 auto}
+
+/* Full Width Content area with no sidebar */
+.wide-content {width:960px; margin-bottom:20px}
+
+/* Narrow Content area for use with sidebar */
+.narrow-content {width:735px; float:left; margin-bottom:20px}
+
+/* Side Bar */
+
+#sidebar {width:213px; float:right; margin-left:10px}
+.content h4 {font-size:20px}
+
+/* 
+///////////////////////////////////////////////////////
+2.7 Wide Content
+///////////////////////////////////////////////////////	   
+*/
+/*
+--------------------------------------------------------
+2.7.1 Wide Content - Header
+--------------------------------------------------------
+*/
+
+/* Header title Area */
+.wc-header .details {padding:10px 25px}
+
+/* title */
+.wc-header .details h1 {float:left}
+
+/* details */
+.wc-header .details .info {float:right; width:488px; padding:0 25px 0 0}
+
+.wc-header .details .narrow-info {float:right; width:328px; padding:0 15px 0 0; color:#707070} 
+
+.wc-header .details .info p {font-size:12px;color:#333}
+
+/* 
+--------------------------------------------------------
+2.7.2 Wide Content Subnav
+--------------------------------------------------------   
+*/
+.wc-nav {clear:both; border-bottom:1px solid #fff}
+.wc-nav ul { display:block; width:100%; border-top:1px solid #abc8e3; border-bottom:1px solid #abc8e3;box-shadow: 0 1px 0 0 #FFFFFF inset;-webkit-box-shadow: 0 1px 0 0 #FFFFFF inset;}
+.wc-nav li {float:left; list-style:none}
+
+
+/* Links Default */
+.wc-nav a {position:relative; display:block; padding:14px 20px; height:40px; text-decoration:none; border-right:1px solid #abc8e3;  color:#0086ee; font-weight:700; font-size:10px; text-transform:uppercase;box-shadow: 1px 0 0 0 #FFFFFF;-webkit-box-shadow:1px 0 0 0 #FFFFFF; cursor:pointer}
+
+/* Links Hover */
+.wc-nav a:hover, .wc-nav ul li.current a {color:#fff; border-right:1px solid #3c9115;  background: #3c9115; background: -moz-linear-gradient(top,  #3c9115 0%, #6cc12e 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3c9115), color-stop(100%,#6cc12e)); background: -webkit-linear-gradient(top,  #3c9115 0%,#6cc12e 100%); background: -o-linear-gradient(top,  #3c9115 0%,#6cc12e 100%); background: -ms-linear-gradient(top,  #3c9115 0%,#6cc12e 100%); background: linear-gradient(to bottom,  #3c9115 0%,#6cc12e 100%); -pie-background: linear-gradient(to bottom,  #3c9115 0%,#6cc12e 100%);}
+.wc-nav .current a {cursor:default}
+
+/* arrow */
+.wc-nav .current a:after {content: ""; height:7px; width:21px; background:url(../images/sprite.png) -43px -228px no-repeat; position:absolute; left:40%; top:100%; z-index:1}
+
+/* 
+--------------------------------------------------------
+2.7.3 Content Body
+-------------------------------------------------------- 
+*/
+.content {font-size:14px;position:relative;min-height:53px;}
+/* 
+--------------------------------------------------------
+2.7.4 Content Columns
+-------------------------------------------------------- 
+*/
+/* Content Columns */
+.wide-content .content .columns {padding:15px 0 15px 65px; }
+.wide-content .content .columns .column {float:left;}
+.wide-content .content .columns .column h5 {font-size:1.3em; font-weight:700; line-height:26px}
+.wide-content .content .columns .column p {padding:0 0 10px 0}
+.wide-content .content .columns .column label {display:block; position:relative; float:left; font-size:10px; font-weight:900; text-transform:uppercase}
+.wide-content .content .columns .column form label{color:#465A6B}
+.wide-content .content .columns .column ul {list-style:none}
+.wide-content .content .edit {width:100%; display:block; clear:both; padding:20px 0 0 0}
+
+/* Check box */
+.wide-content .content .columns .column .checkbox {float:left; *margin-top:-4px; margin-top:-3px}
+
+/* Three column */
+.wide-content .content .three-column .column {width:33%; padding:0 15px 0 0}
+
+/* Two Column */
+.wide-content .content .two-column .column {width:50%}
+/* 
+--------------------------------------------------------
+2.7.5 Wide Content Share Bar
+--------------------------------------------------------	   
+*/
+.share-bar {width:100%; padding:7px 5px 7px 28px; clear:both; background:url(../images/bg-share-bar.png) right top no-repeat; border-top-right-radius:8px}
+.share-bar ul {float:right}
+.share-bar ul li {float:left}
+.share-bar ul li a {display:block; padding:3px 0; text-decoration:none; font-size:10px; font-weight:700; text-transform:uppercase}
+.share-bar ul li a:hover{text-decoration:underline}
+
+/* Print */
+.share-bar ul li.print {padding-right:13px; border-right:1px dotted #9cb6cc}
+.share-bar ul li.print a {padding-left:20px; color:#1675d5;}
+/* Share */
+.share-bar ul li.share {position:relative; z-index:1; margin-top:-3px; padding:0 0 0 10px}
+.share-bar ul li.share .stMainServices {display:block; height:auto; display:inline-block}
+.share-bar ul li.share .stHBubble {height:auto}
+.share-bar ul li.share .title {padding:0 10px 0 0; font-size:10px; color:#696969; text-transform:uppercase}
+#content-container .share-bar li.share img {z-index:1 !important}
+/*
+///////////////////////////////////////////////////////////////////////////////
+-------------------------------------------------------------------------------
+3. Common Elements
+-------------------------------------------------------------------------------
+///////////////////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////
+3.1 Gradients
+////////////////////////////////////////////////////////
+*/
+/* Solid Gradient */
+.gradient-solid {position:relative; background: rgb(255,255,255); background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(227,240,251,1) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(227,240,251,1))); background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(227,240,251,1) 100%); background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(227,240,251,1) 100%); background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(227,240,251,1) 100%); background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(227,240,251,1) 100%); -pie-background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(227,240,251,1) 100%)}
+
+/* Transparent Gradient */
+.gradient-transparent {background: -moz-linear-gradient(top,  rgba(246,249,251,0.9) 0%, rgba(228,235,242,0.9) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(246,249,251,0.9)), color-stop(100%,rgba(228,235,242,0.95))); background: -webkit-linear-gradient(top,  rgba(246,249,251,0.9) 0%,rgba(228,235,242,0.95) 100%); background: -o-linear-gradient(top,  rgba(246,249,251,0.9) 0%,rgba(228,235,242,0.9) 100%); background: -ms-linear-gradient(top,  rgba(246,249,251,0.9) 0%,rgba(228,235,242,0.9) 100%); background: linear-gradient(to bottom,  rgba(246,249,251,0.9) 0%,rgba(228,235,242,0.9) 100%); -pie-background: linear-gradient(top,  rgba(246,249,251,0.9) 0%, rgba(228,235,242,0.9) 100%);behavior: url(PIE.htc);}
+
+/* Transparent Dark Blue */
+
+.gradient-transparent-blue {background:none repeat scroll 0 0 rgba(1, 70, 141, 0.6); -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#b301468D,endColorstr=#b301468D); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#b301468D,endColorstr=#b301468D);zoom: 1;}
+
+/* Transparent Teal */
+.gradient-transparent-teal {background: rgba(131, 200, 204, 0.9); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E583C8CC', endColorstr='#E583C8CC',GradientType=0 ); /* IE6-9 */}
+
+/* Transparent White */
+.gradient-transparent-white {background:rgba(249,251,252,.8); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99ffffff', endColorstr='#99ffffff',GradientType=0 );}
+/*.gradient-transparent-white {background:rgba(255,255,255,.7); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99ffffff', endColorstr='#99ffffff',GradientType=0 );}*/
+
+/* Transparent light white */
+.gradient-transparent-lightwhite{background: rgba(255, 255, 255, 0.29); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29ffffff', endColorstr='#29ffffff',GradientType=0 );}
+
+/* Solid white */
+.bg-white {background:#fff}
+
+/* Grey Gradient */
+.greygradient{background: rgb(234,247,253); background: -moz-linear-gradient(top,  rgba(234,247,253,1) 1%, rgba(156,209,242,1) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(234,247,253,1)), color-stop(100%,rgba(156,209,242,1))); background: -webkit-linear-gradient(top,  rgba(234,247,253,1) 1%,rgba(156,209,242,1) 100%); background: -o-linear-gradient(top,  rgba(234,247,253,1) 1%,rgba(156,209,242,1) 100%); background: -ms-linear-gradient(top,  rgba(234,247,253,1) 1%,rgba(156,209,242,1) 100%); background: linear-gradient(to bottom,  rgba(234,247,253,1) 1%,rgba(156,209,242,1) 100%); -pie-background:linear-gradient(top,  rgba(234,247,253,1) 1%, rgba(156,209,242,1) 100%);}
+
+
+/*
+////////////////////////////////////////////////////////
+3.2 Rounded Corners
+////////////////////////////////////////////////////////
+*/
+/* Add rounded corners to all sides */
+.corner-all {border-radius:8px; -moz-border-radius:8px; -webkit-border-radius:8px;behavior: url(PIE.htc);}
+
+/* Add rounded corners only to the top */
+.corner-top {border-top-left-radius:8px; -webkit-border-top-left-radius:8px; -moz-border-top-left-radius:8px; border-top-right-radius:8px; -moz-order-top-right-radius:8px; -webkit-border-top-right-radius:8px;behavior: url(PIE.htc);border-radius:8px 8px 0 0;position:relative }
+
+/* Add rounded corners only to the bottom */
+.corner-bottom {border-bottom-left-radius:8px; -webkit-border-bottom-left-radius:8px; -moz-border-bottom-left-radius:8px; border-bottom-right-radius:8px; -moz-order-bottom-right-radius:8px; -webkit-border-bottom-right-radius:8px;behavior: url(PIE.htc); }
+
+/*
+////////////////////////////////////////////////////////
+3.3 Borders
+////////////////////////////////////////////////////////
+*/
+.border-all {border:4px solid #fff}
+.border-top {border-top:4px solid #fff; border-right:4px solid #fff; border-left:4px solid #fff}
+.border-bottom {border-bottom:4px solid #fff; border-right:4px solid #fff; border-left:4px solid #fff}
+.border-sides {border-right:4px solid #fff; border-left:4px solid #fff}
+
+/*
+////////////////////////////////////////////////////////
+3.4 Vertical Padding & Margins
+////////////////////////////////////////////////////////
+*/
+/* Padding */
+.padding-top {padding-top:30px}
+.padding-bottom {padding-bottom:30px}
+.padding-both {padding-top:30px; padding-bottom:30px}
+.padding-sides {padding-left:20px; padding-right:20px}
+/* Margin bottom narrow */
+.margin-bottom-narrow {margin-bottom:10px}
+/* Margin bottom Tall */
+.margin-bottom-tall {margin-bottom:40px}
+
+/*
+////////////////////////////////////////////////////////
+3.5 Icons
+////////////////////////////////////////////////////////
+*/
+/* Add Event Icon */
+.icon-addevent {float:left; width:13px; height:13px; background:url(../images/sprite.png) -21px -135px; margin-right:5px; margin-top:3px}
+
+/* Airflight Icon */
+.icon-Airflight	{width:38px;height:33px;background:url(../images/sprite.png) -386px -173px no-repeat; float:left;}
+
+/* Arrow Icon - Blue Down */
+.icon-blue-down-arrow {width:7px;height:7px;background:url(../images/sprite.png) -120px -137px no-repeat;float:left;cursor:pointer}
+
+/* Arrow Icon - Blue Right */
+.icon-blue-rightarrow {width:7px;height:10px; background:url(../images/sprite.png) -80px -136px;display:inline-block;margin-left:10px;}
+
+/* Arrow Icon - Blue Up */
+.icon-blue-up-arrow	{width:7px;height:7px;background:url(../images/sprite.png) -93px -137px no-repeat;float:left;cursor:pointer}
+
+/* Arrow Icon - Green Right */
+.icon-greenrightarrow { width:33px; height:33px; background:url(../images/sprite.png) -78px -154px;display:inline-block;cursor:pointer}
+
+/* Arrow Icon - Small 1 */
+.icon-small-arrow1 {width:7px;height:8px;background:url(../images/sprite.png) -107px -138px no-repeat;float:left;cursor:pointer}
+
+/* Arrow Icon - Small Black */
+.arrow {display:inline-block; zoom: 1; *display: inline; width:12px; height:7px; background:url(../images/sprite.png) -185px -137px}
+
+/* Arrow Icon - Small Blue Right */
+.icon-smallblue-rightarrow {width:5px;height:7px; background:url(../images/sprite.png) -55px -137px;display:inline-block;margin-left:2px;}
+
+/* Arrow Icon - Small Light Blue Right */
+.icon-smalllightblue-rightarrow {width:4px;height:7px; background:url(../images/sprite.png) -199px -137px;display:inline-block;margin-left:2px;}
+
+/* Arrow Icon - Small White Right */
+.icon-smallwhite-rightarrow	{width:4px;height:7px; background:url(../images/sprite.png) -147px -137px;display:inline-block;margin-left:5px;}
+
+/* Arrow Icon - White Down */
+.icon-whitedownarrow { width:7px; height:5px; background:url(../images/sprite.png) -172px -138px;display:inline-block;}
+
+/* Billing Icon */
+.icon-billing {display:block; width:52px; height:41px; background:url(../images/sprite.png) -198px -165px no-repeat}
+
+/* Blue Heart Icon */
+.icon-blueheart	{width:11px;height:10px; background:url(../images/sprite.png) -463px -144px;float:left}
+
+/* Booking Confirmation Icon */
+.icon-booking-confirmation {display:block; float:left; width:19px;height:26px; background: url(../images/sprite.png) -319px -260px;margin: 12px 10px 0 0;}
+
+/* Booking Confirmation Icon Active */
+.active .icon-booking-confirmation {background-position-y:-219px}
+
+/* Booking Extras Icon */
+.icon-booking-extras {display:block; float:left; width:32px; height:24px; background:url(../images/sprite.png) -372px -260px no-repeat; margin:11px 10px 0 0; }
+
+/* Booking Extras Icon Active */
+.active .icon-booking-extras {background-position-y:-221px}
+
+/* Booking Flight Icon */
+.icon-booking-flight {display:block; float:left; width:37px; height:30px; background:url(../images/sprite.png) -501px -260px no-repeat; margin:9px 10px 0 0; }
+
+/* Booking Flight Icon Active */
+.active .icon-booking-flight {background-position-y:-215px}
+
+/* Booking Hotel Icon */
+.icon-booking-hotel	{display:block; float:left; width:25px; height:22px; background: url(../images/sprite.png) -438px -260px; margin: 12px 10px 0 0;}
+
+/* Booking Hotel Icon Active */
+.active .icon-booking-hotel {background-position-y:-223px}
+
+/* Booking Travel Icon */
+.icon-booking-travel {display:block; float:left; width:28px; height:25px; background:url(../images/sprite.png) -636px -260px no-repeat; margin:10px 10px 0 0; }
+
+/* Booking Travel Icon Active */
+.active .icon-booking-travel {background-position-y:-220px}
+
+/* Close - Pop Up Close */
+.icon-popupclose {width:38px;height:33px;background:url(../images/sprite.png) -1px -191px;display:inline-block;cursor:pointer}
+
+/* Calendar Icon */
+.icon-calendar {width:17px;height:17px;background:url(../images/sprite.png) -251px -207px;float:left}
+
+/* Chat Icon */
+.icon-chat {width:19px;height:19px;background:url(../images/sprite.png) -305px -140px no-repeat; float:left;}
+
+/* Clock Icon */
+.icon-clock {background: url("../images/sprite.png") -326px -140px; float: left; height: 19px; width: 19px; position: absolute;}
+
+/* Email Icon */
+.icon-email	{width:19px;height:19px;background:url(../images/sprite.png) -347px -140px no-repeat; float:left;}
+
+/* Flight Icon */
+.icon-flight {display:inline-block; zoom: 1; *display: inline; width:17px; height:15px; text-indent:-9999px; background:url(../images/sprite.png) -276px -131px}
+
+/* Green Flight Icon */
+.icon-greenflight_s {width:15px;height:13px;background:url(../images/sprite.png) -276px -131px;float:left;cursor:pointer}
+
+/* Green Resort Icon */
+.icon-greenresort_s {width:13px;height:11px; background:url(../images/sprite.png) -258px -132px;display:inline-block;margin-left:5px;}
+
+/* Green Click Icon */
+.icon-greenclick {float:left; width:35px; height:35px; background:url(../images/sprite.png) -77px -154px;margin-right:5px;}
+
+/* Inspiration Light Bulb */
+.icon-inspiration {display:block; width:16px; height:22px; background:url(../images/sprite.png) -477px -138px no-repeat}
+
+/* List View Icon */
+.icon-listview {background: url("../images/sprite.png") -211px -237px; height: 9px; width: 9px; /* float:left; */ display:inline-block; *display:inline; zoom:1;}
+
+/* Location Icon */
+.icon-location	{width:30px;height:29px;background:url(../images/sprite.png) -438px -260px; float:left;}
+
+/* Map View Icon */
+.icon-mapview {background: url("../images/sprite.png") -227px -235px;height: 12px;  width: 12px;float:left;}
+
+/* Package View Icon */
+.icon-packageview {background: url("../images/sprite.png") -253px -236px; height: 9px; width: 9px; /* float:left; */ display:inline-block; *display:inline; zoom:1}
+
+/* People Icon */
+.icon-people {width:31px;height:28px;background:url(../images/sprite.png) -580px -173px no-repeat; float:left;}
+
+/* Phone Icon */
+.icon-phone	{width:19px;height:19px;background:url(../images/sprite.png) -368px -140px no-repeat; float:left;}
+
+/* Postcard Icon */
+.icon-postcard	{width:24px;height:15px;background:url(../images/sprite.png) -606px -141px;float:left;cursor:pointer}
+
+/* Print Icon */
+.icon-print	{width:18px;height:18px;background:url(../images/sprite.png) -207px -207px no-repeat;float:left} 
+
+/* Questions Icon */
+.icon-questions {display:block; width:52px; height:41px; background:url(../images/sprite.png) -476px -168px no-repeat}
+
+/* Questions Icon 2 */
+.icon-Question	{width:15px; height:14px; background:url(../images/sprite.png) -677px -142px;display:inline-block;cursor:pointer}
+
+/* Questions Icon Black */
+.icon-question-black { width:15px; height:14px; background:url(../images/sprite.png) -634px -142px;display:inline-block;cursor:pointer}
+
+/* Question Mark Icon */
+.icon-quesstionmark	{display:block; width:19px; height:41px; background:url(../images/sprite.png) -495px -171px}
+
+/* Reservation Icon */
+.icon-reservation {display:block; width:52px; height:41px; background:url(../images/sprite.png) -319px -257px}
+
+/* Search Glass Icon */
+.icon-search-glass {background: url("../images/sprite.png") -566px -141px;width:15px;height:15px;display:inline-block}
+
+/* Select Seats Icon */
+.icon-selectseats {display:block; width:34px;height:28px; background: url(../images/sprite.png) -571px -261px;margin: 12px 10px 0 0;}
+
+/* Share Icon */
+.icon-share	{width:13px;height:13px;background:url(../images/sprite.png) -451px -50px;float:left}
+
+/* Slider Thumb Back Icon */
+.icon-slider-thumb-back {width:11px;height:15px;background:url(../images/sprite.png) -140px -163px;float:left;cursor:pointer}
+
+/* Slider Thumb Forward Icon */
+.icon-slider-thumb-forward {width:11px;height:15px;background:url(../images/sprite.png) -185px -163px;float:left;cursor:pointer}
+
+/* Stay Icon 1 - Flight */
+.icon-stay-links-1 {width:24px;height:24px;background:url(../images/sprite.png) -650px -177px no-repeat;float:left;margin-right:3px;cursor:pointer }
+
+/* Stay Icon 2 - Transportation */
+.icon-stay-links-2	{width:24px;height:24px;background:url(../images/sprite.png) -676px -177px no-repeat;float:left;margin-right:3px; cursor:pointer}
+
+/* Stay Icon 3 - Hotel */
+.icon-stay-links-3	{width:24px;height:24px;background:url(../images/sprite.png) -702px -177px no-repeat;float:left;margin-right:3px; cursor:pointer}
+
+/* Stay Icon 4 - Nightlife */
+.icon-stay-links-4	{width:24px;height:24px;background:url(../images/sprite.png) -728px -177px no-repeat;float:left;margin-right:3px; cursor:pointer}
+
+/* Stay Icon 5 - Transportation */
+.icon-stay-links-5	{width:24px;height:24px;background:url(../images/sprite.png) -754px -177px no-repeat;float:left;margin-right:3px; cursor:pointer}
+
+/* Transfer Icon */
+.icon-transfer	{width:43px; height:20px; background:url(../images/sprite.png) -292px -175px; float:left;}
+
+/* Travel Icon */
+.icon-travel {display:block; width:52px; height:41px; background:url(../images/sprite.png) -430px -172px}
+
+/* Things to Know Icon */
+.icon-thingstoknow {display:block; width:45px; height:41px; background:url(../images/sprite.png) -517px -172px}
+
+
+
+
+.timings p{padding-left:30px;line-height:19px}
+.content-footer span.bold{font-size:14px;font-weight:bold}
+/*
+////////////////////////////////////////////////////////
+3.6 Labels
+////////////////////////////////////////////////////////
+
+--------------------------------------------------------
+3.6.1 Large Labels
+--------------------------------------------------------
+*/
+/* Large Orange Label */
+.label-large-orange {position:relative; display:inline-block; margin:0 0 0 -13px; width:230px; height:39px; padding:8px 0 0 25px; background:url(../images/sprite.png) -121px -298px no-repeat; color:#fff; font-size:16px; font-weight:600; text-shadow: 1px 1px 0px rgba(0,0,0,.3);text-transform:capitalize; z-index:1;}
+.label-maroon{background: url("../images/label-maroon.png");width:230px;height:41px;line-height:36px;display:inline-block;font-size:18px;font-weight:600;color:#fff;position:absolute;left:-15px;top:-32px}
+.label-maroon-title{background: url("../images/label-maroon-title.png");width:232px;height:42px;line-height:36px;display:inline-block;font-size:18px;font-weight:600;color:#fff;text-indent:20px}
+.label-large-value-red {position:relative; display:inline-block; margin:0 0 0 -13px; width:232px; height:41px; padding:8px 0 0 25px; background:url(../images/label-large-value-red.png) left top no-repeat; color:#fff; font-size:18px; font-weight:600; text-shadow: 1px 1px 0px rgba(0,0,0,.3);text-transform:capitalize}
+.label-large-value-red span{color:#df957d;margin-left:5px}
+.discount-flag {background: url("../images/discount-lip-bg.png") no-repeat scroll 0 0 transparent;width: 62px;height: 26px;color: #FFFFFF;font-size: 9px;font-weight: 700; padding: 5px 0 0 7px;text-transform:uppercase}
+.label-medium-redband{ background: url("../images/Rebband-medium.png") no-repeat scroll 0 0 transparent;width:147px;height:28px;display:block;font-size:10px;font-weight:600;padding:5px 0 0 15px;color: #FFFFFF;}
+
+/*
+--------------------------------------------------------
+3.6.2 Small Labels
+--------------------------------------------------------
+*/
+/* Small White Label */
+
+.label-small-white {position:relative; display:block; margin:0 0 0 -12px; height:22px; padding:4px 10px 0 20px; color:#465a6b; font-size:11px; text-transform:uppercase; text-align:right; background: rgb(242,242,242); background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YyZjJmMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZWZlZmUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(242,242,242,1) 0%, rgba(254,254,254,1) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(242,242,242,1)), color-stop(100%,rgba(254,254,254,1))); background: -webkit-linear-gradient(top,  rgba(242,242,242,1) 0%,rgba(254,254,254,1) 100%); background: -o-linear-gradient(top,  rgba(242,242,242,1) 0%,rgba(254,254,254,1) 100%); background: -ms-linear-gradient(top,  rgba(242,242,242,1) 0%,rgba(254,254,254,1) 100%); background: linear-gradient(to bottom,  rgba(242,242,242,1) 0%,rgba(254,254,254,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#fefefe',GradientType=0 ); border-top-left-radius:3px; -moz-border-top-left-radius:3px; -webkit-border-top-left-radius:3px; border-top-right-radius:3px; -moz-border-top-right-radius:3px; -webkit-border-top-right-radius:3px; border-bottom-right-radius:3px; -moz-border-bottom-right-radius:3px; -webkit-border-bottom-right-radius:3px; -webkit-box-shadow:  0px 3px 4px 0px rgba(0, 0, 0, .2); box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, .2);}
+
+.label-small-white:before {content:""; position:absolute; left:0; bottom:-4px; z-index:2; width:7px; height:4px; background:url(../images/lip-white.png)}
+
+/* Small White Label */
+.label-small-orange {position:relative; display:block; margin:0 0 0 -12px; height:22px; padding:4px 10px 0 20px; color:#fff; font-size:11px; text-transform:uppercase; text-align:right; background: rgb(196,41,4); background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2M0MjkwNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjZTJiMDQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top,  rgba(196,41,4,1) 0%, rgba(206,43,4,1) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(196,41,4,1)), color-stop(100%,rgba(206,43,4,1))); background: -webkit-linear-gradient(top,  rgba(196,41,4,1) 0%,rgba(206,43,4,1) 100%); background: -o-linear-gradient(top,  rgba(196,41,4,1) 0%,rgba(206,43,4,1) 100%); background: -ms-linear-gradient(top,  rgba(196,41,4,1) 0%,rgba(206,43,4,1) 100%); background: linear-gradient(to bottom,  rgba(196,41,4,1) 0%,rgba(206,43,4,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c42904', endColorstr='#ce2b04',GradientType=0 );  border-top-left-radius:3px; -moz-border-top-left-radius:3px; -webkit-border-top-left-radius:3px; border-top-right-radius:3px; -moz-border-top-right-radius:3px; -webkit-border-top-right-radius:3px; border-bottom-right-radius:3px; -moz-border-bottom-right-radius:3px; -webkit-border-bottom-right-radius:3px; -webkit-box-shadow:  0px 3px 4px 0px rgba(0, 0, 0, .2); box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, .2);}
+
+.label-small-orange:before {content:""; position:absolute; left:0; bottom:-4px; z-index:2; width:7px; height:4px; background:url(../images/lip-orange.png)}
+
+
+.label-small-orange-right {position:relative; display:block; margin:0 0 0 -12px; height:22px; padding:4px 10px 0 20px; color:#fff; font-size:11px; text-align:left; background: rgb(196,41,4); background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2M0MjkwNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjZTJiMDQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top,  rgba(196,41,4,1) 0%, rgba(206,43,4,1) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(196,41,4,1)), color-stop(100%,rgba(206,43,4,1))); background: -webkit-linear-gradient(top,  rgba(196,41,4,1) 0%,rgba(206,43,4,1) 100%); background: -o-linear-gradient(top,  rgba(196,41,4,1) 0%,rgba(206,43,4,1) 100%); background: -ms-linear-gradient(top,  rgba(196,41,4,1) 0%,rgba(206,43,4,1) 100%); background: linear-gradient(to bottom,  rgba(196,41,4,1) 0%,rgba(206,43,4,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c42904', endColorstr='#ce2b04',GradientType=0 );  border-top-left-radius:3px; -moz-border-top-left-radius:3px; -webkit-border-top-left-radius:3px; border-top-right-radius:3px; -moz-border-top-right-radius:3px; -webkit-border-top-right-radius:3px; border-bottom-right-radius:3px; -moz-border-bottom-right-radius:3px; -webkit-border-bottom-right-radius:3px; -webkit-box-shadow:  0px 3px 4px 0px rgba(0, 0, 0, .2); box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, .2);}
+
+.label-small-orange-right:before {content:""; position:absolute; right:0; bottom:-3px; z-index:2; width:7px; height:4px; background:url(../images/lip-orange-right.png)}
+.label-discount-flag{background:url("../images/discount-flag.png") no-repeat scroll 0 0 transparent;width:85px;height:26px;float:left;color:#fff;font-size:10px;font-weight:600;padding:5px 0 0 7px;position:absolute}
+/*
+////////////////////////////////////////////////////////
+3.7 Form Elements
+////////////////////////////////////////////////////////
+
+--------------------------------------------------------
+3.7.1 Inputs
+--------------------------------------------------------
+*/
+input {font-family:'Lato', sans-serif; font-weight:100; color:#465A6B; background:#f3f3f4; border:0; border-radius:6px; -moz-border-radius:6px; -webkit-border-radius:6px; -webkit-box-shadow: inset 0px 2px 10px 0px rgba(0, 0, 0, .5); box-shadow: inset 0px 2px 10px 0px rgba(0, 0, 0, .5);}
+
+input.inner-shadow {font-size:14px; height:30px; font-weight: 300; padding:0 18px 0 18px; border:0; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; background: #ededed; background: -moz-linear-gradient(top,  #ededed 1%, #ffffff 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ededed), color-stop(100%,#ffffff)); background: -webkit-linear-gradient(top,  #ededed 1%,#ffffff 100%); background: -o-linear-gradient(top,  #ededed 1%,#ffffff 100%); background: -ms-linear-gradient(top,  #ededed 1%,#ffffff 100%); background: linear-gradient(to bottom,  #ededed 1%,#ffffff 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#ffffff',GradientType=0 ); -webkit-box-shadow: inset 2px 2px 6px 0px rgba(0, 0, 0, .3); box-shadow: inset 2px 2px 6px 0px rgba(0, 0, 0, .3)}
+
+input.inner-shadow:hover {background:#c8ecfb}
+
+input.datepicker {font-weight: 300; width:125px; height:30px;  padding:0 18px 0 10px; font-size:14px; background:#fff url(../images/icon-input-calendar.png) 90px 3px no-repeat; border:1px solid #afafaf; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; -webkit-box-shadow:  0px 1px 1px 0px rgba(0, 0, 0, .12); box-shadow:  0px 1px 1px 0px rgba(0, 0, 0, .12)}
+input.datepicker:hover {background:#c8ecfb  url(../images/icon-input-calendar.png) 90px 3px no-repeat; outline:none}
+
+
+
+/*
+--------------------------------------------------------
+3.7.2 Selects
+--------------------------------------------------------
+*/
+
+/* Standard Select ---------------------- */
+.dk_container{float: left; position: relative;width:100%}
+.dk_container .dk_toggle {border:solid 1px #CACACA;cursor:pointer; position:relative; display:block; height:30px;line-height:30px;width:100% !important; padding:0px 36px 0 10px; font-size:14px; color:#5f6062; background:url(../images/sprite.png) right -408px no-repeat #fff; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; outline:0}
+
+.dk_container .dk_toggle:hover {text-decoration:none; background:url(../images/sprite.png) right -438px no-repeat #fff}
+.dk_open .dk_toggle {background:url(../images/sprite.png) right -438px no-repeat #fff; -webkit-box-shadow:  0px 0px 3px 1px rgba(0, 222, 255, .6); box-shadow:  0px 0px 3px 1px rgba(0, 222, 255, .6)}
+.dk_focus {outline:none !important}
+
+/* Select Drop Down */
+.dk_container .dk_options {display:none; position:absolute; width:100%; z-index:2; background:#fff; border-radius: 0 0 5px 5px;-webkit-border-radius: 0 0 5px 5px; box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.25);-webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.25);}
+ .dk_container .dk_options ul {padding:0;margin:0}
+ .dk_container .dk_options ul li {height:auto; padding:0;margin:0 ;width:100%;}
+.dk_container .dk_options ul li a {cursor:pointer; display:block; padding:5px 5px 5px 16px; font-size:14px; color:#5f6062;text-align:left;width:100%}
+ .dk_container .dk_options ul li a:hover, .small-select .dk_options ul li.dk_option_current a {text-decoration:none; background:#efefef}
+/* Select Drop Down Opened */
+ .dk_open .dk_options {display:block}
+ 
+/* Small Select ---------------------- */
+.small .dk_container .dk_toggle{height:25px;line-height:23px;background:url(../images/sprite.png) right -473px no-repeat #fff;}
+.small .dk_container .dk_toggle:hover{background:url(../images/sprite.png) right -496px no-repeat #fff;}
+.small .dk_open .dk_toggle {background:url(../images/sprite.png) right -496px no-repeat #fff;}
+.small span{color: #717171;font-size: 12px;font-weight: 900;}
+.small .dk_container .dk_options ul li a{color: #717171;font-size: 12px;font-weight: 900;width:100%;line-height:15px}
+
+/*
+--------------------------------------------------------
+3.7.3 Check Boxes
+--------------------------------------------------------
+*/
+
+span.checkbox {margin:0 5px 0 0; width: 17px; height: 17px; padding: 0px; background: url(../images/sprite.png) -85px -315px no-repeat; display: block; clear: left; float: left}
+span.checkbox.checked {background-position:-85px -298px; }
+span.checkbox.clicked { background-position:-85px -298px; }
+span.checkbox.clicked.checked { background-position:-85px -298px; }
+
+/*
+////////////////////////////////////////////////////////
+3.8 Buttons
+////////////////////////////////////////////////////////
+*/
+/* Dark Blue Button */
+.btn-dark-blue {display:block; height:33px; font-size:14px; text-align:center; color:#fff; font-weight:600; border-right:1px solid #093b6b; border-bottom:1px solid #093b6b; background: #095094; background: -moz-linear-gradient(top,  #095094 0%, #094b8c 49%, #07447e 51%, #07447e 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#095094), color-stop(49%,#094b8c), color-stop(51%,#07447e), color-stop(100%,#07447e)); background: -webkit-linear-gradient(top,  #095094 0%,#094b8c 49%,#07447e 51%,#07447e 100%); background: -o-linear-gradient(top,  #095094 0%,#094b8c 49%,#07447e 51%,#07447e 100%); background: -ms-linear-gradient(top,  #095094 0%,#094b8c 49%,#07447e 51%,#07447e 100%); background: linear-gradient(to bottom,  #095094 0%,#094b8c 49%,#07447e 51%,#07447e 100%); -pie-background: linear-gradient(to bottom,  #095094 0%,#094b8c 49%,#07447e 51%,#07447e 100%); -webkit-box-shadow: inset 1px 1px 2px  rgba(255, 255, 255, .2); box-shadow: inset 1px 1px 2px  rgba(255, 255, 255, .2); cursor:pointer;  -webkit-box-shadow: inset 1px 1px 2px 0px rgba(255, 255, 255, .6); box-shadow: inset 1px 1px 2px 0px rgba(255, 255, 255, .6); border-radius:7px; -moz-border-radius:7px; -webkit-border-radius:7px; border-bottom:1px solid #2a4d64; border-right:1px solid #2a4d64;}
+
+/* Dark Blue Hover */
+.btn-dark-blue:hover {text-decoration:none; background: #135b9f; background: -moz-linear-gradient(top,  #135b9f 0%, #105496 50%, #0d4d8a 51%, #0a4883 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#135b9f), color-stop(50%,#105496), color-stop(51%,#0d4d8a), color-stop(100%,#0a4883)); background: -webkit-linear-gradient(top,  #135b9f 0%,#105496 50%,#0d4d8a 51%,#0a4883 100%); background: -o-linear-gradient(top,  #135b9f 0%,#105496 50%,#0d4d8a 51%,#0a4883 100%); background: -ms-linear-gradient(top,  #135b9f 0%,#105496 50%,#0d4d8a 51%,#0a4883 100%); background: linear-gradient(to bottom,  #135b9f 0%,#105496 50%,#0d4d8a 51%,#0a4883 100%); -pie-background: linear-gradient(to bottom,  #135b9f 0%,#105496 50%,#0d4d8a 51%,#0a4883 100%);}
+
+/* Light Blue Button */
+.btn-light-blue {cursor:pointer;display:block; height:33px; color:#fff; font-size:14px; font-weight:600; text-align:center; border-radius:7px; -moz-border-radius:7px; -webkit-border-radius:7px; border-bottom:1px solid #2a4d64; border-right:1px solid #2a4d64;-webkit-box-shadow: inset 1px 1px 2px 0px rgba(255, 255, 255, .6); box-shadow: inset 1px 1px 2px 0px rgba(255, 255, 255, .6);
+	background: #4c88b1; background: -moz-linear-gradient(top,  #4c88b1 0%, #2989d8 50%, #3e7295 51%, #3f7092 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c88b1), color-stop(50%,#2989d8), color-stop(51%,#3e7295), color-stop(100%,#3f7092)); background: -webkit-linear-gradient(top,  #4c88b1 0%,#2989d8 50%,#3e7295 51%,#3f7092 100%); background: -o-linear-gradient(top,  #4c88b1 0%,#2989d8 50%,#3e7295 51%,#3f7092 100%); background: -ms-linear-gradient(top,  #4c88b1 0%,#2989d8 50%,#3e7295 51%,#3f7092 100%); background: linear-gradient(to bottom,  #4c88b1 0%,#2989d8 50%,#3e7295 51%,#3f7092 100%); -pie-background: linear-gradient(to bottom,  #4c88b1 0%,#2989d8 50%,#3e7295 51%,#3f7092 100%);}
+
+/* Light Blue Hover */
+.btn-light-blue:hover {text-decoration:none; background: #4b8dba; background: -moz-linear-gradient(top,  #4b8dba 0%, #238de4 50%, #3b7ca7 51%, #427ba3 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4b8dba), color-stop(50%,#238de4), color-stop(51%,#3b7ca7), color-stop(100%,#427ba3)); background: -webkit-linear-gradient(top,  #4b8dba 0%,#238de4 50%,#3b7ca7 51%,#427ba3 100%); background: -o-linear-gradient(top,  #4b8dba 0%,#238de4 50%,#3b7ca7 51%,#427ba3 100%); background: -ms-linear-gradient(top,  #4b8dba 0%,#238de4 50%,#3b7ca7 51%,#427ba3 100%); background: linear-gradient(to bottom,  #4b8dba 0%,#238de4 50%,#3b7ca7 51%,#427ba3 100%); -pie-background: linear-gradient(to bottom,  #4b8dba 0%,#238de4 50%,#3b7ca7 51%,#427ba3 100%);}
+
+/* Light Blue Button */
+.btn-light-blue2 {cursor:pointer;display:block; height:33px; color:#fff; font-size:14px; font-weight:600; text-align:center; border-radius:7px; -moz-border-radius:7px; -webkit-border-radius:7px; border-bottom:1px solid #2a4d64; border-right:1px solid #2a4d64;-webkit-box-shadow: inset 1px 1px 2px 0px rgba(255, 255, 255, .6); box-shadow: inset 1px 1px 2px 0px rgba(255, 255, 255, .6);
+	background: #4c88b1; background: -moz-linear-gradient(top,  #4c88b1 0%, #2989d8 50%, #3e7295 51%, #3f7092 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c88b1), color-stop(50%,#2989d8), color-stop(51%,#3e7295), color-stop(100%,#3f7092)); background: -webkit-linear-gradient(top,  #4c88b1 0%,#2989d8 50%,#3e7295 51%,#3f7092 100%); background: -o-linear-gradient(top,  #4c88b1 0%,#2989d8 50%,#3e7295 51%,#3f7092 100%); background: -ms-linear-gradient(top,  #4c88b1 0%,#2989d8 50%,#3e7295 51%,#3f7092 100%); background: linear-gradient(to bottom,  #4c88b1 0%,#2989d8 50%,#3e7295 51%,#3f7092 100%); -pie-background: linear-gradient(to bottom,  #4c88b1 0%,#2989d8 50%,#3e7295 51%,#3f7092 100%);padding:8px 25px;}
+
+/* Light Blue Hover */
+.btn-light-blue2:hover {text-decoration:none; background: #4b8dba; background: -moz-linear-gradient(top,  #4b8dba 0%, #238de4 50%, #3b7ca7 51%, #427ba3 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4b8dba), color-stop(50%,#238de4), color-stop(51%,#3b7ca7), color-stop(100%,#427ba3)); background: -webkit-linear-gradient(top,  #4b8dba 0%,#238de4 50%,#3b7ca7 51%,#427ba3 100%); background: -o-linear-gradient(top,  #4b8dba 0%,#238de4 50%,#3b7ca7 51%,#427ba3 100%); background: -ms-linear-gradient(top,  #4b8dba 0%,#238de4 50%,#3b7ca7 51%,#427ba3 100%); background: linear-gradient(to bottom,  #4b8dba 0%,#238de4 50%,#3b7ca7 51%,#427ba3 100%); -pie-background: linear-gradient(to bottom,  #4b8dba 0%,#238de4 50%,#3b7ca7 51%,#427ba3 100%);padding:8px 25px;}
+
+
+/* Light Grey Button */
+.btn-light-grey {border-bottom:solid 1px #636365;border-right:solid 1px #7a7c7d;cursor:pointer;display:block;height:33px; color:#fff; font-size:14px; font-weight:600; text-align:center; border-radius:7px; -moz-border-radius:7px; -webkit-border-radius:7px;-webkit-box-shadow: inset 1px 1px 2px 0px rgba(255, 255, 255, .6); box-shadow: inset 1px 1px 2px 0px rgba(255, 255, 255, .6); background: #ffffff; background: -moz-linear-gradient(top,  #ffffff 0%, #c2c2c2 50%, #a1a1a1 51%, #959595 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#c2c2c2), color-stop(51%,#a1a1a1), color-stop(100%,#959595)); background: -webkit-linear-gradient(top,  #ffffff 0%,#c2c2c2 50%,#a1a1a1 51%,#959595 100%); background: -o-linear-gradient(top,  #ffffff 0%,#c2c2c2 50%,#a1a1a1 51%,#959595 100%); background: -ms-linear-gradient(top,  #ffffff 0%,#c2c2c2 50%,#a1a1a1 51%,#959595 100%); background: linear-gradient(to bottom,  #ffffff 0%,#c2c2c2 50%,#a1a1a1 51%,#959595 100%); -pie-background: linear-gradient(to bottom,  #ffffff 0%,#c2c2c2 50%,#a1a1a1 51%,#959595 100%);}
+
+/* Light Grey Button Hover */
+.btn-light-grey:hover {text-decoration:none; background: #efefef; background: -moz-linear-gradient(top,  #efefef 0%, #afafaf 50%, #8e8e8e 51%, #848484 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#efefef), color-stop(50%,#afafaf), color-stop(51%,#8e8e8e), color-stop(100%,#848484)); background: -webkit-linear-gradient(top,  #efefef 0%,#afafaf 50%,#8e8e8e 51%,#848484 100%); background: -o-linear-gradient(top,  #efefef 0%,#afafaf 50%,#8e8e8e 51%,#848484 100%); background: -ms-linear-gradient(top,  #efefef 0%,#afafaf 50%,#8e8e8e 51%,#848484 100%); background: linear-gradient(to bottom,  #efefef 0%,#afafaf 50%,#8e8e8e 51%,#848484 100%); -pie-background: linear-gradient(to bottom,  #efefef 0%,#afafaf 50%,#8e8e8e 51%,#848484 100%);}
+
+
+/* With Green Arrow */
+.w-green-arrow {position:relative}
+.w-green-arrow:after {content:""; position:absolute; right:-15px; top:0; display:block; width:33px; height:33px; background:url(../images/sprite.png) -78px -154px;display:inline-block;cursor:pointer}
+
+/*
+////////////////////////////////////////////////////////
+3.9 Breadcrumbs
+////////////////////////////////////////////////////////
+*/
+#breadcrumbs {height:20px; background:rgba(255,255,255,.7); background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjUiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjUiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==); background: -ms-linear-gradient(top,  rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#80ffffff',GradientType=0 );}
+#breadcrumbs ul li {height:20px; float:left; padding:2px 10px; background:url(../images/bg-triangle.png) right center no-repeat;}
+#breadcrumbs ul li a {font-size:10px; font-size:10px; color:#333; font-weight:900; text-transform:uppercase}
+
+/*
+////////////////////////////////////////////////////////
+3.10 Pagination
+////////////////////////////////////////////////////////
+*/
+.paginate ul { list-style:none; float:right; margin-right:6px; }
+.paginate ul li	{ float:left; }
+.paginate ul li a { color:#717171; text-decoration:none; width:26px;font-size:14px; height:25px; line-height:23px; border:1px solid #c9c9c9; display:block; text-align:center; border-radius:5px;-webkit-border-radius:5px; margin:0 5px 0 0;box-shadow:0px 1px 0 0 #fff inset,0 1px 0 0 rgba(0,0,0,0.25);-webkit-box-shadow:0px 1px 0 0 #fff inset,0 1px 0 0 rgba(0,0,0,0.25);text-shadow:0px 1px 0 #fff; background: rgb(249,249,249);background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y5ZjlmOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlYWVhZWEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top,  rgba(249,249,249,1) 0%, rgba(234,234,234,1) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(249,249,249,1)), color-stop(100%,rgba(234,234,234,1))); background: -webkit-linear-gradient(top,  rgba(249,249,249,1) 0%,rgba(234,234,234,1) 100%); background: -o-linear-gradient(top,  rgba(249,249,249,1) 0%,rgba(234,234,234,1) 100%); background: -ms-linear-gradient(top,  rgba(249,249,249,1) 0%,rgba(234,234,234,1) 100%); background: linear-gradient(to bottom,  rgba(249,249,249,1) 0%,rgba(234,234,234,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#eaeaea',GradientType=0 ); }
+.paginate ul li.first a, .paginate ul li.last a	{ font-weight:900; }
+.paginate ul li.last a { margin-right:0px; }
+.paginate ul li a:hover, .paginate ul li a.current { background: rgb(74,74,74); background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRhNGE0YSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1MzUzNTMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top,  rgba(74,74,74,1) 0%, rgba(83,83,83,1) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(74,74,74,1)), color-stop(100%,rgba(83,83,83,1))); background: -webkit-linear-gradient(top,  rgba(74,74,74,1) 0%,rgba(83,83,83,1) 100%); background: -o-linear-gradient(top,  rgba(74,74,74,1) 0%,rgba(83,83,83,1) 100%); background: -ms-linear-gradient(top,  rgba(74,74,74,1) 0%,rgba(83,83,83,1) 100%); background: linear-gradient(to bottom,  rgba(74,74,74,1) 0%,rgba(83,83,83,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a4a4a', endColorstr='#535353',GradientType=0 ); box-shadow:0px 1px 0 0 rgba(255,255,255,0.5);-webkit-box-shadow:0px 1px 0 0 rgba(255,255,255,0.5);border:solid 1px #4a4a4a;color:#fff;text-shadow:none}
+
+/*
+--------------------------------------------------------
+Temp Classes for Dev - Remove after production is finished
+--------------------------------------------------------
+*/
+/* Notes for dev use */
+.notes {height: 40px; background: #FFF; background: #003775; width:100%; min-width:1100px }
+.notes h2 { line-height: 40px; color: #FFF; font-size: 14px; margin-left: 20px; }
+
+/* Header Spacers */
+.spacer { width: 100%; height: 120px;}
+
+/*
+////////////////////////////////////////////////////////
+3.11 Common Classes CSS
+////////////////////////////////////////////////////////
+*/
+.rotate10 img{margin-left:-4px;margin-top:-4px;-moz-transform:rotate(-10deg);-webkit-transform:rotate(-10deg);-sand-transform: rotate(-10deg); -ms-transform: rotate(-10deg);box-shadow:0 0 5px 1px rgba(0, 0, 0, 0.65);-webkit-box-shadow:0 0 5px 1px rgba(0, 0, 0, 0.65); border:4px solid #fff}
+.fixed-layout-blacktransparent{position:fixed;width:100%;height:100%;background:rgba(0,0,0,0.5);top:0;}
+/**************APPLE RATING***************/
+.av-logo							{width:146px;height:13px;background:url(../images/av-logo.png) no-repeat;cursor:pointer;display:block}
+.av-rate{width:80px;height:15px;background:url(../images/apple-rating.png);display: block;margin-right: 14px;overflow: hidden; position: relative;float:left}
+.av00{background-position:-1px -1px }
+.av05{background-position:-1px -17px}
+.av10{background-position:-1px -33px }
+.av15{background-position:-1px -49px }
+.av20{background-position:-1px -65px }
+.av25{background-position:-1px -81px }
+.av30{background-position:-1px -97px }
+.av35{background-position:-1px -113px }
+.av40{background-position:-1px -129px }
+.av45{background-position:-1px -145px }
+.av50{background-position:-1px -161px }
+
+/*Trip advisor ratings*/
+.ta-logo							{width:77px;height:22px;background:url(../images/ta-logo.jpg) no-repeat;cursor:pointer;display:block}
+.ta-rate{background:url(../images/tripadvisor-rating.png);display: block;margin-right: 14px;overflow: hidden; position: relative;float:left}
+.ta_rate_b{width:118px;height:19px;}
+.ta_rate_b.ta00{background-position:0px -202px }
+.ta_rate_b.ta05{background-position:0px -182px}
+.ta_rate_b.ta10{background-position:0px -162px } 
+.ta_rate_b.ta15{background-position:0px -142px }
+.ta_rate_b.ta20{background-position:0px -122px }
+.ta_rate_b.ta25{background-position:0px -102px }
+.ta_rate_b.ta30{background-position:0px -82px }
+.ta_rate_b.ta35{background-position:0px -62px }
+.ta_rate_b.ta40{background-position:0px -42px  }
+.ta_rate_b.ta45{background-position:0px -22px }
+.ta_rate_b.ta50{background-position:0px -2px }
+/*ratings for with out icons*/
+.no-icon.ta_rate_b{width:69px;height:14px;}
+.no-icon.ta_rate_b.ta00{background-position:-220px -142px }
+.no-icon.ta_rate_b.ta05{background-position:-220px -128px}
+.no-icon.ta_rate_b.ta10{background-position:-220px -114px } 
+.no-icon.ta_rate_b.ta15{background-position:-220px -100px }
+.no-icon.ta_rate_b.ta20{background-position:-220px -86px }
+.no-icon.ta_rate_b.ta25{background-position:-220px -72px }
+.no-icon.ta_rate_b.ta30{background-position:-220px -58px }
+.no-icon.ta_rate_b.ta35{background-position:-220px -44px }
+.no-icon.ta_rate_b.ta40{background-position:-220px -30px  }
+.no-icon.ta_rate_b.ta45{background-position:-220px -16px }
+.no-icon.ta_rate_b.ta50{background-position:-220px -2px }
+
+.rating{margin-top:3px;}
+.rating p{color:#333;font-size:12px;text-transform:capitalize;display:inline-block}
+/*
+///////////////////////////////////////////////////////////////////////////////
+-------------------------------------------------------------------------------
+4.Tool Kits
+	4.1 Side bars
+	4.2 Promos
+	4.3 Tool Kit Hotels
+	4.4 Tool Kit flights
+-------------------------------------------------------------------------------
+///////////////////////////////////////////////////////////////////////////////
+
+/*
+////////////////////////////////////////////////////////
+4.1 Side bars 
+////////////////////////////////////////////////////////
+*/
+.side-bar{float:left;width:210px;background: rgb(214,222,227);display:inline-block;position:relative;padding-top:20px;
+background: rgb(235,241,246);
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ViZjFmNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNGZhZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(235,241,246,1) 0%, rgba(244,250,255,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(235,241,246,1)), color-stop(100%,rgba(244,250,255,1)));
+background: -webkit-linear-gradient(top,  rgba(235,241,246,1) 0%,rgba(244,250,255,1) 100%);
+background: -o-linear-gradient(top,  rgba(235,241,246,1) 0%,rgba(244,250,255,1) 100%);
+background: -ms-linear-gradient(top,  rgba(235,241,246,1) 0%,rgba(244,250,255,1) 100%);
+background: linear-gradient(to bottom,  rgba(235,241,246,1) 0%,rgba(244,250,255,1) 100%);
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf1f6', endColorstr='#f4faff',GradientType=0 );*/}
+.sidebar-slidetoggle			{padding:10px 0 15px 13px;border-bottom:solid 1px #aec8dc;box-shadow: 0 1px 0 0 #FFFFFF;-webkit-box-shadow: 0 1px 0 0 #FFFFFF;}
+.sidebar-slidetoggle:last-child	{border:none;box-shadow:none;-webkit-box-shadow:none}
+.side-bar h3					{font-size:14px;color:#465a6b;text-transform:uppercase;text-shadow:0px 1px 1px #fff;font-weight:600;margin-left:7px}
+.search-box 					{margin-top:10px}
+.search-box input				{height:30px;width:140px;;margin-right:-5px;padding:0 10px }
+.icon-searchbox					{background:url(../images/icon-searchbox.png) no-repeat ;width:36px;height:30px;background-position:0 0;display:inline-block;vertical-align:top;}
+.search-box:hover .icon-searchbox{background-position:0 -32px}
+.sidebar-check li				{margin-top:10px}
+.sub-regions					{padding-left:20px}
+.sidebar-slidetoggle p label{color:#465a6b;font-size:10px;text-transform:uppercase;margin-left:7px}
+.sidebar-slidetoggle p input{background:#abcedf;color:#465a6b;font-size:12px;text-align:center;border:0 none;font-weight:600;margin:9px 0 14px 0px;width:175px }
+.sidebar-slidetoggle .travel-dates-slider p input{background:#ebebeb}
+
+.price-range-slider .slider-range{width:175px;height:5px}
+.travel-dates-slider .slider-range{width:175px;height:5px}
+.flighttime .slider{width:175px;height:5px;}
+.sidebar-slidetoggle .flighttime p input{background:#ebebeb}
+.sidebar-slidetoggle .icon-question-black{margin-left:8px;}
+.Apple-Rating-Dropdown{width: 172px;margin-top:7px;display:inline-block}
+.your-vacation p { color: #000000;font-family: 'Lato';font-size: 14px;text-transform: uppercase}
+.your-vacation p strong {display:inline-block; *display:inline; zoom:1; width: 57px;}
+.your-vacation{margin:10px 0 0 7px}
+.your-vacation a {background: url("../images/icon-small-arrow1.png") no-repeat scroll 0 12px transparent;color: #0086EE; display: inline-block;font-size: 10px;font-weight: 900;line-height: 33px;padding: 0 10px;text-transform:uppercase}
+.Apple-Rating-Dropdown a{color: #0086EE;margin-top:5px; display: inline-block;font-size: 10px;font-weight: 900;padding: 0 10px;text-transform:uppercase}
+.label-search{background: url("../images/search-label.png");width:230px;height:41px;line-height:36px;display:inline-block;font-size:18px;font-weight:600;color:#fff;margin-left:-15px;margin-top:-27px}
+
+
+.label-search .icon-search-glass{margin:0 10px}
+.side-bar .label-maroon{text-indent:30px}
+.trip-info-block{padding-bottom:18px;padding-left:20px;padding-top:12px;border-bottom:solid 1px #9ec1dd;text-shadow:0px 1px 0 #fff;line-height:16px}
+.trip-info-block p{font-size:10px;color:#465a6b;text-transform:uppercase}
+.trip-info-block p strong{font-size:14px;}
+.trip-info-block h5{font-size:12px;color:#0086ee;font-weight:900;text-transform:capitalize}
+.trip-info-block img{margin-top:10px}
+.resort-profile-image{width:152px;height:110px;overflow:hidden;}
+.trip-itinerary{margin-top:10px}
+.sidebar-slidetoggle .ui-widget-content .ui-state-default{background:url(../images/slider-move.png) 50% 50% repeat-x; font-weight: normal; color: #555555 }
+.apple-rating select{width:174px;height:35px;}
+.apple-rating .dd .ddTitle .ddTitleText {padding: 3px 20px 0 5px;}
+.apple-rating .dd .ddTitle span.arrow{background: url("../images/bg-custom-select.png") no-repeat scroll 0 0 transparent;height:30px;margin-top:-16px}
+.apple-rating .ddcommon .clear{height:0}
+
+/*
+////////////////////////////////////////////////////////
+4.2  Promos
+////////////////////////////////////////////////////////
+*/
+.floatR{float:right}
+.floatL{float: left;}
+.PromoBkd{background:#002245;}
+.ThreeColumn{height:215px;width:960px;position:relative;margin-top:10px}
+.Promo{position:relative;margin:10px 0;display:inline-block}
+.Promo img{width:100%;height:100%;position:absolute;border-radius:4px;-webkit-border-radius:4px}
+.about-city{position:absolute;bottom:20px;left:25px}
+.about-city p{text-transform:uppercase;font-size:14px;color:#acddfe;font-weight:900}
+.about-city h2{font-size:48px;color:#fff;font-weight:100;line-height:36px;text-transform:uppercase}
+ul.Resources-list{width:165px;position:absolute;right:0;top:10px;width:113px}
+.Resources-list li{font-size:12px;color:#c2d9e9;font-weight:600;display:block;margin:6px 0}
+.Resources-list li.active{font-weight:900;font-size:16px;color:#fff;}
+.Promo a{position:absolute;right:15px;bottom:20px;color:#53d5fa;font-size:10px;font-weight:600;text-transform:uppercase}
+.Promo a .icon-smallblue-rightarrow{margin-left:8px}
+/************************************** featured ***************************/
+.featured{position:absolute;top:15px;left:25px}
+.featured p{text-transform:uppercase;font-size:14px;color:#c2d9e9;font-weight:900}
+.featured h3{font-size:28px;color:#fff;font-weight:400;line-height:24px;text-transform:uppercase}
+.featured-offer{position:absolute;right:30px;top:25px;text-transform:uppercase}
+.featured-offer p{font-size:14px;color:#c2d9e9;font-weight:600;}
+.featured-offer p strong{color:#fff}
+.featured.special-offer p{color:#465a6b}
+.ThreeColumn a.btn-light-blue{right:5px;bottom:5px;line-height:33px;width:110px;color:#fff}
+.extendedsale{position:absolute;right:30px;top:25px;text-transform:uppercase}
+.extendedsale p{text-transform:uppercase;font-size:14px;color:#faac40;font-weight:900}
+.extendedsale p strong{color:#fff;}
+.clearancesale{position:absolute;top:15px;left:25px}
+.clearancesale h4{ color: #faac40;font-size: 14px; font-weight: 900;text-transform:uppercase}
+.clearancesale p {color: #FFFFFF;float: left;font-size: 28px;width: 220px;line-height:24px}
+.clearancesale p span {color: #FFFFFF; display: inline-block;font-size: 60px; font-weight: 900; line-height: 40px; margin: 0; position: absolute; text-align: right;}
+.clearancesale span small {float: right; font-size: 16px;  margin-top: -10px;}
+/*Two column*/
+.TwoColumn{width:637px;height:215px;}
+.TwoColumn img{width:100%;height:100%;position:absolute}
+.TwoColumn .about-city h2{font-size:24px;line-height:20px;font-weight:400;}
+.TwoColumn .featured p{color:#faac40;}
+.TwoColumn .featured h3{font-size:24px;line-height:18px}
+.booknow{position:absolute;bottom:20px;left:25px;text-transform:uppercase}
+.TwoColumn .booknow p{font-size:14px;color:#fff;font-weight:900;}
+.TwoColumn .booknow p strong{color:#faac40}
+.TwoColumn.classic .featured p{color:#c2d9e9;}
+.TwoColumn .booknow p{font-size:14px;color:#c2d9e9;font-weight:900;}
+.TwoColumn.classic .booknow p strong{color:#fff}
+.Promo.TwoColumn.classic a{top:35px;color:#fff;bottom:auto}
+/*one column*/
+.oneColumn{width:311px;height:215px;}
+.oneColumn.first{margin-left:0}
+.oneColumn .about-city h2{font-size:18px;line-height:16px;font-weight:900}
+.gold .featured p{color:#faac40;font-weight:900}
+.gold .featured h3{font-size:18px;line-height:14px;font-weight:900}
+.spavacations p{font-size:12px;line-height:14px;color:#faac40;position:absolute;bottom:20px;left:25px;text-transform:uppercase;font-weight:900;width:100px}
+.spavacations p strong{color:#fff;font-size:16px}
+.classic .featured p{color:#acddfe;font-weight:900}
+.classic .featured h3{font-size:18px;line-height:14px;font-weight:900}
+.protectvacations{font-size:14px;line-height:16px;color:#fff;position:absolute;bottom:20px;left:25px;font-weight:900;width:200px}
+.featuring-text p{font-size:12px;line-height:12px;color:#fff;position:absolute;bottom:20px;left:25px;text-transform:uppercase;font-weight:900;width:150px}
+.AV-Card{position:absolute;top:77px;left:25px;width:117px;height:75px}
+.plain{background:#c2d9e9}
+.plain .featured p{color:#465a6b;font-weight:900}
+.plain .featured h3{font-size:18px;line-height:14px;font-weight:900}
+.plain .featuring-text p{color:#465a6b;}
+/*Third party*/
+.thirdparty{width:300px;height:250px}
+.thirdparty .booknow{font-size:14px;color:#c2d9e9;font-weight:900;line-height:13px}
+.thirdparty .booknow p{color:#fff}
+.thirdparty.gold .booknow{font-size:14px;color:#fff;font-weight:900;line-height:13px}
+.thirdparty.gold .booknow p{color:#faac40}
+.thirdparty .clearancesale h4{font-size:14px;color: #FFCC00;}
+.thirdparty .clearancesale p {font-size:16px;line-height:15px;width:130px;color: #fff;}
+.thirdparty .clearancesale p span {font-size:48px}
+.thirdparty .clearancesale span small {}
+.saleext{position:absolute;bottom:20px;left:25px;text-transform:uppercase}
+.thirdparty .saleext{font-size:14px;color:#465a6b;font-weight:900;line-height:13px;text-transform:inherit}
+.thirdparty .saleext p{color:#fff;text-transform:uppercase}
+/********************Side bars ***********************/
+.sidebar{width:215px;height:215px;vertical-align: top;}
+.Promo.sidebar a{bottom:12px;right:15px}
+.sidebar.summerclearance{height:433px;}
+.sidebar.summerclearance.short{height:264px;}
+.sidebar.summerclearance.short a{color:#0086ee}
+.sidebar .clearancesale h4{font-size:14px;color: #FFCC00;}
+.sidebar .clearancesale p {font-size:16px;line-height:15px;width:130px}
+.sidebar .clearancesale p span {font-size:48px}
+.sidebar .saleext{font-size:14px;line-height:16px;color:#fff;font-weight:900;line-height:13px;text-transform:inherit;bottom:30px}
+.sidebar .saleext p{color:#ffcc00;text-transform:uppercase}
+.sidebar.classic .featured p{font-size:12px} 
+.sidebar.classic .featured h3{font-size:16px}
+.sidebar .protectvacations{bottom:30px}
+.tell-us-content{position:absolute;height:100%}
+.tell-us-about-your-trip h3{color:#c2d9e9;font-size:14px;margin:15px 0 0 25px;font-weight:900}
+.tell-us-about-your-trip p{color:#fff;font-size:12px;line-height:18px;margin:15px 0 0 25px;font-weight:900}
+.tell-us-content a.btn-light-blue{bottom:10px;left:20px;color:#fff;line-height:33px;font-weight:900;font-size:14px;width:170px;text-transform:capitalize}
+/*contact-us*/
+.sidebar.contact-us{height:190px} 
+.contact-us{background: rgb(218,223,226);
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RhZGZlMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNWZhZmQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(218,223,226,0.8) 0%, rgba(245,250,253,0.8) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(218,223,226,0.8)), color-stop(100%,rgba(245,250,253,0.8)));
+background: -webkit-linear-gradient(top,  rgba(218,223,226,0.8) 0%,rgba(245,250,253,0.8) 100%);
+background: -o-linear-gradient(top,  rgba(218,223,226,0.8) 0%,rgba(245,250,253,0.8) 100%);
+background: -ms-linear-gradient(top,  rgba(218,223,226,0.8) 0%,rgba(245,250,253,0.8) 100%);
+background: linear-gradient(to bottom,  rgba(218,223,226,0.8) 0%,rgba(245,250,253,0.8) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dadfe2', endColorstr='#f5fafd',GradientType=0 );}
+.contact-us h3 {width:100%; height:46px; border-bottom:1px #b1c2cf solid;box-shadow:0px 0px 1px #fff;-webkit-box-shadow:0px 0px 1px #fff; font-size:14px;color:#000;font-weight:900; padding:15px 0px 0px 25px;}
+.contact-us ul {width:188px; height:auto; margin:10px 0px 0px 25px;}
+.contact-us ul li {width:170px; margin:6px 0px 0px 0px; list-style:none; display:block; font-size:13px;font-weight:900;line-height:18px;text-decoration:none; color:#0868aa; font-size:12px;line-height:19px}
+.contact-us ul li a {text-decoration:none; color:#0868aa; font-size:12px;margin-left:6px;line-height:19px}
+.contact-us ul li p{font-size:13px;color:#000;margin-left:25px;margin-bottom:12px;font-weight:normal}
+.contact-us ul li p b{font-size:14px;font-weight:900}
+.contact-us .icon-phone{margin-top:4px}
+.contact-us .icon-chat ,.contact-us .icon-email{margin-right:6px}
+/*
+////////////////////////////////////////////////////////
+4.3  Tool Kit Hotels
+////////////////////////////////////////////////////////
+*/
+/**Menu tabs***/
+.main-content-ViewTabs              {border-top:solid 1px #9dbddc;border-bottom:solid 1px #9dbddc;box-shadow:0 1px 0px #FFFFFF inset;-webkit-box-shadow:0 1px 0px #FFFFFF inset;width:100%; margin-top:15px; width:100%; height:100%; float:left; clear:both;}
+.main-content-ViewTabs label        {font-weight:600;color:#465a6b;font-size:10px}
+.main-content-ViewTabs ul           {width:100%; list-style:none; float:left; display:block; margin-top:10px;}
+ul.main-content-ViewTabs li         {float:left;position:relative; list-style:none; padding:13px 0px ;height:40px;color:#0086ee;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:-0.5px\9}
+ul.main-content-ViewTabs li  .dk_container .dk_options ul li{text-transform:lowercase;}
+.main-content-ViewTabs li a         {width:100%;  cursor:pointer; position:relative; float:left; text-align:center;}
+.main-content-ViewTabs li:last-child{float:right;margin-right:7px}
+.main-content-ViewTabs li.Tab.active{color:#fff; text-decoration:none; background: #3c9115; /* Old browsers */
+                                     background: -moz-linear-gradient(top,  #3c9115 0%, #4db302 100%); /* FF3.6+ */
+                                     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3c9115), color-stop(100%,#4db302)); /* Chrome,Safari4+ */
+                                     background: -webkit-linear-gradient(top,  #3c9115 0%,#4db302 100%); /* Chrome10+,Safari5.1+ */
+                                     background: -o-linear-gradient(top,  #3c9115 0%,#4db302 100%); /* Opera 11.10+ */
+                                     background: -ms-linear-gradient(top,  #3c9115 0%,#4db302 100%); /* IE10+ */
+                                     background: linear-gradient(to bottom,  #3c9115 0%,#4db302 100%); /* W3C */
+                                     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c9115', endColorstr='#4db302',GradientType=0 ); /* IE6-9 */ }
+.main-content-ViewTabs li.Tab.active:after {content: "";left: 50%; margin-left:-10px;position: absolute; top: 100%;width: 0; height: 0; border-left: 10px solid transparent;border-right: 10px solid transparent;	border-top: 8px solid #4db302;z-index:1}
+.main-content-ViewTabs li.Tab.active span.icon-packageview,.main-content-ViewTabs li.Tab.active span.icon-listview,.main-content-ViewTabs li.Tab.active span.icon-mapview{background-position:left bottom}
+/*.main-content-ViewTabs li.Tab:hover:after   {content: "";left: 50%; margin-left:-10px;position: absolute; top: 100%;width: 0; height: 0; border-left: 10px solid transparent;border-right: 10px solid transparent;	border-top: 8px solid #4db302;z-index:1}*/
+.main-content-ViewTabs li.Tab               {cursor:pointer;width:118px;line-height:14px;border-right: 1px solid #9DBDDC;box-shadow: 1px 0 0 0 #FFFFFF;-moz-box-shadow: 1px 0 0 0 #FFFFFF;}
+.main-content-ViewTabs li.Tab:hover         {color:#fff; text-decoration:none; background: #3c9115; /* Old browsers */
+                                            background: -moz-linear-gradient(top,  #3c9115 0%, #4db302 100%); /* FF3.6+ */
+                                            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3c9115), color-stop(100%,#4db302)); /* Chrome,Safari4+ */
+                                            background: -webkit-linear-gradient(top,  #3c9115 0%,#4db302 100%); /* Chrome10+,Safari5.1+ */
+                                            background: -o-linear-gradient(top,  #3c9115 0%,#4db302 100%); /* Opera 11.10+ */
+                                            background: -ms-linear-gradient(top,  #3c9115 0%,#4db302 100%); /* IE10+ */
+                                            background: linear-gradient(to bottom,  #3c9115 0%,#4db302 100%); /* W3C */
+                                            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c9115', endColorstr='#4db302',GradientType=0 ); /* IE6-9 */  }
+.main-content-ViewTabs li.Tab:hover .icon-packageview    {background-position:left bottom}
+.main-content-ViewTabs li.Tab:hover .icon-listview       {background-position:left bottom}
+.main-content-ViewTabs li.Tab:hover .icon-mapview        {background-position:left bottom}
+.main-content-ViewTabs li span.icon-packageview             { margin:3px 7px 0 14px}	
+.main-content-ViewTabs li span.icon-listview                {margin:3px 10px 0 27px}
+.main-content-ViewTabs li span.icon-mapview                 {margin:1px 10px 0 23px}
+.main-content-ViewTabs li.Sortby                    {padding:7px 0 7px 16px;padding-left:14px\9}
+.main-content-ViewTabs li.perpage                   {padding:7px 0 7px 16px;padding-left:14px\9}
+.Sortby label,.perpage label                        {line-height:25px;vertical-align:top;color: #465A6B;font-size: 10px;font-weight: 600;}
+.Sortby .small,.perpage .small						{display:inline-block;text-transform: lowercase;margin-left:5px}
+
+/*Module*/
+/******************************Top special Packages*****************************************/
+.find-head-container                {width:730px; height:100%; float:right;}
+.find-head-container h2             {font-family:'Rokkitt', serif; font-size:36px; margin:15px 0 7px 20px; color:#485c6d; display:inline-block; float:left;}
+.find-head-1                        {width:100%;}
+.find-head-2                        {width:100%;}
+.Location                           {margin:0 10px 0 5px;float:right;width:155px }
+span.nav-package-icon               {background:url(../images/nav-package-icon.png) no-repeat; float:left; width:10px; height:10px; padding:0px 0px 0px 14px; margin:2px 0px 0px 0px;}
+span.nav-list-icon                  {background:url(../images/nav-list-icon.png) no-repeat; float:left; width:10px; height:9px; padding:0px 0px 0px 14px; margin:2px 0px 0px 0px;}
+span.nav-map-icon                   {background:url(../images/nav-map-icon.png) no-repeat; float:left; width:10px; height:10px; padding:0px 3px 0px 14px; margin:2px 0px 0px 0px;}
+span.va-number                      {float:left;font-size:30px; color:#8d8d8d;  display:inline-block;line-height:23px}
+span.va-heading                     {float:right;  color:#465a6b; margin:0px 0px 0px 7px; display:inline-block; font-weight:400;font-size:10px;line-height:25px}
+.va-headinglabel						{width:263px}
+.find-vacation-content              { height:100%; float:right; padding:20px 7px 0;}
+.include-details                    {color:#414042;margin-top:10px}
+.package-view-results               {float:left;position:relative; width:530px; height:234px; margin:0px 5px 10px 0px;-webkit-box-shadow: 0 1px 5px -1px rgba(0, 0, 0, 0.67);box-shadow: 0 1px 5px -1px rgba(0, 0, 0, 0.67); }
+.pvr-bg-color                       {background:#fff;}
+.pvr-bg-color .count{display:none}
+.recommend							{background:#fff;}
+.recommend .count					{display:none}
+.recommendtext {position:absolute;left:10px;top:3px}
+.recommend h6{background: url("../images/greenclick.png") no-repeat scroll left top transparent;color: #005f9a;font-size: 10px;float:left;font-weight: 900;padding-left: 20px;text-transform: uppercase;}
+.recommendtext .icon-Question{margin-left:10px}
+/*.pvr-bg-color-grad                  {background:rgba(249,251,253,0.5);-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7FF9FBFD,endColorstr=#7FF9FBFD);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7FF9FBFD,endColorstr=#7FF9FBFD);zoom: 1; }*/
+.package-view-price                 {float:right; width:176px; height:234px;-webkit-box-shadow: 0 1px 5px -1px rgba(0, 0, 0, 0.67);box-shadow: 0 1px 5px -1px rgba(0, 0, 0, 0.67);}
+.fv-img-container                   {width:190px; margin:20px 0px 0px 10px; position:relative;}
+.fv-img-container .discount-flag   {position:absolute; top:20px; left:-6px; background:url(../images/discount-lip-bg.png) 0px 0px no-repeat; width:60px; height:40px; color:#fff; padding:5px 0px 0px 7px; font-size:10px; font-weight:700;}
+.find-vacation-r1                   {float:left; height:198px;border-bottom:1px #98b2c8 solid;}
+.find-vacation-r2                   {float:left; height:198px;width:330px;border-bottom:1px #98b2c8 solid;}
+.find-vacation-r2 h2                {margin:15px 0px 0px 0px;  color:#0086ee;font-weight:900;font-size:18px;letter-spacing:-0.5px\9}
+.price-based-on                     {font-size:10px; color:#707070; margin:7px 0px 0px 0px;font-weight:900}
+.view-room-details                  {font-size:10px; color:#0086ee;font-weight:900}
+.type-of-hotal                      {font-size:10px; color:#cf2b04;font-weight:900}
+.find-vacation-r2 ul li             {font-size:13px;color:#414042}
+.red-apple-icon                    {width:30px; height:30px; float:left; background:url(../images/red-apple-icon.png) no-repeat; padding:7px 0px 0px 8px; color:#FFF;}
+span.hotel-rating-type              {display:block;  line-height:27px; font-size:11px; color:#465A6B;font-weight:bold }
+.search-icons-span                  {width:180px; display:block; float:left; height:30px;  padding:0px 0px 0px 10px;}
+.search-icons-span IMG              {margin:5px 0px 0px 10px;}
+.browse-special .view-package-details{height:44px}
+.browse-special .dates-for-travel{height:44px;width:270px;text-align:right}
+.browse-special .dates-for-travel strong{font-weight:900;}
+.browse-special .dates-for-travel a{line-height:48px}
+.browse-special .stay-links-listview{padding-top:10px}
+.browse-special .view-package-details a{padding-top:8px;background-position:0 20px}
+.view-package-details               {width:160px; display:block; float:left; height:30px;  border-left:1px #98b2c8 solid; text-align:center;}
+.packagevalue .view-package-details {border-left:none}
+.view-package-details a             {color:#0086ee;font-size:10px;font-weight:900; line-height:33px;  display:inline-block; background:url(../images/icon-small-arrow1.png) 0px 12px no-repeat; padding-left:10px;}
+.dates-for-travel                   {width:170px; display:block; float:left; height:30px; border-left:1px #98b2c8 solid; text-align:center; }
+.dates-for-travel a                 {text-decoration:none; color:#465a6b;font-size:12px; line-height:33px; display:inline-block;}
+/*.retail-price-tag                   {width:100%; display:inline-block; float:right; margin:30px 0px 0px 0px;}
+.total-price-tag                    {width:100%; display:inline-block; float:right;}*/
+.price-tag							{position:absolute;/*bottom:13px;height:35px*/right:15px;bottom:5px;}
+.price-tag p						{font-weight:600}
+.retail-price-number                {text-decoration:line-through; color:#636363;font-weight:400}
+.total-price-number                 {font-size:14px;color:#000;font-weight:400}
+.share-span                         {width:68px; display:block; float:left; height:30px; border-bottom:1px #98b2c8 solid; border-right:1px #98b2c8 solid; color:#0086EE;font-size:10px;font-weight:900; line-height:30px;letter-spacing:-0.5px\9}
+.share-span a                       {}
+.share-span .icon-share				{margin:8px 6px 0}
+.save-package-span                  {width:108px;display:block; float:left;height:30px;border-bottom:1px #98b2c8 solid;color:#0086EE;font-size:10px;font-weight:900;line-height:30px;letter-spacing:-0.5px\9}
+.save-package-span .icon-blueheart	{margin:10px 6px 0}
+.vacation-price-details-div         {position:relative;height:168px;width:176px; padding:37px 20px 0px 0px; border-bottom:1px #98b2c8 solid; text-align:right; float:right;font-size:10px;}
+.CF-Price-block .price-tag				{height:135px}
+.vacation-price-details-div p       {font-size:10px;color:#636363;text-transform:uppercase;line-height:16px;font-weight:400}
+.content .vacation-price-details-div p       {font-size:10px;color:#636363;text-transform:uppercase;line-height:16px;font-weight:400}
+.vacation-price-details-div p.inline-block {display:block; float:right; width:100%;margin-top:3px;margin-bottom:28px;color:#636363;font-size:10px;fontw-weight:400}
+.book-it-span                       {display:inline-block; width:100%; height:auto; }
+.book-it-span a                     {float:right; width:88px; height:29px; margin:3px 3px 0px 0px; line-height:29px;}
+.price-dallar                       {font-size:30px; font-weight:700; float:right; font-family: 'lato-black',sans-serif;}
+.dollar-sign                        {float:right; margin-top:4px;}
+.price-cents                        {float:right; margin-top:4px;}
+.vacation-price-details-div p.price {font-size: 18px;color: #565757;line-height:20px}
+.price                              { color: #636363;text-shadow:1px 1px 1px #fff;display: inline-block;font-size: 18px;line-height: 22px; margin: 0 0 0 5px;text-transform: uppercase; vertical-align: top;font-weight:900}	
+.price b                            {display: inline-block;font-size: 36px;letter-spacing:-1px;font-weight: 900; margin: 4px 4px 0 1px; position: relative;vertical-align: top;}
+.package-view-results .count {color: #465A6B;font-size: 14px;left: 12px;position: absolute;top: 2px;}
+.Price-confirmation					{ bottom: 0;position: absolute;width:156px;height:65px;text-align:right}
+.Price-confirmation .btn-light-blue{line-height: 33px; margin: 0px -20px 0 19px;width: 155px;padding-left:10px;text-align:left;position:absolute}
+.Price-confirmation .btn-light-blue .icon-greenrightarrow{ position: absolute;right: -17px;}
+/*************BOOKING PACKAGE CHANGE FLIGHT***********/
+.yellowbkd{background:#FFCC33;position:relative}
+.GetStarted{width:960px; padding: 15px 20px;}
+.GetStarted p{font-size:18px;font-weight:900;color:#465a6b}
+.GetStarted p span{font-size:12px;font-weight:900;color:#465a6b;text-transform:uppercase}
+.GetStarted p span a{font-size:12px;font-weight:900;color:#0086ee;text-transform:uppercase;cursor:pointer}
+.GetStarted .clost-text {color: #0086EE;cursor: pointer;font-size: 11px;font-weight: 900;position: absolute;right: 15px;text-transform: uppercase;top: 18px;}
+.bestvaluepackage .bestvalue{box-shadow: 0 1px 5px -1px rgba(0, 0, 0, 0.67);-webkit-box-shadow: 0 1px 5px -1px rgba(0, 0, 0, 0.67);height: 234px;position: relative;width:297px}
+.bestvaluepackage .bestvalue .depart{margin:16px 0 0 16px;width:90px;float:left;}
+.bestvaluepackage .bestvalue .flightdetails{width:165px;float:left;margin-top:12px;}
+.bestvaluepackage .bestvalue .depart h6{color:#465a6b;font-size:10px;text-transform:uppercase}
+.bestvaluepackage .bestvalue .depart span{color:#000000;font-size:14px;text-transform:capitalize}
+.bestvaluepackage .bestvalue .depart p{color:#000000;font-size:14px;font-weight:600}
+.bestvaluepackage .bestvalue .flightdetails h6{color:#465a6b;font-size:12px;}
+.bestvaluepackage .bestvalue .flightdetails p{color:#000000;font-size:14px;text-transform:capitalize}
+.bestvaluepackage .bestvalue .flightdetails span{float:right}
+.bestvaluepackage .Package {background: #F9FBFC;border: 1px solid #D6D6D6;box-shadow: 0 1px 5px -1px rgba(0, 0, 0, 0.67);
+box-shadow: 0 1px 5px -1px rgba(0, 0, 0, 0.67); height: 234px;position: relative;margin-left:2px}
+.bestvaluepackage .Package.gradient-transparent-white {background:rgba(249,251,252,.8) !important; filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99ffffff', endColorstr='#99ffffff',GradientType=0 ) !important;}
+.bestvaluepackage .Package .find-vacation-r2{width:279px}
+.bestvaluepackage .Package.detail {width:482px;}
+.bestvaluepackage .Package.packagevalue{width:176px;}
+.bestvaluepackage .Package .share-span{width:67px}
+.bestvaluepackage .Package .save-package-span{width:106px}
+.bestvaluepackage .Package .find-vacation-r2 h6 {font-weight:900;font-size:12px;color:#cc0000;margin-top:5px}
+.bestvaluepackage .Package .find-vacation-r2 p{color:#414042;font-size:13px;line-height:15px;height:75px;width:265px;}
+.bestvaluepackage .Package .find-vacation-r2 p a{color:#0086ee;font-size:13px;display:block;cursor:pointer}
+.bestvaluepackage .bestvalue .label-large-orange{margin-top:10px}
+.bestvaluepackage .bestvalue .view-flight-details{display: block;float: left;height: 32px;border-top: 1px solid #98B2C8;width:100%;position:absolute;bottom:0}
+.bestvalue .btn-light-blue.change-flight-only{position:absolute;bottom:3px;right:5px;font-size:10px;font-weight:normal;height:24px;line-height:24px;padding:0 10px;}
+.bestvaluepackage .bestvalue .view-flight-details a {background: url("../images/icon-small-arrow1.png") no-repeat scroll 0 12px transparent;color: #0086EE;display: inline-block;font-size: 10px;font-weight: 900;line-height: 33px;padding: 0 10px;margin-left:16px}
+.hotel-booking-package .label-large-orange{visibility: hidden;}
+.bestvalue .label-large-value-red{margin-top:8px}
+/*********************Result count Row header**********************/
+#content-container.container-content{padding:10px 0}
+.results-count-row{/*border-bottom:solid 1px #538ebd;box-shadow:0px 1px 0px 0px #7dadd3;*/width:727px;display:inline-block;*dispaly:inline}
+.hotel-available{width:250px;height:84px;background:url("../images/bg-triangle.png") no-repeat scroll right center transparent;padding:10px 0 0 20px;float:left}
+.hotel-available span{font-size:10px;color:#fff;font-weight:600;float:left;text-transform:uppercase;}
+.hotel-available span.hotels-count{font-size:48px;color:#465a6b;text-shadow:0px 1px 0px #fff;clear:both;width:94px;text-align:center}
+.sort-controls{float:right}
+.sort-controls select{display:block}
+.sortcontrolsheader{width:100%;float:left;font-size:10px;color:#fff;font-weight:900;padding-bottom:5px;text-transform:uppercase;margin-top:10px}
+.show-sort{margin:0 5px 0 30px}
+.SortBy{width:150px}
+.SortBy .dk_container{float:left}
+.SortPage{width:122px}
+.SortPage .dk_container{float:left}
+.Package-veiw-list                  {margin:10px 10px 0 10px;float:left;position:relative; width:708px; height:232px;-webkit-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.25);box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.25);background:rgba(249,251,253,0.8);-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCF9FBFD,endColorstr=#CCF9FBFD);
+                                     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCF9FBFD,endColorstr=#CCF9FBFD);zoom: 1;border-radius:10px;-webkit-border-radius:10px; }
+.Package-veiw-list .count			{position:absolute;font-size:14px;color:#465a6b; left:12px;top:2px}
+/*********************Package info Left*********************/
+.Package-info-L                 { float: left;height: 175px;width:190px; margin:20px 0px 0px 10px; position:relative;}
+
+.price-based-on                     {font-size:10px; color:#707070; margin:7px 0px 0px 0px;font-weight:900}
+.view-room-details                  {font-size:10px; color:#0086ee;font-weight:900}
+/*********************Package info dedcription*********************/
+.Package-info-description									  {float:left;background:url(../images/triangle-bkd.png) no-repeat scroll right center transparent;width:375px;height: 195px;
+															   padding: 13px 60px 0 10px;} 
+.Package-info-description  h2               			      {margin:2px 0px 0px 0px;  color:#0086ee;font-weight:900;font-size:18px}
+.Package-info-description a.red-apple-icon                    {width:30px; height:30px; float:left; background:url(../images/red-apple-icon.png) no-repeat; padding:7px 0px 0px 8px; color:#FFF;}
+.Package-info-description span.hotel-rating-type              {display:block;  line-height:27px; font-size:11px; color:#465A6B; }
+.Package-info-description h6								  {font-weight:900;font-size:12px;color:#cc0000;margin-top:5px}
+.Package-info-description p									  {color:#414042;font-size:13px;line-height:16px}
+.Package-info-description p .Readmore						  {color:#0086ee;font-size:13px;line-height:16px;cursor:pointer;display:block}
+/*********************Package info Price list*********************/
+.package-priceinfo											 {float:right;position:relative;padding:68px 10px 6px 0;text-align:right;width:155px;height:192px;margin-left:-30px}
+.package-priceinfo .Price-block								 {font-size: 36px;line-height: 30px;color: #465A6B;}
+.package-priceinfo .Price-block .price						 {margin-left:0}
+.package-priceinfo p										 {font-size:10px;color:#465A6B}
+.package-priceinfo p.price									 {font-size: 18px;}
+.package-priceinfo p.inline-block							 {margin-top:5px}
+.package-priceinfo p.total-price-tag       {font-size:10px;color:#636363;text-transform:uppercase;line-height:16px; display: inline-block;width: 100%;position:absolute;bottom:7px;right:10px}
+.package-priceinfo .total-price-number                 {font-size:14px;color:#000}
+/*********************package-footer*********************/
+.package-footer{float:left;width:100%;border-top:solid 1px #C5CDD6;box-shadow:0px 1px 0px 0px #fff inset}
+.package-footer div{float:left;list-style-type: none}
+.stay-links-listview                  {width:180px; display:block; float:left; height:30px; padding:7px 0px 0px 10px;}
+.package-footer .view-package-details             {color:#0086ee;font-size:10px;font-weight:900; line-height:35px;  display:inline-block; background:url(../images/icon-small-arrow1.png) 20px 14px no-repeat; padding:0px 10px;  border-left: 1px solid #95b0c7;box-shadow:1px 0px 0px 0px #fff inset;-webkit-box-shadow:1px 0px 0px 0px #fff inset;border-right:none ; border-top: none;  display: block; float: left; height: 35px; text-align: center; width: 180px;}
+.choose-room-type span{font-size:12px;font-weight:600;color:#fff}
+.choose-room-type li{color:#46657b;font-size:12px}
+.package-footer div.choose-room-type{float:right;cursor:pointer;clear:right;margin:0;font-weight:600;width:198px;height:36px;line-height:36px;padding-right:10px;padding-left:35px;border-radius:0 0 10px 0;-webkit-border-radius:0 0 10px 0;
+background: rgb(70,163,206); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(70,163,206,1) 0%, rgba(70,163,206,1) 50%, rgba(30,154,201,1) 51%, rgba(30,154,201,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(70,163,206,1)), color-stop(50%,rgba(70,163,206,1)), color-stop(51%,rgba(30,154,201,1)), color-stop(100%,rgba(30,154,201,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(70,163,206,1) 0%,rgba(70,163,206,1) 50%,rgba(30,154,201,1) 51%,rgba(30,154,201,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(70,163,206,1) 0%,rgba(70,163,206,1) 50%,rgba(30,154,201,1) 51%,rgba(30,154,201,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(70,163,206,1) 0%,rgba(70,163,206,1) 50%,rgba(30,154,201,1) 51%,rgba(30,154,201,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(70,163,206,1) 0%,rgba(70,163,206,1) 50%,rgba(30,154,201,1) 51%,rgba(30,154,201,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#46a3ce', endColorstr='#1e9ac9',GradientType=0 ); /* IE6-9 */}
+.choose-room-type a{float:right;margin-top:17px;width:9px; height:7px; }
+.expand {clear:both; float:right; height:15px; }
+.expand a {cursor:pointer; display:block; }
+.expand a.closed {background:url(../images/white-icon-expander.png) 0px 0px no-repeat}
+.closed a.closed {background:url(../images/white-icon-expander.png) 0px -8px no-repeat}
+.wo-header{position:relative}
+.wide-content .expand {  width:9px; height:7px; background:url(../images/icon-expander.png) -21px 0 no-repeat; -webkit-transition: all 200ms ease; -moz-transition: all 200ms ease;-ms-transition: all 200ms ease; -o-transition: all 200ms ease; transition: all 200ms ease;right:0;bottom:5px;position:absolute}
+.wide-content .closed {  width:9px; height:7px; background:url(../images/icon-expander.png) -21px -7px no-repeat; -webkit-transition: all 200ms ease; -moz-transition: all 200ms ease;-ms-transition: all 200ms ease; -o-transition: all 200ms ease; transition: all 200ms ease;right:0;bottom:5px;position:absolute;margin:0px 10px 0 0 }
+/************************Recommends*************************/
+.Recommend .count{display:none}
+.Package-veiw-list.Recommend {background:#fff;height:285px;height:286px\9;}
+.Recommend .Package-info-description{background:url(../images/triangle-activebkd.png) no-repeat scroll right center transparent;}
+.Recommend .Recommendation-text{display:block}
+.Recommendation-text{border-bottom:solid 1px #dadee1;box-shadow:0px 1px 0px 0px #fcfafa;-webkit-box-shadow:0px 1px 0px 0px #fcfafa;padding:14px 0 10px 12px;display:none}
+.Recommendation-text h6{background:url(../images/greenclick.png) left top no-repeat ;color:#0086ee;font-size:10px;padding-left	:20px;font-weight:900;text-transform:uppercase}
+.Recommendation-text p{color:#000;font-size:12px;padding-left:20px}
+.Recommend .package-priceinfo p,.Recommend .package-priceinfo .Price-block{display:none}
+.Recommend .package-priceinfo p.total-price-tag{display:block}
+.Recommend .Package-confirm-changetext{font-size:14px;font-weight:600;color:#465a6b;display: inline-block;line-height: 22px;margin-left: 30px;text-align: center;width: 114px;}
+.Recommend .Package-confirm-changetext a{color:#0086ee;cursor:pointer}
+.Recommend .Package-info-L  a.Selectedhotel   {display:block;position:absolute; top:8px; left:-10px; background:url(../images/Rebband-medium.png) 0px 0px no-repeat; width:146px; height:40px; color:#fff; padding:5px 0px 0px 7px; font-size:10px; font-weight:600;text-transform:uppercase}
+.suggestedtype{display:block;position:absolute; top:20px; left:-10px; background:url(../images/Rebband-medium.png) 0px 0px no-repeat; width:146px; height:40px; color:#fff; padding:5px 0px 0px 7px; font-size:10px; font-weight:600;text-transform:uppercase}
+.Package-confirm-changetext,.Selectedhotel{display:none}
+
+/******************* Flights Departure Return Muli ************************/
+
+.flight-departure-head {width:100%; height:100%; display:inline-block;}
+.choose-flight-header {width:230px; height:160px; float:left; float:left; background:url(../images/arrow-down.png) no-repeat 20px 30px; padding:20px;}
+
+SPAN.choose-flight-header h3 {margin:27px 0px 0px 0px; font-family:Lato; font-weight:600px; font-size:18px; font-weight:600;}
+.departure-arrival-times {margin:0px 0px 0px 0px;float:left;position:relative; width:727px; height:172px; zoom: 1;}
+
+.new-total {font-size:30px; font-family:Lato; font-weight:600; color:#47555c; float:right; width:170px; margin:50px 0px 0px 20px;}
+.new-total h3 {font-size:14px; margin:0px 0px 0px 35px; }
+.new-total-plus {font-size:20px;}
+.new-total-dollar, .new-total-cent {font-size:20px; vertical-align:text-top; display:inline-block; line-height:30px;}
+
+.save-continue-btn {width:148px; line-height:20px;}
+.save-btn {line-height:32px;}
+.green-circle-arrow {float:right; width:30px; height:30px; font-size:25px; line-height:28px; display:inline-block; -webkit-border-radius: 50px; border-radius: 50px; background:#50ba02; margin:2px -13px 0px 0px; -webkit-box-shadow: inset 0px 4px 2px 2px rgba(255, 255, 255, .2);
+box-shadow: inset 0px 4px 2px 2px rgba(255, 255, 255, .2); }
+
+
+
+/* Flights LEFT RIGHT CONTAINER CLASSES, CHILD CLASSES */
+.flights-left-container {float:left; width:215px; height:100%; overflow:hidden; display:block;}
+.flights-right-container {float:right; width:495px; height:100%; display:block; margin-right:10px; position:relative;}
+
+.flights-left-normal {width:185px; height:100%; display:inline-block; margin:0px 0px 2px 0px; padding:12px 10px; position:relative;}
+
+
+.flights-left-normal-color {
+
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjUiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjUiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+background: -moz-linear-gradient(top,  rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.5)), color-stop(100%,rgba(255,255,255,0.5))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#80ffffff',GradientType=0 ); /* IE6-8 */}
+
+.flights-left-yellow-color {background:#fce37e; border-top:4px #FFF solid; border-bottom:4px #FFF solid;}
+.flights-left-yellow-color:after {content:''; display:inline-block; width:50px; height:180px; margin:-5px -50px 0px 0px; position:absolute; right:0px; top:0px; background: url(../images/flights-left-normal-yellow-lip.png) no-repeat 0px 0px;}
+
+.flights-left-white-color {background:url(../images/flights-left-normal-white-bg.jpg) repeat 0px 0px; border-top:5px #FFF solid; border-bottom:5px #FFF solid;}
+.flights-left-white-color:after {content:''; display:inline-block; width:50px; height:180px; margin:-5px -50px 0px 0px; position:absolute; right:0px; top:0px; background: url(../images/flights-left-normal-white-lip.png) no-repeat 0px 0px;}
+
+
+.flights-left-normal h3 {ffont-size:18px; color:#465a6b; margin:0px 0px 10px 0px;}
+.flights-left-normal ul {}
+
+.flights-left-normal li {width:100%; font-size:10px;}
+.flights-left-normal li:first-child {color:#465a6b; width:100%; margin:0px 0px 10px 0px;}
+.flights-left-normal li:nth-child(2) {color:#; font-size:14px; margin:0px 0px 10px 0px;}
+.flights-left-normal li:nth-child(3) {color:#; margin:0px 0px 5px 0px;}
+.flights-left-normal li:nth-child(4) {color:#; margin:0px 0px 5px 0px;}
+.flights-info-list{}
+.flights-info-list .date{color:#465a6b; width:100%; margin:0px 0px 10px 0px;font-weight:900}
+.flights-info-list .place{color:#000; font-size:12px; margin:0px 0px 10px 0px;font-weight:900}
+.flights-info-list .destination{color:#000; margin:0px 0px 5px 0px;}
+.flights-info-list .destination span{margin-left:5px;display:inline-block}
+.flights-info-list .flight-number{color:#000; font-size:12px; }
+
+/************************ END OF LEFT FLIGHTS NORMAL **************************************************/
+.flights-info-list{position:relative;display:inline-block;width:100%}
+.arrow-triangle-1{position:absolute;background:url("../images/bg-triangle.png") no-repeat scroll right center transparent;width:250px;height:100%;left:0px}
+.arrow-triangle-2{position:absolute;background:url("../images/bg-triangle.png") no-repeat scroll right center transparent;width:160px;height:100%;right:110px}
+.unbundled .arrow-triangle-1{width:240px}
+.unbundled .arrow-triangle-2{right:120px}
+.flights-info{height:65px}
+.unbundled .flights-total-div {padding-top:20px}
+.selection-flight	{padding:8px 0 0 30px;display:inline-block}
+.selection-flight span	{color:#fff;text-transform:uppercase;font-size:10px;font-weight:900}
+.selection-flight h4	{color:#53d5fa;font-size:18px;font-weight:900;margin-top:7px}
+.unbundled .flights-total-div p.total-price-tag{margin-top:5px}
+.flights-right-normal {width:495px;display:inline-block; margin:0px 0px 10px 0px; padding:18px 18px 0; position:relative; -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .5);box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .5); background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);}
+.flights-right-normal li.flights-name{margin:15px 10px 0 0 ;width:60px}
+.flights-right-normal.bg-white{background:#fff}
+.flights-right-normal ul {float:left;}
+.flights-right-normal li {float:left; font-size:10px;}
+.flights-right-normal li:first-child {float:left; }
+
+.flights-right-normal-small {position:relative; width:250px; height:100%; display:inline-block; margin:0px 0px 10px 0px; padding:0px; position:relative; -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .5);
+box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .5); }
+.flights-right-normal-small ul {float:right; width:127px;}
+.flights-right-normal-small ul li {float:left; text-align:right; margin:5px 0px 0px 0px;}
+.flights-right-normal-small ul li:first-child {width:50px; font-weight:lighter;}
+.flights-right-normal-small ul li:nth-child(2) {width:75px; text-align:right; padding-right:10px;}
+.flights-right-normal-small ul li:nth-child(3) {width:50px; font-weight:lighter;}
+.flights-right-normal-small ul li:nth-child(4) {width:75px; font-weight:lighter; text-align:right; padding-right:10px;}
+.flights-right-normal-small ul li:nth-child(5) {width:100%; display:inline-block; clear:both; margin:0px 0px 10px -178px; font-weight:lighter;}
+
+
+.total-cost-carat { position:absolute; left:-15px; top:91px; width:20px; height:20px; display:block; background:url(../images/total-cost-carat.png) no-repeat 0px 0px;}
+
+.total-cost-flight {position:absolute; right:-193px; top:0px; width:160px; height:auto; padding-bottom:13px; border:5px #FFF solid;}
+.total-cost-head {width:100%; height:60px; background:#FFF;}
+.total-cost {color:#465a6b; text-align:center; font-size:9px; display:block; width:100%; padding-top:8px; margin-bottom:4px;}
+
+.total-cost-plus {float:left; font-size:16px; line-height:23px; margin-left:30px;}
+.total-cost-money-sign {float:left; font-size:16px; line-height:23px; margin-right:3px; }
+.total-cost-money {float:left; font-size:18px; font-weight:600;margin-right:3px;}
+.total-cost-cents {float:left; line-height:20px;}
+
+.choose-flight-btn {width:100px; margin:10px 0px 0px 24px; line-height:31px; font-size:12px;}
+.price-includes {color:#465a6b; text-align:center; font-size:9px; display:block; width:100%; margin:8px 0px 8px 0px;}
+.view-price-breakdown {text-align:left; margin-left:10px; font-size:9px; display:block; width:100%;}
+.fare-rules {text-align:left; margin-left:10px; font-size:9px; display:block; width:100%; margin-bottom:20px;}
+
+ul.flights-view-seats {width:100%; border-top:2px #98aec0 solid;}
+ul.flights-view-seats li {padding:4px 10px; width:auto!important; float:left; font-size:10px; color:#4b4f52;}
+ul.flights-view-seats li:first-child {border-right:2px solid #98AEC0; padding:7px 10px;}
+
+ul.flights-view-seats li a {font-size:9px; text-decoration:none;}
+ul.flights-view-seats li a span.lip-arrow {width:10px; height:10px; display:inline-block; float:left; background:url(../images/icon-small-arrow1.png) no-repeat 0px 0px; margin:3px 0px 0; padding:0px 5px;}
+
+ul.flights-view-seats li span.flight-view-seats-price {font-size:14px; font-weight:600;}
+
+
+
+.flights-right-yellow {width:498px;  display:inline-block; margin:0px 0px 10px 0px; padding:18px 18px 0; border:5px #FFF solid; position:relative;}
+.flights-right-yellow-bg {background:#fce37e;}
+
+.flights-right-yellow ul {float:left;}
+.flights-right-yellow li {float:left; font-size:10px;}
+.flights-right-yellow li:first-child {float:left; }
+.flights-right-yellow li.flights-name{margin:15px 10px 0 0 ;width:60px}
+.flights-right-yellow ul.flights-from-to-head {margin:0 0px 0px 140px;}
+.flights-right-yellow ul.flights-from-to-head li {float:left; margin:0px 0px 0px 0px; color:#636363;}
+.flights-info li.flights-from,.flights-info li.flights-depart,.flights-info li.flights-to,.flights-info li.flights-arrive{line-height:60px}
+.flights-image {font-weight:900;color:#333;font-size:12px;width:76px;margin:8px 0px 7px 0;}
+.flights-image strong{margin-top:2px;font-size:10px;display:inline-block}
+
+.flights-from {width:35px; text-align:left;}
+.flights-depart {width:65px; text-align:left;}
+.flights-to {width:35px; text-align:left;}
+.flights-arrive {width:50px; text-align:left;}
+.flights-right-normal ul.flights-from-to-head {margin:0 0px 0px 140px;}
+.flights-right-normal ul.flights-from-to-head li {float:left; margin:0px 0px 0px 0px; color:#636363;}
+.flights-logo {width:35px; height:35px; display:block; background:url(../images/united-airlines-icon.png) no-repeat 0px 0px; clear:both;}
+.flights-total-div p{color:#636363;font-size:10px;font-weight:900;text-transform:uppercase;float:right}
+.flights-total-div .Price-block{margin-top:5px;line-height:28px;font-size:26px}
+.flights-total-div p.price{margin-top:0px;font-size:13px}
+.flights-total-div p.price b{font-size:26px}
+.flights-total-div p.total-price-tag{margin-top:15px}
+.flights-total-div {position:absolute; top:0px; right:0px; width:150px; display:block; padding:50px 10px 0px 0px;}
+.flights-seats-left {font-size:11px; float:right; margin:0px -17px 0px 0px; padding:4px 6px 0px 6px; width:141px;}
+
+.flights-seats-left-small {font-size:11px; float:right; margin:6px -12px 0px 0px; padding:4px 10px 0px 6px; width:154px;}
+.flights-seats-left-small ul {}
+.flights-seats-left-small ul li {}
+.flights-seats-left-small ul li:first-child {}
+
+.flights-airline-logo {width:100px; height:32px; background:url(../images/flights-usa-logo.png) no-repeat 0px 0px; display:block; float:left; padding:0px; margin:5px 0px 0px 11px}
+
+.flights-rns-bg {background:url(../images/flights-left-normal-white-bg.jpg) repeat 0px 0px; border:5px #FFF solid;}
+.flights-rns-bg-active {background:#FFF; border:5px #FFF solid;}
+
+.apple-recommends {display:block; float:right; width:auto; height:20px; text-align:right; font-size:9px; color:#0086ee; line-height:38px;}
+
+.icon-checkmark {background:url(../images/icon-checkmark.png) no-repeat 0px 0px; width:20px; height:17px; float:right; display:block; margin:10px 4px 0 0px;}
+
+.icon-questionmark {float:right; height:20px; width:20px; text-align:center; margin:8px 9px 0px 8px; line-height:20px;
+
+
+-webkit-border-radius: 20px;
+border-radius: 20px; 
+
+background: #d1d1d1; /* Old browsers */
+
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2QxZDFkMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlNWU1ZTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+
+background: -moz-linear-gradient(top,  #d1d1d1 0%, #e5e5e5 100%); /* FF3.6+ */
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d1d1d1), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+
+background: -webkit-linear-gradient(top,  #d1d1d1 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+
+background: -o-linear-gradient(top,  #d1d1d1 0%,#e5e5e5 100%); /* Opera 11.10+ */
+
+background: -ms-linear-gradient(top,  #d1d1d1 0%,#e5e5e5 100%); /* IE10+ */
+
+background: linear-gradient(to bottom,  #d1d1d1 0%,#e5e5e5 100%); /* W3C */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-8 */
+
+
+
+
+}
+
+.flights-border-divider {width:100%; height:2px; background:#98aec0; margin:10px 0px 0px 0px; display:inline-block;}
+span.connecting-to {font-size:9px; display:inline-block; height:13px; line-height:23px; width:100%; text-align:center; color:#465a6b;}
+
+
+.seats-new-total {font-size:30px; font-family:Lato; font-weight:600; color:#47555c; float:right; width:139px; margin:5px 8px 0px 20px; text-align:right;}
+
+.seats-new-total h3 {font-size:14px; margin:0px 0px 0px 35px; }
+.seats-new-total-plus {font-size:20px;}
+.seats-new-total-dollar, .seats-new-total-cent {font-size:20px; vertical-align:text-top; display:inline-block; line-height:30px;}
+.seats-new-total-person {font-size:12px; text-align:right; float:right; margin:0px 0px 20px 0px; font-weight:lighter; width:100%;}
+.seats-new-total-total {float:right; font-size:10px; margin:0px 10px 0px 0px;}
+.seats-new-total-price {float:right; font-size:14px; margin:-4px 0px 0px 0px;}
+
+ul.flights-view-baggage {width:100%;}
+ul.flights-view-baggage li {float:left;display:inline-block; padding:7px 20px;}
+ul.flights-view-baggage li:first-child {border-right:1px #a6af90 solid;box-shadow:1px 0 0 0 #fbedba;-webkit-box-shadow:1px 0 0 0 #fbedba; margin:0px 0px 0px 0px;}
+.flights-right-normal ul.flights-view-baggage li:first-child {box-shadow:none;-webkit-box-shadow:none}
+ul.flights-view-baggage li a span.lip-arrow {width:10px; height:10px; display:inline-block; float:left; background:url(../images/icon-small-arrow1.png) no-repeat 0px 0px; margin:5px 0px 0; padding:0px 5px;}
+ul.flights-view-baggage li a {font-size:10px;}
+.btn-light-grey.swap-flight-btn:hover{
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjODhiMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzI5ODlkOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzNlNzI5NSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzZjcwOTIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(76,136,177,1) 0%, rgba(41,137,216,1) 50%, rgba(62,114,149,1) 51%, rgba(63,112,146,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(76,136,177,1)), color-stop(50%,rgba(41,137,216,1)), color-stop(51%,rgba(62,114,149,1)), color-stop(100%,rgba(63,112,146,1)));
+background: -webkit-linear-gradient(top,  rgba(76,136,177,1) 0%,rgba(41,137,216,1) 50%,rgba(62,114,149,1) 51%,rgba(63,112,146,1) 100%);
+background: -o-linear-gradient(top,  rgba(76,136,177,1) 0%,rgba(41,137,216,1) 50%,rgba(62,114,149,1) 51%,rgba(63,112,146,1) 100%);
+background: -ms-linear-gradient(top,  rgba(76,136,177,1) 0%,rgba(41,137,216,1) 50%,rgba(62,114,149,1) 51%,rgba(63,112,146,1) 100%);
+background: linear-gradient(to bottom,  rgba(76,136,177,1) 0%,rgba(41,137,216,1) 50%,rgba(62,114,149,1) 51%,rgba(63,112,146,1) 100%);
+-pie-background: linear-gradient(top,  rgba(76,136,177,1) 0%, rgba(41,137,216,1) 50%, rgba(62,114,149,1) 51%, rgba(63,112,146,1) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c88b1', endColorstr='#3f7092',GradientType=0 );}
+
+.swap-flight-btn {position:absolute; bottom:0px; right:10px; font-size:12px; padding:0px 15px; line-height:32px;}
+
+
+
+
+/****************** END OF Flights Departure Return Muli *************************/
+
+
+
+
+
+
+
+/****************** BOOKING Extra Detail Layer Div Popups classes *************************/
+.booking-alert {background:#C2D9E9; margin:5em auto 0px; min-height:257px; position:absolute; width:726px; z-index:1000;height: auto;left:25%;}
+
+.booking-alert h1 {
+    background: none repeat scroll 0 0 #01468D;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.67);
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 900;
+    height: 72px;
+    line-height: 72px;
+    margin: 0;
+    padding-left: 20px;
+    text-transform: capitalize;
+}
+.booking-alert .icon-popupclose {
+    position: absolute;
+    right: -32px;
+    top: -5px;
+}
+
+
+.booking-extra-main-photo {width:407px; height:100%;}
+.booking-extra-small-photo {width:62px; height:38px; float:left; margin:10px 7px 0px 0px; position:relative;}
+
+.booking-extra-small-photo-active {border:3px #FFF solid;}
+.booking-extra-small-photo-play {width:62px; height:38px; display:inline-block; background:url(../images/booking-extra-small-photo-play.png) no-repeat 0px 0px;}
+
+.booking-extra-detials-left {margin:20px 0px 0px 0px; padding:0px; float:left;}
+.booking-extra-detials-left b {margin:0px 0px 0px 0px; padding:0px; width:auto;}
+.booking-extra-detials-left p {margin:0px 0px 0px 0px; padding:0px; width:auto;}
+
+.about-alert-booking-extra .content p {width:400px; color:#000000; font-size:14px; margin:10px 0px 10px 0px;}
+.booking-extra-white-box {width:240px; height:100%; display:inline-block; padding:0px; margin:20px 20px 0px 0px; float:right; background:#FFF;}
+
+
+.booking-extra-white-box li:first-child {color:#465a6b; margin:10px 0px 2px 0px;}
+.booking-extra-white-box li:nth-child(3) {color:#465a6b; font-size:12px;}
+.booking-extra-white-box li:nth-child(2) {font-size:12px; margin:2px 0px 2px 0px;}
+.booking-extra-white-box li:nth-child(4) {font-size:12px; margin:2px 0px 0px 0px;}
+.booking-extra-white-box li:nth-child(5) {font-size:12px; margin:2px 0px 0px 0px;}
+
+
+.booking-extra-white-devider {background:#d0dce6; width:100%; height:2px; display:block; margin-top:15px;}
+
+.activity-rating-icon {float:left; width:44px; height:70px; display:inline-block; margin:0px; padding:0px; background:url(../images/activity-rating-icon.png) no-repeat 0px 0px;}
+.whos-this-icon {float:left; width:44px; height:70px; display:inline-block; margin:0px; padding:0px; background:url(../images/whos-this-icon.png) no-repeat 0px 0px;}
+.duration-icon {float:left; width:44px; height:70px; display:inline-block; margin:0px; padding:0px; background:url(../images/duration-icon.png) no-repeat 0px 0px;}
+.whats-included-icon {float:left; width:44px; height:113px; display:inline-block; margin:0px; padding:0px; background:url(../images/whats-included-icon.png) no-repeat 0px 0px;}
+
+
+.booking-extra-bottom {width:100%; height:100%; min-height:140px; border-top:1px #a3bed3 solid; border-bottom:1px #a3bed3 solid; float:left; margin:20px 0px 10px 0px; background:url(../images/booking-extra-bottom-bg.png) no-repeat 312px -2px; padding:10px 0px 0px 0px;}
+
+.booking-extra-bottom .dk_container .dk_toggle {font-size:10px; padding-right:43px;}
+.booking-extra-bottom .dk_container .dk_options ul li a {font-size:10px;}
+.booking-extra-bottom .dk_container {width:auto;}
+
+.no-thanks-cancel {float:right; font-size:9px; line-height:31px; margin-right:8px;}
+.add-extra-btn {float:right; font-size:12px; width:115px; height:31px; line-height:31px; margin:0px 20px 10px 0px;}
+
+.booking-extra-option-group {width:65px; float:left;}
+.booking-extra-option-single {width:130px; float:left; margin:0px 10px 0px 78px;}
+
+.booking-extra-subtotal-div {width:100px; float:left; margin:0px 0px 0px 42px; color:#4b5359; margin-top:23px;}
+.booking-extra-total-div {width:191px; float:right; color:#4b5359; margin:50px 0px 0px 0px; text-shadow: 1px 1px 1px #FFF;
+        filter: dropshadow(color=#FFF, offx=1, offy=1);}
+
+.schedule-calendar-icon {width:30px; height:37px; float:left; background:url(../images/schedule-calendar-icon.png) no-repeat 0px 9px; margin:10px 5px 0px -8px;}
+
+.booking-extra-subtotal-div .booking-sub-plus {float:left; width:auto; display:inline-block; font-size:20px; font-weight:lighter; line-height:18px;}
+.booking-extra-subtotal-div .booking-sub-dollar-sign {float:left; width:auto; display:inline-block; font-size:10px; line-height:17px;}
+.booking-extra-subtotal-div .booking-sub-dollar {float:left; width:auto; display:inline-block; font-weight:600; font-size:17px; padding:0px 2px;}
+.booking-extra-subtotal-div .booking-sub-cent {float:left; width:auto; display:inline-block; font-size:11px; line-height:20px;}
+.booking-extra-subtotal-div .booking-sub-per-adult {float:left; width:100%; display:block; margin:0px 0px 10px 0px; font-size:12px;}
+
+
+.booking-extra-total-div .booking-total-total {float:left; width:auto; font-size:13px; line-height:43px; padding:0px 2px 0px 0px;}
+.booking-extra-total-div .booking-total-plus {float:left; width:auto; font-size:29px; line-height:32px; padding:0px 4px 0px 2px;}
+.booking-extra-total-div .booking-total-dollar-sign {float:left; width:auto; font-size:15px; line-height:31px;}
+.booking-extra-total-div .booking-total-dollar {float:left; width:auto; font-size:28px; font-weight:600;}
+.booking-extra-total-div .booking-total-cent {float:left; width:auto; font-size:13px; line-height:29px; padding:0px 0px 0px 3px;}
+
+
+/****************** END OF BOOKING Extra Detail Layer Div Popups *************************/
+
+/***********************Slider***********************/
+.Package-veiw{width:722px}
+.Package-Slider-content{width:999999px;margin-left:0}
+.Package-Slider-outer {display:inline-block;position:relative;margin:0 auto;width:722px;padding:20px 0 10px ;overflow:hidden;border-radius:0 0 10px 10px;-webkit-border-radius:0 0 10px 10px;}
+/* CSS IF THE SLIDER NEEDS THE BACKGROUND
+.Package-Slider-outer {position:relative;float:left;margin:0 auto 0 15px;width:691px;padding:20px 0 10px ;background:rgba(182,202,222,0.5);border-radius:0 0 10px 10px;-webkit-border-radius:0 0 10px 10px;-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7FB6CADE,endColorstr=#7FB6CADE);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7FB6CADE,endColorstr=#7FB6CADE);zoom: 1;}
+.Package-Slider-outer .Slide_forward{right: -10px;}
+.Package-Slider-outer .Slide_back{left:-10px}*/
+.Slide_forward{background: url("../images/forward-btn.png") no-repeat scroll center center transparent; bottom: 0;cursor: pointer;display: block;height: 346px;position: absolute;right: 5px;  width: 35px; }
+.Slide_back{background: url("../images/back-btn.png") no-repeat scroll center center transparent; bottom: 0;cursor: pointer;display: block;height: 346px;position: absolute;left: 5px;  width: 35px;}
+.Package-Slider-inner{margin:0 auto;width:642px;overflow:hidden}
+.Package-Slider-inner li{float:left;background:#fff;padding:3px;width:200px;height:326px;border-radius:10px;-webkit-border-radius:10px;margin:0 7px;position:relative}
+.Package-Slider-inner li a{float:left}
+.Package-Slider-inner li a img{border-radius:10px 10px 0 0 ;-webkit-border-radius:10px 10px 0 0}
+.Package-Slider-inner li h5{float:left;border-bottom:solid 1px #a7bdd0;padding:7px 0 7px 6px ;width:100%;font-size:14px;font-weight:900;color:#363636;text-transform:capitalize}
+.Package-Slider-inner li p{display:inline-block;*display:inline;margin-left:6px ;font-size:12px;color:#363636;line-height:16px;margin-top:2px;}
+.Price-block {float:right;text-align:right;width:130px;font-size:20px;line-height:17px;color:#465a6b}
+.Price-block-bottomright{position:absolute;bottom:38px;right:15px}
+.Package-Slider-inner li p.inline-block{float:right;text-align:right;width:100px;font-size: 10px;text-transform:uppercase}
+.Package-Slider-inner li p.price {color: #636363;display: inline-block;font-size: 10px;line-height: 10px; margin: 0 0 0 5px;text-transform: uppercase;vertical-align: top;}
+.Package-Slider-inner li p.price b{font-size:20px}
+.continue{position:absolute;bottom:3px;width:194px;text-align:center;line-height:33px}
+.Content-right-blue{float:right;padding-bottom:10px;-webkit-box-shadow:  1px 0px 5px 1px rgba(0, 0, 0, 0.67);box-shadow:  1px 0px 5px 1px rgba(0, 0, 0, 0.67);}
+ Content-right-blue1{float:right;padding-bottom:0px;-webkit-box-shadow:  1px 0px 5px 1px rgba(0, 0, 0, 0.67);box-shadow:  1px 0px 5px 1px rgba(0, 0, 0, 0.67);}
+
+/**************ListView-Exclusive********************/
+ .ExclusiveTag                                      {float:left;font-size: 14px; line-height: 19px; padding-left: 17px;}
+ .ListView-Exclusive                                {display:inline-block;padding:10px 0;width:100%;
+ background: -moz-linear-gradient(top,  rgba(255,183,57,0.79) 0%, rgba(255,179,50,0.98) 2%, rgba(255,160,13,0.98) 13%, rgba(255,154,3,0.98) 19%, rgba(255,153,0,0.98) 24%, rgba(255,160,14,0.98) 35%, rgba(255,192,78,0.98) 59%, rgba(255,203,100,0.98) 70%, rgba(255,204,102,0.98) 98%, rgba(255,204,102,0.79) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,183,57,0.79)), color-stop(2%,rgba(255,179,50,0.98)), color-stop(13%,rgba(255,160,13,0.98)), color-stop(19%,rgba(255,154,3,0.98)), color-stop(24%,rgba(255,153,0,0.98)), color-stop(35%,rgba(255,160,14,0.98)), color-stop(59%,rgba(255,192,78,0.98)), color-stop(70%,rgba(255,203,100,0.98)), color-stop(98%,rgba(255,204,102,0.98)), color-stop(100%,rgba(255,204,102,0.79))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,183,57,0.79) 0%,rgba(255,179,50,0.98) 2%,rgba(255,160,13,0.98) 13%,rgba(255,154,3,0.98) 19%,rgba(255,153,0,0.98) 24%,rgba(255,160,14,0.98) 35%,rgba(255,192,78,0.98) 59%,rgba(255,203,100,0.98) 70%,rgba(255,204,102,0.98) 98%,rgba(255,204,102,0.79) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,183,57,0.79) 0%,rgba(255,179,50,0.98) 2%,rgba(255,160,13,0.98) 13%,rgba(255,154,3,0.98) 19%,rgba(255,153,0,0.98) 24%,rgba(255,160,14,0.98) 35%,rgba(255,192,78,0.98) 59%,rgba(255,203,100,0.98) 70%,rgba(255,204,102,0.98) 98%,rgba(255,204,102,0.79) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,183,57,0.79) 0%,rgba(255,179,50,0.98) 2%,rgba(255,160,13,0.98) 13%,rgba(255,154,3,0.98) 19%,rgba(255,153,0,0.98) 24%,rgba(255,160,14,0.98) 35%,rgba(255,192,78,0.98) 59%,rgba(255,203,100,0.98) 70%,rgba(255,204,102,0.98) 98%,rgba(255,204,102,0.79) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,183,57,0.79) 0%,rgba(255,179,50,0.98) 2%,rgba(255,160,13,0.98) 13%,rgba(255,154,3,0.98) 19%,rgba(255,153,0,0.98) 24%,rgba(255,160,14,0.98) 35%,rgba(255,192,78,0.98) 59%,rgba(255,203,100,0.98) 70%,rgba(255,204,102,0.98) 98%,rgba(255,204,102,0.79) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9ffb739', endColorstr='#c9ffcc66',GradientType=0 ); /* IE6-9 */
+}
+.ListView-Exclusivelist                             {display:inline-block}
+.ListView-Exclusivelist li:before                   {content:"»"}
+ .ListView-Exclusivelist li                         {font-size:12px;color:#111;padding-left:50px} 
+/*
+////////////////////////////////////////////////////////
+4.4  Tool Kit flights
+////////////////////////////////////////////////////////
+*/
+
+/***Tabs***/
+.narrow-content.flightinfo{margin-bottom:10px}
+ .booking-ViewTabs{border-bottom: 1px solid #44637d;border-top: 1px solid #44637d;box-shadow:0 1px 0 #93B4D2 inset, 0 1px 0 #93B4D2;-webkit-box-shadow:0 1px 0 #93B4D2 inset, 0 1px 0 #93B4D2;clear: both;float: left;height: 100%;width: 100%;}
+.booking-ViewTabs li.Tab {border-right: 1px solid #44637d; cursor: pointer;line-height: 14px;box-shadow:1px 1px 0 #93B4D2 inset, 1px 0 0 0 #93B4D2;-webkit-box-shadow:1px 1px 0 #93B4D2 inset, 1px 0 0 0 #93B4D2; background: rgb(62,125,180);
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iIzNlN2RiNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyNzU0OGUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(62,125,180,1) 1%, rgba(39,84,142,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(62,125,180,1)), color-stop(100%,rgba(39,84,142,1)));
+background: -webkit-linear-gradient(top,  rgba(62,125,180,1) 1%,rgba(39,84,142,1) 100%);
+background: -o-linear-gradient(top,  rgba(62,125,180,1) 1%,rgba(39,84,142,1) 100%);
+background: -ms-linear-gradient(top,  rgba(62,125,180,1) 1%,rgba(39,84,142,1) 100%);
+background: linear-gradient(to bottom,  rgba(62,125,180,1) 1%,rgba(39,84,142,1) 100%);
+-pie-background:linear-gradient(top,  rgba(62,125,180,1) 1%, rgba(39,84,142,1) 100%);
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e7db4', endColorstr='#27548e',GradientType=0 );*/}
+ul.booking-ViewTabs li {color: #53D5FA;float: left;font-size: 10px;font-weight: 700;height: 40px;list-style: none outside none;padding: 13px 22px;position: relative;text-transform: uppercase;}
+.booking-ViewTabs li.Tab.active:after {border-left: 10px solid transparent;border-right: 10px solid transparent; border-top: 8px solid #4DB302; content: "";height: 0;left: 50%;margin-left: -10px;position: absolute;top: 100%;width: 0;z-index: 1;}
+.booking-ViewTabs li.Tab.active,.booking-ViewTabs li.Tab:hover{color:#fff; text-decoration:none; background: #3c9115; /* Old browsers */
+                                     background: -moz-linear-gradient(top,  #3c9115 0%, #4db302 100%); /* FF3.6+ */
+                                     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3c9115), color-stop(100%,#4db302)); /* Chrome,Safari4+ */
+                                     background: -webkit-linear-gradient(top,  #3c9115 0%,#4db302 100%); /* Chrome10+,Safari5.1+ */
+                                     background: -o-linear-gradient(top,  #3c9115 0%,#4db302 100%); /* Opera 11.10+ */
+                                     background: -ms-linear-gradient(top,  #3c9115 0%,#4db302 100%); /* IE10+ */
+                                     background: linear-gradient(to bottom,  #3c9115 0%,#4db302 100%); /* W3C */
+									 -pie-background:linear-gradient(top,  #3c9115 0%, #4db302 100%);
+                                     /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c9115', endColorstr='#4db302',GradientType=0 );  IE6-9 */ }
+
+
+.booking-ViewTabs{border-bottom: 1px solid #44637d;border-top: 1px solid #44637d;box-shadow:0 1px 0 #93B4D2 inset, 0 1px 0 #93B4D2;-webkit-box-shadow:0 1px 0 #93B4D2 inset, 0 1px 0 #93B4D2;clear: both;float: left;height: 100%;width: 100%;}
+.booking-ViewTabs li.Tab1 {border-right: 1px solid #44637d; cursor: pointer;line-height: 14px;box-shadow:1px 1px 0 #93B4D2 inset, 1px 0 0 0 #93B4D2;-webkit-box-shadow:1px 1px 0 #93B4D2 inset, 1px 0 0 0 #93B4D2; background: rgb(62,125,180);
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iIzNlN2RiNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyNzU0OGUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(62,125,180,1) 1%, rgba(39,84,142,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(62,125,180,1)), color-stop(100%,rgba(39,84,142,1)));
+background: -webkit-linear-gradient(top,  rgba(62,125,180,1) 1%,rgba(39,84,142,1) 100%);
+background: -o-linear-gradient(top,  rgba(62,125,180,1) 1%,rgba(39,84,142,1) 100%);
+background: -ms-linear-gradient(top,  rgba(62,125,180,1) 1%,rgba(39,84,142,1) 100%);
+background: linear-gradient(to bottom,  rgba(62,125,180,1) 1%,rgba(39,84,142,1) 100%);
+-pie-background:linear-gradient(top,  rgba(62,125,180,1) 1%, rgba(39,84,142,1) 100%);
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e7db4', endColorstr='#27548e',GradientType=0 );*/}
+ul.booking-ViewTabs li {color: #53D5FA;float: left;font-size: 10px;font-weight: 700;height: 40px;list-style: none outside none;padding: 13px 22px;position: relative;text-transform: uppercase;}
+.booking-ViewTabs li.Tab1.active:after {border-left: 10px solid transparent;border-right:10px solid transparent; border-bottom: 8px solid #FFF; content: "";height: 0;left: 50%; margin:-6px 0px 0px -10px; position: absolute;top: 100%;width: 0;z-index: 1;}
+.booking-ViewTabs li.Tab1.active,.booking-ViewTabs li.Tab1:hover{color:#fff; text-decoration:none; background: #3c9115; /* Old browsers */
+                                     background: -moz-linear-gradient(top,  #3c9115 0%, #4db302 100%); /* FF3.6+ */
+                                     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3c9115), color-stop(100%,#4db302)); /* Chrome,Safari4+ */
+                                     background: -webkit-linear-gradient(top,  #3c9115 0%,#4db302 100%); /* Chrome10+,Safari5.1+ */
+                                     background: -o-linear-gradient(top,  #3c9115 0%,#4db302 100%); /* Opera 11.10+ */
+                                     background: -ms-linear-gradient(top,  #3c9115 0%,#4db302 100%); /* IE10+ */
+                                     background: linear-gradient(to bottom,  #3c9115 0%,#4db302 100%); /* W3C */
+									 -pie-background:linear-gradient(top,  #3c9115 0%, #4db302 100%);
+                                     /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c9115', endColorstr='#4db302',GradientType=0 );  IE6-9 */ }
+                                                                          
+/**************flighttrips-result*****************/
+.flighttrips-result{background:rgba(249, 251, 252, 0.8);width:100%;position:relative;display: inline-block;height:175px;margin-bottom:10px;
+-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCF9FBFC,endColorstr=#CCF9FBFC);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCF9FBFC,endColorstr=#CCF9FBFC);zoom: 1; }
+.resulting-header{height:34px;border-bottom:solid 1px #9EB6CC;padding-left:225px}
+.resulting-footer{height:34px;border-top:solid 1px #9EB6CC;position:absolute;bottom:0;width:100%}
+.resulting-header .count{color;#465a6b;font-size:24px;position:absolute;left:7px;top:3px;margin-top:0;font-weight:400}
+.resulting-header span{color:#7d7d7d;font-size:10px;font-weight:600;float:left;text-transform:uppercase;margin-top:20px}
+.flighttrips-result .col-1	{width:40px}
+.flighttrips-result .col-2	{width:70px}
+.flighttrips-result .col-3	{width:40px}
+.flighttrips-result .col-4	{width:65px}
+.flighttrips-result .col-5	{width:65px}
+.flighttrips-result .col-6	{width:70px}
+.resulting-content{padding-left:30px;position:relative;display: inline-block;width:725px}
+.operating-flight{margin-top:10px;float:left}
+.Operating-flights-info {width:567px;}
+.Airlines-img{width:100px;margin-right:15px;float:left}
+.operating-flight .Airlines-img span{font-size:12px;font-weight:	900;color:#0086ee;margin:0;display:block;text-transform:capitalize;margin-top:3px}
+.operating-flight span{font-size:12px;color:#000;text-transform:uppercase;float:left;margin-top:10px}
+.operating-flight span.Airlines-name{margin-top:0;width:70px;text-transform:capitalize;margin-right:10px}
+.total-price{width:130px;margin-right:5px}
+.resulting-footer .btn-light-grey{margin:2px 3px 3px 0;height:28px;line-height:28px;padding:0 14px}
+.Package-total-price-deal p{color: #636363;font-size: 10px;font-weight:900; margin-top: 5px;text-transform:uppercase}
+.Package-total-price-deal{margin-right:10px;text-align: right;}
+.Package-total-price-deal .Price-block {color: #585C61;font-size: 26px;line-height: 40px;width:110px}
+.Package-total-price-deal .Price-block .price b{font-size: 26px}
+
+.resulting-footer .view-flight-details {background: url("../images/icon-small-arrow1.png") no-repeat scroll 20px 12px transparent;border-right: 1px solid #95B0C7;color: #0086EE;display: block;float: left;font-size: 10px;font-weight: 900;height: 30px;line-height: 30px;padding: 0 10px;text-align: center;width: 123px;box-shadow:1px 0 0 0 #fff}
+.resulting-footer .baggage-policy {color: #0086EE;display: block;float: left;font-size: 10px;font-weight: 900;height: 30px;line-height: 30px;padding: 0 10px;}
+
+.Package-total-price-deal .Price-block p{color: #585C61;}
+.bkd-triangle{background: url("../images/bg-triangle.png") no-repeat scroll right center transparent;float: left;height: 128px;width:131px;top:1px}
+.bkd-triangle.depart{position:absolute;left:205px;height:96px}
+.bkd-triangle.total{position:absolute;left:460px;height:96px}
+/************Apple Recommendation block**************/
+.flighttrips-result.apple-recommendation{background:#fff;height:275px;margin:0px}
+.apple-recommendation .recommendation-header{height:50px;padding:15px 0 0 7px}
+.apple-recommendation .operating-flight{margin-top:15px}
+.apple-recommendation .resulting-content{padding-bottom:7px}
+.recommendation-header{border-bottom: 1px solid #9EB6CC;height: 34px;}
+.recommendation-header h6{background: url("../images/greenclick.png") no-repeat scroll left top transparent; color: #0086EE; font-size: 10px;font-weight: 900; padding-left: 20px;  text-transform: uppercase;}
+.recommendation-header p {color: #000000;font-size: 12px;padding-left: 20px;}
+.apple-recommendation .resulting-footer{position:relative;border-bottom: 1px solid #9EB6CC;}
+.flighttrips-result.apple-recommendation .resulting-footer .btn-light-blue {line-height: 33px;width: 150px;}
+.flighttrips-result.apple-recommendation .resulting-footer .icon-greenrightarrow {position: absolute; right: -17px;}
+.summary{padding:7px 0 0 7px}
+.summary p{color:#5f6062;font-size:12px;line-height:14px}
+.summary p strong{color:#000;font-weight:bold}
+.summary p a{font-weight:900}
+.apple-recommendation .bkd-triangle{background: url("../images/bluetriangle-bkd-large.png") no-repeat scroll right center transparent;height:100px}
+.flighttrips-result .label-medium-redband{position:absolute;top:5px;left:-14px;margin:0;z-index:1;text-transform:none;color: #FFFFFF;}
+
+
+
+#slider{overflow:hidden}
+
+.cancun {display: block; font-size: 11px; line-height: 14px; text-transform: uppercase; font-weight: 900; color: #465A6B;}
+
+
+
+/*
+/////////////////////////////////////////////////
+Tool Tip
+/////////////////////////////////////////////////
+*/
+.popups .popover {display:block;float:left;position:relative;width:260px;margin:20px}
+.popover {background-clip: padding-box;background: #FFFFFF;border: 1px solid rgba(0, 0, 0, 0.2);border-radius: 10px;-webkit-border-radius:10px;box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);left: 0; padding: 1px; position: absolute;text-align: left;top: 0;white-space: normal;width: 236px;padding:2px}
+.popover .arrow{border-width:11px; background:none}
+.popover .arrow,.popover .arrow:after{display:block;height:0;position:absolute;width:0;border-color:transparent;border-style:solid;}
+.popover .arrow:after{border-width:10px;content:"";}
+.popover-title{}
+.popover-content{padding:20px;background:#e3f0f8;border-radius: 10px;-webkit-border-radius:10px;/*box-shadow:-1px 2px 3px -1px rgba(0, 0, 0, 0.25) inset;-webkit-box-shadow:-1px 2px 3px -1px rgba(0, 0, 0, 0.25) inset*/}
+.popover-content h6{font-size:12px;font-weight:bold;color:#000}
+.popover-content p{line-height:16px}
+
+.popover.top .arrow{border-bottom-width:0;border-top-color:#fff;bottom:-11px;left:50%;margin-left:-11px;}
+.popover.right .arrow{border-left-width:0;border-right-color:#fff;left:-11px;margin-top:-11px;top:50%;}
+.popover.bottom .arrow{border-bottom-color:#fff;border-top-width:0;left:50%;margin-left:-11px;top:-11px;}
+.popover.left .arrow{border-left-color:#fff;border-right-width:0;margin-top:-11px;right:-11px;top:50%;}
+
+.popover.top .arrow:after{border-bottom-width:0;border-top-color:#E3F0F8;bottom:3px;margin-left:-10px}
+.popover.right .arrow:after{border-left-width:0;border-right-color:#E3F0F8;bottom:-10px;left:3px;}
+.popover.bottom .arrow:after{border-bottom-color:#E3F0F8;border-top-width:0;margin-left:-10px;top:3px;}
+.popover.left .arrow:after{border-left-color:#E3F0F8;border-right-width:0;bottom:-10px;right:3px;}
+
+
+
+
+
+/*
+/////////////////////////////////////////////////
+CSS PIE
+/////////////////////////////////////////////////
+*/
+#header,
+.gradient-solid,
+#navigation a, 
+.btn-dark-blue,
+.btn-light-blue,
+.btn-light-grey,
+.dk_container .dk_toggle,
+.wc-nav a,
+.wc-nav a ul {behavior: url(js/PIE.htc);}
+
+
+
+.errorMsg{
+    color: red !important;
+    font-weight: bold;
+    margin:10px;
+    font-size: 14px !important;
+}
+
+.errorMsg2{
+    color: red !important;
+    font-weight: bold;
+    margin:10px;
+    font-size: 14px !important;
+}
+
+.errorMsg3{
+    color: red !important;
+    font-weight: bold;
+    margin:10px;
+    font-size: 14px !important;
+}

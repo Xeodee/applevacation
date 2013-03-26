@@ -1,0 +1,22 @@
+.Hotel_Details_Layer-picture-it { width: 734px; }
+.Hotel_Details_Layer-picture-it .wc-nav ul li a { padding: 14px 3.21em; }
+
+.Hotel_Details_Layer-picture-it .content { position: relative; height: 545px; margin: 0; padding: 0; }
+
+.Hotel_Details_Layer-picture-it #thumbs { position: absolute; top: 386px; border-top: solid 1px #a3c0d6; border-bottom: solid 1px #a3c0d6; width: 700px; margin-left: 10px; height: 110px; padding-left: 45px; padding-top: 10px; }
+
+.Hotel_Details_Layer-picture-it #modal-background { position: absolute; }
+.Hotel_Details_Layer-picture-it #share { position: absolute; top: 18px; }
+.Hotel_Details_Layer-picture-it #left-arrow { position: absolute; top: 410px; left: 15px; } 
+.Hotel_Details_Layer-picture-it #right-arrow { position: absolute; top: 410px; right: 15px; }
+
+.Hotel_Details_Layer-picture-it #photos-tab { position: absolute; top: 365px; left: 5px; }
+
+.Hotel_Details_Layer-picture-it #video-tab { position: absolute; top: 365px; left: 147px; }
+
+.Hotel_Details_Layer-picture-it #threesixty-tab { position: absolute; top: 365px; left: 289px; }
+.Hotel_Details_Layer-picture-it #vpowered { position: absolute; bottom: 15px; left: 15px; }
+
+.Hotel_Details_Layer-picture-it .thumbnail-entry { width: 77px; float: left; display: inline-block; padding-right:10px; }
+.Hotel_Details_Layer-picture-it .thumbnail-entry img { padding-bottom: 5px; }
+.Hotel_Details_Layer-picture-it #thumbs .thumbnail-entry p { font-size: 10px; text-transform: uppercase; color: #465a6b; }

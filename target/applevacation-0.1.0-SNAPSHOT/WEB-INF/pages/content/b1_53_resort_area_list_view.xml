@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<page> 
+   <id>b1_53_resort_area_list_view</id>
+   <title>b1_53_resort_area_list_view</title>
+   <template-instance>templateModel_1_instance1</template-instance>
+   <authentication>none</authentication>
+   <components>
+   	  <component>
+         <region-id>content</region-id>
+         <component-type-id>b1_53_resort_area_list_view</component-type-id>
+     	 <chrome>box</chrome>
+      </component>   
+   </components>
+</page>

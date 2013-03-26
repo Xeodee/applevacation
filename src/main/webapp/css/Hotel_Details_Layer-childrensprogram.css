@@ -1,0 +1,15 @@
+.Hotel_Details_Layer-childrensprogram { width: 730px; padding-bottom: 20px; }
+.Hotel_Details_Layer-childrensprogram .wc-nav ul li a { padding: 14px 3.18em; }
+.Hotel_Details_Layer-childrensprogram .content { padding-bottom: 20px; }
+.Hotel_Details_Layer-childrensprogram .content .column { padding-top: 5px; float: left; display: inline-block; width: 200px; margin-right: 25px; padding-right: 10px; border-right: dotted 1px #535d64; height: 75px; }
+.Hotel_Details_Layer-childrensprogram .content .column p { font-size: 10px; font-size: 10px; font-weight: bold; text-transform: uppercase; }
+.Hotel_Details_Layer-childrensprogram .content .column .gray { color: #465a6b; }
+.Hotel_Details_Layer-childrensprogram .content .column.last { border: none; margin-right: 0; }
+.Hotel_Details_Layer-childrensprogram .content .column.column1 { width: 260px; }
+.Hotel_Details_Layer-childrensprogram .content .column.column2 { width: 200px; }
+.Hotel_Details_Layer-childrensprogram .content .column.column3 { width: 160px; }
+
+.Hotel_Details_Layer-childrensprogram .content-row { border-bottom: 1px solid #a3c0d6; margin-bottom: 12px; padding-bottom: 12px; }
+.Hotel_Details_Layer-childrensprogram .content-row.last { border: none; }
+.Hotel_Details_Layer-childrensprogram .content-row p { font-size: 11px; }
+.Hotel_Details_Layer-childrensprogram .content-row p.type { color: #465a6b; font-size: 11px; text-transform: uppercase; font-weight: bold; padding-bottom: 6px; }

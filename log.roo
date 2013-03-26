@@ -1,0 +1,17 @@
+// Spring Roo 1.0.2.RELEASE [rev 638] log opened at 2013-02-22 12:34:06
+project --topLevelPackage com.phenomenon.applevacation
+surf install
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-02-22 12:36:17
+// Spring Roo 1.0.2.RELEASE [rev 638] log opened at 2013-02-22 15:26:18
+surf template create --path test
+// Spring Roo 1.0.2.RELEASE [rev 638] log opened at 2013-02-22 15:36:13
+surf page create --id b1_13_Booking_Search --path pages/main --templateInstance b1-5-home-new-home
+surf page create --id b1_13_booking_search --path pages/main --templateInstance b1-5-home-new-home
+surf page create --id b1_13_Booking_Search --path b1-5-home-new-home
+surf page create --id b1_13_booking_search --path pages/main --templateInstance b1-5-home-new-home
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-02-22 17:00:07
+// Spring Roo 1.0.2.RELEASE [rev 638] log opened at 2013-02-22 17:50:51
+surf template instance create --id b1_18_Rec_Packages --path templates --template b1-5-home-new
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2013-02-25 09:57:19
+exit
+// Spring Roo 1.0.2.RELEASE [rev 638] log closed at 2013-02-25 09:58:05

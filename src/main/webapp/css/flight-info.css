@@ -1,0 +1,14 @@
+
+.flight-info{background:rgba(255,255,255,0.29); filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#29ffffff', endColorstr='#29ffffff'); width:738px}
+.flight-info .results-count-row{width:730px}
+.flight-info .Content-right-blue{margin-bottom:10px; padding-bottom:0; width: 730px}
+.flight-info .flighttrips-result.apple-recommendation{height: 285px; margin-right: 11px; width: 708px;}
+.flight-info .Package-total-price-deal{margin-right: 35px;}
+.flight-info .Operating-flights-info{width: 550px}
+.flight-info .flight-details{margin-right: 11px; width: 708px; margin-bottom: 0;}
+.flight-info .flighttrips-result.apple-recommendation .resulting-footer .btn-light-blue{margin-right:18px}
+.flight-info .flighttrips-result.apple-recommendation .resulting-footer .icon-greenrightarrow{right:2px}
+.flight-info .hotel-available span{word-spacing:2px}
+
+.operatedBy{float: left; margin-top: 12px; color: #585C61}
+.operating-flight-single{ padding-top:35px; padding-bottom:30px}

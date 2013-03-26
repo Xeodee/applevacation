@@ -1,0 +1,83 @@
+#search-results-destination .lCol .wc-header h1 { margin: 10px 0 0 20px;width:265px }
+#search-results-destination .wc-header { background-color: #f0f7fc; } 
+#search-results-destination .wc-nav { background-color: #f0f7fc; } 
+#search-results-destination .lCol .wc-header .right { height: 50px; margin-top: 10px; }
+#search-results-destination .lCol .wc-header .right .relatedsearches { font-size: 10px; text-transform: uppercase; font-weight: bold; color: #465a6b; padding-top: 6px; }
+#search-results-destination .lCol .wc-header .right a { padding: 4px; border: 1px solid #CACACA; border-radius: 5px 5px 5px 5px; font-size: 14px; }
+#search-results-destination .lCol .wc-header span.left { margin-top:-10px;font-size: 14px;font-family:'Lato',sans-serif ;font-weight:900}
+#search-results-destination .lCol .wc-header span.searchterm { color: #0086ee; }
+#search-results-destination .small.sortby.left { width: 150px; margin-right: 20px; }
+#search-results-destination .headerright { padding-bottom: 5px;margin-top:30px }
+#search-results-destination .headerright .left { margin-right: 5px; margin-top: 6px; }
+#search-results-destination .headerright span { margin-right: 10px; font-size: 10px; text-transform: uppercase; font-weight: bold; color: #465a6b; padding-top: 6px; }
+#search-results-destination .bottom-content { padding-bottom: 20px; }
+#search-results-destination .matchtext { float: left; margin-left: 50px; margin-top: 10px; width: 60px; }
+#search-results-destination span.matchnumber { font-size: 30px;float:left;width:55px;text-align:center}
+#search-results-destination span.matches { margin-left: 5px; font-size: 10px; text-transform: uppercase; font-weight: bold; color: #465a6b; }
+.leaving-info{margin-top:40px;padding-left:20px}
+.leaving-info{font-size:14px;color:#465A6b}
+.leaving-info a{text-transform:uppercase;font-size:10px;font-weight:900;color:#0086ee;margin-left:3px}
+
+
+#search-results-destination .package-view-results { box-shadow: none; height: 172px; margin: 0; background: none; }
+#search-results-destination .package-view-price { box-shadow: none; height: 172px; background: none; }
+#search-results-destination .package-results .package-view-results { height: 190px; }
+#search-results-destination  .package-results.package-view-price { height: 190px; }
+
+#search-results-destination .vacation-price-details-div { height: 108px; border: none; }
+#search-results-destination .vacation-price-details-div.package-title{height:auto}
+#search-results-destination .vacation-price-details-div.package-title p.inline-block{margin-bottom:10px}
+#search-results-destination .book-it-span {position:relative}
+#search-results-destination .book-it-span a{margin: 3px 18px 0 0; width: 75px;}
+.book-it-span .view-package-details{color:#0086ee;font-size:10px;font-weight:900; line-height:35px;  display:inline-block; background:url(../images/icon-small-arrow1.png) 0px 14px no-repeat; padding:0px 0 0 10px;  border:none; display: block; float: left; height: 35px; text-align: center; width: auto;margin:0;position:absolute;left:-50px;text-transform:uppercase}
+
+
+#search-results-destination .package-wrapper { border-bottom: 1px solid #a3b9d0; border-top: 1px solid #ffffff;  }
+#search-results-destination .package-wrapper.highlighted { background-color: #ffffff; }
+#search-results-destination .package-wrapper.last { border-bottom: none; }
+#search-results-destination .package-wrapper.apple-recommendation { padding:20px; }
+#search-results-destination .package-wrapper.apple-recommendation div.right { width: 450px; font-size: 14px; margin-top: -10px; font-weight:900}
+#search-results-destination span.apple-recommends { font-size: 14px; font-weight: bold; color: #005f9a; text-transform: uppercase; margin: 0 10px; line-height:14px}
+#search-results-destination span.apple-recommends .about-rating { margin-top: 0; float: right; }
+#search-results-destination .find-vacation-r1 { border: none; }
+#search-results-destination .find-vacation-r2 { border: none; }
+#search-results-destination span.city-type { color: #465A6B; display: block; font-size: 11px; font-weight: bold; line-height: 14px; }
+#search-results-destination span.hotel-rating-type { font-weight: normal; }
+#search-results-destination .stay-links-listview { padding-left: 0; }
+#search-results-destination .search-icons-span { padding-left: 0; }
+#search-results-destination .price-based-on { color: #333333; font-size: 12px; font-weight: 400; }
+#search-results-destination .view-room-details { font-size: 12px; font-weight: 400; }
+#search-results-destination .about-rating { background: url("../images/question-mark-icon.png") no-repeat scroll left top transparent; display: inline-block; float: left; font-size: 11px !important; height: 20px; margin-left: 8px; margin-top: 6px; width: 15px; }
+#search-results-destination .include-details { margin-top: 0px; }
+#search-results-destination .find-vacation-r2 ul li { font-size: 12px; font-weight: 100px; }
+#search-results-destination .find-vacation-r2 h2 { font-size: 16px;}
+#search-results-destination .vacation-price-details-div p.price { font-size: 12px; font-weight: 400; }
+#search-results-destination .price b { font-size: 24px; font-weight: 900; }
+#search-results-destination .fv-img-container { width: 170px;margin-left:30px }
+#search-results-destination .hotel-features { width: 50%; border-right: 1px dotted #689acb; }
+#search-results-destination .trip-features { width: 50%; }
+#search-results-destination .lCol { margin-bottom: 0; background-color: rgba(255, 255, 255, 0.8); }
+#search-results-destination .narrow-content { margin-bottom: 0; }
+/* new css for the b1_18g_Search_results-FEW-RESULTS_rev2.php*/ 
+.search_check{font-size:14px;font-weight:600;color:#465a6b;margin:25px 0 15px 15px;display:inline-block}
+.search_check a{color:#0086ee}
+.changecity{font-size:14px;font-weight:600;color:#465a6b;margin:40px 0 0 20px;display:inline-block}
+.changecity a{font-size:10px;color:#0086ee;text-transform:uppercase;margin-left:10px}
+.apple-recommends .icon-Question{margin:0px 0 0 5px;float:right}
+/* new css for the b1_18g_Search_resultsNO RESULTS_rev2.php#*/ 
+.searchResultstext{font-size:14px;font-weight:600;color:#465a6b;width:100%}
+.searchResultstext a{font-size:14px;font-weight:600;color:#0086ee;margin:0 2px}
+.no-results{padding: 50px 0 0 20px;min-height:675px}
+.tryList{font-size:14px;font-weight:600;color:#465a6b;margin-top:45px}
+.tryList li{line-height:20px;list-style-type:square;margin-left:30px}
+
+
+
+
+
+
+
+
+
+
+

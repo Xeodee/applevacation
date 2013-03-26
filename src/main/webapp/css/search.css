@@ -1,0 +1,75 @@
+#panel-find-it-fast .view-all{font-size:8px}
+
+.search .search-tabs ul li a{text-transform:uppercase; font-size:10px; font-weight:600}
+.search .flexible{border-top:1px solid #ADC2D3; width: 195px}
+.search .search-tabs .links{padding-top:0; padding-bottom:10px}
+.search .search-tabs .links li a, .search-tabs .links li a:hover, .search-tabs .links li.active a{background:none !important; color:#0086EE !important; height:15px}
+.search .search-tabs .links li a:hover{text-decoration:underline !important}
+
+.search{padding-bottom:150px}
+.search .wide-content{width:945px}
+.search .panel{width:773px}
+.search .panel .rooms{display:block; float:left; margin-right: 55px; margin-top: 25px;}
+.search.multi #panel-find-it-fast .find-vacations{bottom: 20px; margin: 0 0 0 -50px;}
+.search .panel .text{color:#414042}
+.search .panel .text b{font-weight:600}
+.search .who ul{float:none}
+
+
+.search.hotel .destination {background: url("../images/bg-triangle.png") no-repeat scroll right center transparent; float: left; height: 215px; padding: 13px 0; width: 315px}
+.search.hotel .panel li label{width:61px !important}
+.search.hotel .maxBudget {background: url("../images/bg-triangle.png") no-repeat scroll right center transparent; float: left; height: 215px; padding: 13px 15px 0; width: 190px}
+.search.hotel .maxBudget h6{font-size:10px; line-height:6px; text-transform:uppercase; color:#465a6b; font-weight:600}
+.search.hotel .panel ul{padding-top:6px}
+.search.hotel .panel .maxBudget ul{padding:0}
+.search.hotel .panel .maxBudget input, .search.hotel .panel .maxBudget .small-select .dk_container{width: 125px;}
+.dk_container .dk_options ul li{height:auto !important}
+.search.hotel .panel .when{background:none; width:240px; height: 215px; margin-left:10px}
+.search.hotel .panel .when li label{width:95px !important}
+.search.hotel .panel .when .find-vacations{right:25px; bottom:18px !Important}
+.search.hotel .search-tabs .links{padding-top:12px}
+
+
+.search.hotelOnlyMulti .line{background: #ADC2D3; float: left; height: 1px; margin-bottom: 70px; width: 748px;}
+.search.hotelOnlyMulti .panel .rooms{margin-right:59px; padding-bottom: 3px;}
+.search.hotelOnlyMulti .rooms.last{margin-right:0}
+.search.hotelOnlyMulti .destination, .search.hotelOnlyMulti .maxBudget, .search.hotelOnlyMulti .panel .when{height:168px}
+
+
+.search.flightOnly .where, .search.flightOnly .when, .search.flightOnly .who{height: 300px;}
+.search.flightOnly .where{width:365px}
+.search.flightOnly .where .small-select .dk_container{width: 218px;}
+.search.flightOnly .where hr{background:none; border-bottom:1px solid #ADC2D3}
+.search.flightOnly #panel-find-it-fast .where ul li label{width:69px}
+.search.flightOnly .when{width:230px; padding-left:0}
+.search.flightOnly .who{width:150px; margin-left:8px}
+.search.flightOnly .flexible{bottom: 15px; position: absolute; width: 174px;}
+.search.flightOnly #panel-find-it-fast .find-vacations{bottom:15px}
+.search.flightOnly .who ul li {padding-top: 10px; margin-bottom: 7px}
+.search.flightOnly .search-tabs .links{padding-top:8px}
+
+
+.search.map .wo-header{margin-bottom:20px}
+.where input.datepicker {background: url("../images/icon-input-calendar.png") no-repeat scroll 90px 3px #FFFFFF; border: 1px solid #AFAFAF; border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12); font-size: 14px; font-weight: 300; height: 30px; padding: 0 18px 0 10px; width: 125px}
+.where input.datepicker:hover{background: url("../images/icon-input-calendar.png") no-repeat scroll 90px 3px #FFFFFF;}
+.search.map .where{height:300px; width:320px}
+.search.map .where .small-select .dk_container{width:218px}
+.search.map .map{border-left: 3px solid #FFFFFF; display: block; float: left; height: 300px; margin-left: 15px; width: 438px; background:#c1c1c1}
+.search.map .map img{height: 300px; width: 100%;}
+.search.map .tooltip{height: auto; position: absolute; right: -33px; top: 102px; width: 270px;}
+.search.map .tooltip .tooltip-wrap{position:relative; background:#fff; padding: 20px 15px; width:100%; box-shadow:0 1px 4px 0px rgba(0, 0, 0, 0.18)}
+.search.map .tooltip h4{font-size:10px !important; line-height:18px}
+.search.map .tooltip h3{font-size:14px; font-weight:600}
+.search.map .tooltip .vacation-heading{border-bottom:1px solid #e2e9f0; padding-bottom:4px}
+.search.map .tooltip ul{padding:10px 0 0}
+.search.map .tooltip ul li{font-size:12px; line-height:22px; height:auto; padding:0}
+.search.map .tooltip .tooltip-caret{border-color: transparent transparent white; border-style: solid; border-width: 14px; position: absolute; top: -2px; width: 10px;}
+
+
+.vacation-finder-section{float:left; padding:5px 0 20px 0}
+.vacation-finder-section .column{float: left; margin-right: 15px; width: 195px;}
+.vacation-finder-section .column h4{font-size: 11px; line-height: 26px; text-transform: uppercase;}
+.vacation-finder-section .vacation-button{float: left; margin: 23px 0 0; width: 135px; line-height: 30px}
+
+

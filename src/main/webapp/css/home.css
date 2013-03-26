@@ -1,0 +1,178 @@
+/*
+///////////////////////////////////////////////////////////////////////////////
+-------------------------------------------------------------------------------
+Apple Vacations Home Page CSS
+Version 1.0
+Last Updated: 09/03/2012
+
+Table of Contents:
+Coming Soon…
+
+-------------------------------------------------------------------------------
+///////////////////////////////////////////////////////////////////////////////
+
+
+
+///////////////////////////////////////////////////////
+Home Search Form
+///////////////////////////////////////////////////////   
+*/
+/* White Label Size */
+.home-label {width:141px; font-weight:900}
+
+/* Small Select */
+.small-select .dk_container {width:82px}
+/*
+/*
+--------------------------------------------------------
+travel-advisory
+--------------------------------------------------------
+*/
+.travel-advisory{background-color:#ffcc33;margin-right:438px;border-radius:0 0 10px 0;-webkit-border-radius:0 0 10px 0;min-width:862px;position:relative;box-shadow:0 2px 2px 2px rgba(0, 0, 0, 0.3) inset;-webkit-box-shadow:0 2px 2px 2px rgba(0, 0, 0, 0.3) inset}
+.ta-inner {padding:15px 25px;}
+.travel-advisory h5{font-size:14px;color:#465a6b;text-transform:uppercase;font-weight:900}
+.travel-advisory p{font-size:12px;color:#465a6b;font-weight:900;margin-right:125px;margin-top:3px}
+.travel-advisory p a{color:#0086ee;cursor:pointer;text-transform:uppercase;}
+.travel-advisory .clost-text{position:absolute;right:25px;top:18px;text-transform:uppercase;font-size:11px;color:#0086ee;font-weight:900;cursor:pointer}
+.travel-advisory .clost-text:hvoer{text-decoration:underline}
+
+/*
+--------------------------------------------------------
+1.1 Home Search Form - Tabs - Find It Fast
+--------------------------------------------------------
+*/
+.search-tabs {float:left; margin:10px 30px 0 0}
+.search-tabs ul {padding:8px 0 0 0}
+.search-tabs ul li {padding:2px 0; position:relative}
+.search-tabs ul li a {display:block; width:133px; height:22px;line-height:22px; padding:0px 18px 0 0; text-align:right;  background:url(../images/bg-tabs.png) left -26px no-repeat; cursor:pointer;font-size:10px;text-transform:uppercase;font-weight:600}
+
+#tabs-find-it-fast.search-tabs ul li a:hover, #tabs-find-it-fast.search-tabs ul li.active a {color:#fff; text-decoration:none; background:url(../images/bg-tabs.png) left top no-repeat}
+.search-tabs ul li.active a {cursor:default}
+
+/*
+--------------------------------------------------------
+1.2 Home Search Form - Panel
+--------------------------------------------------------
+*/
+#panel-find-it-fast {float:left}
+#panel-find-it-fast.open {overflow:visible !important}
+#panel-find-it-fast.closed {overflow:hidden !important}
+
+/* Label */
+#panel-find-it-fast label {float:left; width:50px; padding:5px 0 0 0; font-size:16px; color:#333}
+
+/* View All Button */
+#panel-find-it-fast .view-all {float:left; width:32px; padding: 4px 5px 0 0; margin:0 0 0 8px; text-align:right; font-size:10px; text-transform:uppercase; color:#0868aa}
+#panel-find-it-fast .view-all:after {content:''; float:right; margin:0 -7px 0 0; display:block; width: 0; height: 0; border-top: 3px solid transparent;border-bottom:3px solid transparent; border-left:3px solid #0066cc}
+
+/* List */
+.panel ul {padding:0 0 20px 0}
+.panel ul li {height:40px; padding:10px 0 0 0}
+
+/* Where ------------------- */
+#panel-find-it-fast h4 {font-size:14px; text-transform:uppercase}
+.where {float:left; width:341px; height:182px; padding:13px 0; background:url(../images/bg-triangle.png) right center no-repeat;}
+
+
+/* Input */
+.where ul li input {float:left; font-size:14px; width:218px; height:30px; font-weight: 300; padding:0 18px 0 18px; border:0; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; background: #ededed; background: -moz-linear-gradient(top,  #ededed 1%, #ffffff 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ededed), color-stop(100%,#ffffff)); background: -webkit-linear-gradient(top,  #ededed 1%,#ffffff 100%); background: -o-linear-gradient(top,  #ededed 1%,#ffffff 100%); background: -ms-linear-gradient(top,  #ededed 1%,#ffffff 100%); background: linear-gradient(to bottom,  #ededed 1%,#ffffff 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#ffffff',GradientType=0 ); -webkit-box-shadow: inset 2px 2px 6px 0px rgba(0, 0, 0, .3); box-shadow: inset 2px 2px 6px 0px rgba(0, 0, 0, .3)}
+
+/* Input Hover, Focus & Error */
+
+.where ul li input:hover, #panel-find-it-fast .where ul li input:focus {background:#c8ecfb; outline:none}
+.warningDate{ background-color:#ffdddd !important; }
+.warningInput{ background:#ffdddd !important; }
+/* HR */
+.where hr {float:left; width:300px; height:1px; margin:0; padding:0; border:0; background:#adc2d3}
+
+/* Search Nearby Airports */
+.nearby {float:left; width:195px; padding:15px 0 0 10px}
+#panel-find-it-fast .nearby input {float:left; width:auto; margin:2px 5px 0 0}
+#panel-find-it-fast .nearby label {width:auto; padding:0; font-size:12px}
+
+/* Advanced Search Link */
+.advanced {float:left; padding:17px 0 0 0; text-transform:uppercase; text-align:right}
+.advanced a {font-size:10px; font-weight:700}
+
+
+
+/* When --------------------- */
+.when {float:left; width:249px; height:182px; padding:13px 10px 0 10px; background:url(../images/bg-triangle.png) right center no-repeat;}
+
+/* Input */
+.when ul li input {font-weight: 300; width:125px; height:30px;  padding:0 18px 0 10px; font-size:14px; background:#fff url(../images/icon-input-calendar.png) 90px 3px no-repeat; border:1px solid #afafaf; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; -webkit-box-shadow:  0px 1px 1px 0px rgba(0, 0, 0, .12); box-shadow:  0px 1px 1px 0px rgba(0, 0, 0, .12)}
+
+/* Input Hover & Focus */
+.when ul li input:hover, #panel-find-it-fast .when ul li input:focus {background:#c8ecfb  url(../images/icon-input-calendar.png) 90px 3px no-repeat; outline:none}
+
+
+/* Who ----------------------- */
+.who {float:left; width:150px; height:182px; padding:10px 5px 0 10px; margin:0 0 0 20px}
+.who ul {padding:0 0 10px 0}
+.who ul li {height:35px; padding:5px 0 0 0}
+/* Container */
+
+/* Flexible */
+.flexible {float:left; width:100%; text-align:center; padding:15px 0 0 10px}
+
+
+/* Find Vacations */
+#panel-find-it-fast .find-vacations {width:170px; margin:0 0 0 -35px; padding:8px 0;position:absolute;bottom:10px}
+.whoexception{padding-top:25px}
+.who.whoexception ul li{padding-top:15px}
+
+#panel-find-it-fast .find-vacations:hover {text-decoration:none}
+
+.expand {clear:both; float:right; height:15px; margin:-10px 10px 0 0}
+.expand a {cursor:pointer; display:block; width:9px; height:7px; }
+.expand a.closed {background:url(../images/icon-expander.png) -22px 0px no-repeat}
+.expand a.open {background:url(../images/icon-expander.png) -22px -8px no-repeat}
+
+
+#find-it-fast {display:none}
+.collapsed-title {float:left; height:43px; margin:0 0 -43px 165px; padding:12px 0 0 0}
+.collapsed-title_home {margin:0px; height:35px}
+.home-finder-section { margin-left:150px}
+#content-container .collapsed-title h3 a {font-size:14px; font-weight:700; color:#465a6b; text-transform:uppercase}
+#content-container .collapsed-title h3 a:hover {text-decoration:none}
+.collapsed-title h3 a {padding-right:15px; background:url(../images/icon-arrow.png) right center no-repeat; float:left}
+.collapsed-title h3 a.noArrow{ background:none; padding:0px}
+.collapsed-title h3 a span {color:#1675d5; cursor:pointer; float:none; font-size:14px; font-weight:700}
+#tryVacation, .left3 { margin-left:3px}
+.who ul {float:left}
+#panel-find-it-fast .find-vacations{ float:left}
+.wide-content .closed { cursor:pointer}
+.rightArrow{ background:url(/images/Hotel_Details_Layer-picture-it/right-arrow.png); width:16px; height:21px; float:right; margin-top:-3px;}
+.smallAds { width:268px; min-width:268px; border-radius:0px 0px 0px 0px}
+.smallAds .ta-inner{ padding:15px}
+.smallAds h5{ width:228px !important; display:inline}
+
+.collapsed-title .icon-inspiration {margin:-4px 10px 0 0;  float:left;}
+
+
+
+
+
+/*
+--------------------------------------------------------
+2.1 Home Search Form - Vacation Finder
+--------------------------------------------------------
+*/
+#panel-vacation-finder {display:none}
+#tabs-vacation-finder .tabs-wrap {display:none}
+
+
+
+div#quicksearch div.select-1 select.styled, div#quicksearch div.select-2 select.styled2,  div#quicksearch div.select-3 select.styled2 {margin-top:10px}
+div#quicksearch div.select-2 {float:left}
+div#quicksearch div.select-3 {float:left; padding-right:10px; padding-bottom:15px}
+
+
+
+
+#panel-find-it-fast .flexible input {float:left; width:auto; margin:2px 5px 0 0}
+#panel-find-it-fast .flexible label {width:auto; padding:0; font-size:12px}
+
+
+home-dd .browseby {width:190px}
+.home-dd .aboutdd {width:160px}

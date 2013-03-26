@@ -1,0 +1,27 @@
+#b2_4_special_last_minute .lCol { background-color: rgba(255, 255, 255, 0.3); }
+#b2_4_special_last_minute .lCol .wc-header h1 { margin-bottom: 0; }
+#b2_4_special_last_minute .lCol .wc-header .headermatches { width: 430px; line-height: 60px;}
+#b2_4_special_last_minute span.matchnumber { font-size: 30px; }
+#b2_4_special_last_minute span.matches { margin-left: 5px; font-size: 10px; text-transform: uppercase; font-weight: bold; color: #465a6b; }
+#b2_4_special_last_minute .lCol .wc-header .headermatches .right { width: 255px; }
+#b2_4_special_last_minute .lCol .wc-header .headermatches .right span.matches { margin-right: 5px; margin-top: 8px; }
+#b2_4_special_last_minute .small.departingfrom { width: 120px; margin-top: 25px;  }
+.wrap{ width:100%; float:right}
+#b2_4_special_last_minute a.changeCity{ margin-top:2px; color:#0086EE; padding-bottom:15px; margin-right:5px; cursor:pointer}
+#b2_4_special_last_minute .lCol .wc-header .headermatches .right.icon-blue-rightarrow{ width:7px; margin:5px 12px 0px 0px; cursor:pointer }
+#b2_4_special_last_minute .departingfrom { margin-top: 25px; line-height:14px; font-size: 10px; text-transform: uppercase; font-weight: 900; color: #465a6b; margin-right:10px; text-align:right; float:right }
+#b2_4_special_last_minute .small.sortby.left { width: 170px; }	/* margin-right: 20px;*/
+#b2_4_special_last_minute .lCol .wc-header h1.lastMinute {margin:15px 0px 0px 15px}
+#b2_4_special_last_minute .small.perpage { width: 70px; }
+#b2_4_special_last_minute .headerright { margin-right: 30px; }
+#b2_4_special_last_minute .headerright .left { margin-right: 5px; margin-top: 8px; }
+#b2_4_special_last_minute .headerright span { margin-right: 10px; font-size: 10px; text-transform: uppercase; font-weight: bold; color: #465a6b; padding-top: 6px; }
+#b2_4_special_last_minute .pagination { float: right; margin-top: 20px; }
+#b2_4_special_last_minute .pagination a { background: transparent url('../images/pagination-bg.png') center no-repeat; padding-top: 6px; display: inline-block; float: left; color: #717171; height: 25px; width: 25px; text-align: center; margin-right: 6px; }
+#b2_4_special_last_minute .pagination a.left { background: transparent url('../images/pagination-arrow-left.png') center no-repeat; }
+#b2_4_special_last_minute .pagination a.right { background: transparent url('../images/pagination-arrow-right.png') center no-repeat; }
+#b2_4_special_last_minute .pagination a.current { background: transparent url('../images/pagination-bg-selected.png') center no-repeat; color: #f2f2f2; }
+#b2_4_special_last_minute .pagination a.ellipsis { background: transparent url('../images/pagination-bg-ellipsis.png') center no-repeat; }
+#b2_4_special_last_minute .dates-for-travel { width: 190px; }
+#b2_4_special_last_minute .wc-nav { border-bottom: none; }
+#b2_4_special_last_minute .narrow-content { margin-bottom: 0; }

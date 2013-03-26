@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<page> 
+   <id>b2_06_activity_spa</id>
+   <title>b2_06_activity_spa</title>
+   <template-instance>templateModel_1_instance1</template-instance>
+   <authentication>none</authentication>
+   <components>
+   	  <component>
+         <region-id>content</region-id>
+         <component-type-id>b2_06_activity_spa</component-type-id>
+     	 <chrome>box</chrome>
+      </component>   
+   </components>
+</page>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component-type>
+    <id>b1_39_40_booking_confirm_v7_less_info_avail</id>
+    <title>Main Component Type</title>
+    <description>Main Component Type</description>
+
+    <processor mode="view">
+        <id>jsp</id>
+        <jsp-path>/WEB-INF/pages/content/jsp/b1_39_40_booking_confirm_v7_less_info_avail.jsp</jsp-path>
+    </processor>
+</component-type>
