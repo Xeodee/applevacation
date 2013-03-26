@@ -53,7 +53,7 @@
 					</div>
 					<div class="details">
 						<p>
-							<strong>Private car</strong><span class="included right">Included</span>
+							<!--<strong>Private car</strong><span class="included right">Included</span> -->
 						</p>
 
 						<a> edit</a>
@@ -87,7 +87,7 @@
 				<p>
 					hotel + flight<span class="Price"><span>$</span>1.230.00</span>
 				<p class="extra">
-					extras<span class="Price"><span>$</span><b id="extrasTotalValue">50.00</b></span>
+					extras<span class="Price"><span>$</span><b id="extrasTotalValue">0.00</b></span>
 				</p>
 				<p>
 					taxes + fees<span class="Price"><span>$</span>140.00</span>
@@ -96,7 +96,7 @@
 			<div class="totalprice">
 				<p>Lowest Possible Cost:</p>
 				<div class="lowestprice">
-					<span class="sign">$</span><span id="totalPackagePrice">1,420</span><span class="cents">.50</span>
+					<span class="sign">$</span><span id="totalPackagePrice">1,370</span><span class="cents">.00</span>
 				</div>
 				<!-- end lowest price -->
 				<p class="per">Per Person</p>

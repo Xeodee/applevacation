@@ -6,7 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af42d42e-2530-40bd-b73f-6178e40a578b" name="Default" comment="" />
+    <list default="true" id="af42d42e-2530-40bd-b73f-6178e40a578b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/content/jsp/b1_33_extrassummary.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/content/jsp/b1_33_extrassummary.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery.extrasApp.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.extrasApp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
     <ignored path="applevacation.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/src/main/java/com/kcdataservices/affiliate/commonresponse/ApplicationInfo.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362527232986" ignored="false" />
@@ -190,10 +194,10 @@
     <file path="/templateModel_1.ftl" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1362788972648" ignored="false" />
     <file path="/b1_13_booking_search.jsp" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1363117576790" ignored="false" />
     <file path="/ServiceAvailability.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1363299768578" ignored="false" />
-    <file path="/b1_33_extrassummary.jsp" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1364238767744" ignored="false" />
-    <file path="/Dummy.txt" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1363919919322" ignored="false" />
+    <file path="/b1_33_extrassummary.jsp" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1364331942287" ignored="false" />
+    <file path="/Dummy.txt" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1364323273163" ignored="false" />
     <file path="/Room.java" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1363730808980" ignored="false" />
-    <file path="/jquery.extrasApp.js" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1364321034219" ignored="false" />
+    <file path="/jquery.extrasApp.js" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1364331718970" ignored="false" />
     <file path="/templateModel_1_footer1.jsp" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1363762016797" ignored="false" />
     <file path="/dummy.xml" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1363796589450" ignored="false" />
     <file path="/b1_33_AV_OK.css" changelist="af42d42e-2530-40bd-b73f-6178e40a578b" time="1364255549930" ignored="false" />
@@ -265,15 +269,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="b1_33_extrassummary.jsp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="b1_33_extrassummary.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/content/jsp/b1_33_extrassummary.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="598" column="59" selection-start="24386" selection-end="24386" vertical-scroll-proportion="0.0">
+            <state line="98" column="111" selection-start="2607" selection-end="2607" vertical-scroll-proportion="0.81984335">
               <folding>
-                <marker date="1364238774000" expanded="false" signature="25943:25955" placeholder="..." />
-                <marker date="1364238774000" expanded="false" signature="26349:26363" placeholder="..." />
-                <marker date="1364238774000" expanded="false" signature="26871:26883" placeholder="..." />
-                <marker date="1364238774000" expanded="false" signature="27277:27291" placeholder="..." />
+                <marker date="1364332841000" expanded="false" signature="25950:25962" placeholder="..." />
+                <marker date="1364332841000" expanded="false" signature="26356:26370" placeholder="..." />
+                <marker date="1364332841000" expanded="false" signature="26878:26890" placeholder="..." />
+                <marker date="1364332841000" expanded="false" signature="27284:27298" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -288,15 +292,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.extrasApp.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="jquery.extrasApp.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.extrasApp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="1" selection-start="4231" selection-end="4231" vertical-scroll-proportion="0.9262899">
+            <state line="86" column="38" selection-start="3885" selection-end="3885" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1364321070000" expanded="false" signature="983:998" placeholder="..." />
-                <marker date="1364321070000" expanded="false" signature="1063:1076" placeholder="..." />
-                <marker date="1364321070000" expanded="false" signature="1152:1167" placeholder="..." />
-                <marker date="1364321070000" expanded="false" signature="1632:1645" placeholder="..." />
+                <marker date="1364331770000" expanded="false" signature="986:1001" placeholder="..." />
+                <marker date="1364331770000" expanded="false" signature="1066:1079" placeholder="..." />
+                <marker date="1364331770000" expanded="false" signature="1155:1170" placeholder="..." />
+                <marker date="1364331770000" expanded="false" signature="1731:1744" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -365,6 +369,14 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -381,9 +393,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/kcdataservices/affiliate/hotels/Room.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/footer/templateModel_1_footer1.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/content/jsp/b1_33_extrassummary.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/b1_33_AV_OK.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/jquery.extrasApp.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/content/jsp/b1_33_extrassummary.jsp" />
       </list>
     </option>
   </component>
@@ -445,7 +457,7 @@
     <option name="width" value="1440" />
     <option name="height" value="820" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -614,7 +626,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="footer" />
+              <option name="myItemId" value="content" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -640,7 +652,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1226,26 +1250,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/content/jsp/b1_33_extrassummary.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.extrasApp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="598" column="59" selection-start="24386" selection-end="24386" vertical-scroll-proportion="0.0">
+        <state line="86" column="38" selection-start="3885" selection-end="3885" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1364238774000" expanded="false" signature="25943:25955" placeholder="..." />
-            <marker date="1364238774000" expanded="false" signature="26349:26363" placeholder="..." />
-            <marker date="1364238774000" expanded="false" signature="26871:26883" placeholder="..." />
-            <marker date="1364238774000" expanded="false" signature="27277:27291" placeholder="..." />
+            <marker date="1364331770000" expanded="false" signature="986:1001" placeholder="..." />
+            <marker date="1364331770000" expanded="false" signature="1066:1079" placeholder="..." />
+            <marker date="1364331770000" expanded="false" signature="1155:1170" placeholder="..." />
+            <marker date="1364331770000" expanded="false" signature="1731:1744" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.extrasApp.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/content/jsp/b1_33_extrassummary.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="1" selection-start="4231" selection-end="4231" vertical-scroll-proportion="0.9262899">
+        <state line="98" column="111" selection-start="2607" selection-end="2607" vertical-scroll-proportion="0.81984335">
           <folding>
-            <marker date="1364321070000" expanded="false" signature="983:998" placeholder="..." />
-            <marker date="1364321070000" expanded="false" signature="1063:1076" placeholder="..." />
-            <marker date="1364321070000" expanded="false" signature="1152:1167" placeholder="..." />
-            <marker date="1364321070000" expanded="false" signature="1632:1645" placeholder="..." />
+            <marker date="1364332841000" expanded="false" signature="25950:25962" placeholder="..." />
+            <marker date="1364332841000" expanded="false" signature="26356:26370" placeholder="..." />
+            <marker date="1364332841000" expanded="false" signature="26878:26890" placeholder="..." />
+            <marker date="1364332841000" expanded="false" signature="27284:27298" placeholder="..." />
           </folding>
         </state>
       </provider>

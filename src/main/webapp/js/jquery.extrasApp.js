@@ -9,8 +9,7 @@
 var eq = 0,
     blueLink,
     extrasJSON,
-    docHeight = $(document).height(),
-    fadeTopSpeed = 1700,
+    fadeTopSpeed = 700,
     itemFadeSpeed = 600;
 
 $.getJSON('app/extras', function(data) {
@@ -25,6 +24,7 @@ function addExtrasPackage(element,response,service){
         newPackageValue = totalCurrentPackageValue+addOnPrice,
         newExVal = addOnPrice+exTotalVal,
         newExValCents = 0,
+        docHeight = $(document).height(),
         packageName = extrasJSON.response[response].service[service].name;
         if (packageName.length>17) packageName = packageName.substr(0,17)+"...";
         blueLink = '<p class="lightBlue" style="cursor:pointer;" data-response="'+response+'" data-service="'+service+'" style="display:none;">'+
@@ -35,13 +35,14 @@ function addExtrasPackage(element,response,service){
 
     $('div[data-response='+response+'][data-service='+service+']').addClass('yellow-row');
     $(element).fadeOut(itemFadeSpeed,function(){
+        $(this).attr('onclick', 'addToListBtn(this,'+response+','+service+','+addOnPrice+');');
         $(this).removeClass('btn-light-grey').addClass('btn-light-blue').text('Remove It').fadeIn(itemFadeSpeed);
         $('div[data-response='+response+'][data-service='+service+'] .logobox').append('<span class="icon-checked" style="display:none;">&nbsp;</span>')
         $('div[data-response='+response+'][data-service='+service+'] .logobox img').fadeOut(itemFadeSpeed);
         $('div[data-response='+response+'][data-service='+service+'] .logobox span').fadeIn(itemFadeSpeed);
         $('div[data-response='+response+'][data-service='+service+'] .price b:eq(0)').fadeOut(itemFadeSpeed,function(){
             $(this).text('').append('&ndash;&nbsp;');
-            $(this).fadeIn(function(){
+            $(this).fadeIn(itemFadeSpeed,function(){
                 $(document.body).animate({scrollTop:'-='+docHeight},fadeTopSpeed,function(){
 
 
@@ -83,17 +84,63 @@ function addBackToList(ele,res,serv,price){
     $('#totalPackagePrice').fadeOut(itemFadeSpeed,function(){
         var packageComma = addCommas(negPackageVal);
         $(this).text(""+packageComma+"");
-        $(this).fadeIn(itemFadeSpeed)
+        $(this).fadeIn(itemFadeSpeed);
     });
 
-    $(ele).parent().fadeOut();
+    $(ele).parent().fadeOut(itemFadeSpeed,function(){
+        $(this).remove();
+    });
 
     $(ele).fadeOut(function(){
+        $(this).remove();
         $('div[data-response='+res+'][data-service='+serv+']').removeClass('yellow-row');
+        $('div[data-response='+res+'][data-service='+serv+'] .logobox span').fadeOut(itemFadeSpeed,function(){
+            $(this).remove();
+        });
+        $('div[data-response='+res+'][data-service='+serv+'] .logobox img').fadeIn(itemFadeSpeed);
+        $('div[data-response='+res+'][data-service='+serv+'] .addExtrasPackage').fadeOut(itemFadeSpeed,function(){
+            $(this).attr('onclick', 'addExtrasPackage(this,'+res+','+serv+');');
+            $(this).removeClass('btn-light-blue').addClass('btn-light-grey').text('Add It').fadeIn(itemFadeSpeed);
+        });
+        $('div[data-response='+res+'][data-service='+serv+'] .price b:eq(0)').fadeOut(itemFadeSpeed,function(){
+            $(this).text('+').append('&nbsp;').fadeIn(itemFadeSpeed);
+        });
     });
 
 }
 
+function addToListBtn(e,r,s,p){
+    var exVal = parseInt($('#extrasTotalValue').text()),
+        negExVal = exVal-p,
+        totalCurrentPackageValue = parseInt($('#totalPackagePrice').text().replace(/,/g, '')),
+        negPackageVal = totalCurrentPackageValue - p;
+
+    $('#extrasTotalValue').fadeOut(itemFadeSpeed,function(){
+        $(this).text(""+negExVal+".00");
+        $(this).fadeIn(itemFadeSpeed);
+    });
+    $('#totalPackagePrice').fadeOut(itemFadeSpeed,function(){
+        var packageComma = addCommas(negPackageVal);
+        $(this).text(""+packageComma+"");
+        $(this).fadeIn(itemFadeSpeed)
+    });
+    $('div[data-response='+r+'][data-service='+s+']').removeClass('yellow-row');
+    $('div[data-response='+r+'][data-service='+s+'] .logobox span').fadeOut(itemFadeSpeed,function(){
+        $(this).remove();
+        $('div[data-response='+r+'][data-service='+s+'] .logobox img').fadeIn(itemFadeSpeed);
+    });
+
+    $(e).fadeOut(itemFadeSpeed,function(){
+        $(this).attr('onclick', 'addExtrasPackage(this,'+r+','+s+');');
+        $(this).removeClass('btn-light-blue').addClass('btn-light-grey').text('Add It').fadeIn(itemFadeSpeed);
+    });
+    $('div[data-response='+r+'][data-service='+s+'] .price b:eq(0)').fadeOut(itemFadeSpeed,function(){
+        $(this).text('+').append('&nbsp;').fadeIn(itemFadeSpeed);
+    });
+    $('p.lightBlue[data-response='+r+'][data-service='+s+']').fadeOut(itemFadeSpeed,function(){
+        $(this).remove();
+    })
+}
 
 function addCommas(num){
     var str = num.toString().split('.');
