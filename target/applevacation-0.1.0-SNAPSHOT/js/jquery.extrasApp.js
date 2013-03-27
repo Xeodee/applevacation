@@ -5,12 +5,15 @@
  * Time: 3:36 PM
  * To change this template use File | Settings | File Templates.
  */
-
+    /*
     var packageDollars = parseInt($('#totalPackagePrice').text().replace(/,/g, '')),
         packageCents = parseInt($('.lowestprice .cents').text().replace(/\./g, '')),
         totalPrice = packageDollars+"."+packageCents;
 
         console.log(parseFloat(totalPrice).toFixed(2));
+
+        parseFloat($('p.price:eq(19) b:eq(1)').text())+1370.00;
+        */
 
 
 var eq = 0,
@@ -85,7 +88,8 @@ function addBackToList(ele,res,serv,price){
         negPackageVal = totalCurrentPackageValue - price;
 
     $('#extrasTotalValue').fadeOut(itemFadeSpeed,function(){
-        $(this).text(""+negExVal+".00");
+        var exTotComma = addCommas(negExVal);
+        $(this).text(""+exTotComma+".00");
         $(this).fadeIn(itemFadeSpeed);
     });
     $('#totalPackagePrice').fadeOut(itemFadeSpeed,function(){

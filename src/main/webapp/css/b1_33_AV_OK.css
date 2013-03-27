@@ -12,9 +12,7 @@
 #b1_33_AV_OK .opt.active .details p { font-weight: normal; }
 #b1_33_AV_OK .opt.extras .details p:before { content: ""; }
 
-#b1_33_AV_OK #totalPackagePrice{font-size:34px;}
-
-#b1_33_AV_OK .opt.active .details p.lightBlue { color: #0086ee; text-transform: capitalize;}
+#b1_33_AV_OK .opt.active .details p.lightBlue { color: #0086ee; }
 #b1_33_AV_OK .opt.active .details p span.included { color: #cf2b04; font-weight: bold; text-transform: uppercase; font-size: 10px; }
 #b1_33_AV_OK .opt.active .details p.lightBlue span { color: #0086ee; font-weight: bold; }
 
@@ -60,14 +58,14 @@
 
 #b1_33_AV_OK .row { border-bottom: solid 1px #94b4cb; height: 100px; background: url("../images/triangle-bkd.png") no-repeat scroll 380px center transparent;position:relative }
 #b1_33_AV_OK .row h4 { font-weight: bold; font-size: 16px; color: #000000; }
-#b1_33_AV_OK .row .description { width: 422px; padding: 20px 0;position:relative }
+#b1_33_AV_OK .row .description { width: 422px; padding: 20px 0;position:relative; padding-left: 10px;}
 #b1_33_AV_OK .row.yellow-row { border-top: solid 1px #94b4cb; background-color: #f2dc79;}
 #b1_33_AV_OK .row.firstRow {margin-top:-20px;padding-top:8px;}
 #b1_33_AV_OK .row.yellow-row span.icon-checked { margin: 0 auto; }
 #b1_33_AV_OK .row .vacation-price-details-div { padding: 30px 20px 0 0; width: 120px; height: auto; }
 #b1_33_AV_OK .row .logobox { text-align: center; color: #cf2b04; font-size: 10px; text-transform: uppercase; font-weight: bold; padding: 20px 0; width: 150px; display: inline-block; }
 #b1_33_AV_OK .row-content-block { padding: 20px 0 30px; position: relative; }
-#b1_33_AV_OK .red-text { color: #cc3300;position:absolute;top:3px }
+#b1_33_AV_OK .red-text { color: #cc3300;position:absolute;top:3px;}
 #b1_33_AV_OK .description.has-red-text { padding-top: 18px; }
 
 #b1_33_AV_OK .row .vacation-price-details-div.has-button { padding-top: 20px;padding-right:5px;position:absolute;right:0;bottom:5px }
@@ -90,7 +88,7 @@
 #b1_33_AV_OK .back-to-top { position: absolute; right: 10px; bottom: 10px; font-weight: bold; }
 
 #b1_33_AV_OK .complete-booking-wrapper { width: 360px; line-height: 33px; height: 33px; background-color: #dddddd; border-radius: 3px; padding-left: 10px;  }
-#b1_33_AV_OK .complete-booking-wrapper #complete-booking { line-height: 33px; width: 180px; }
+#b1_33_AV_OK .complete-booking-wrapper #complete-booking { line-height: 33px; width: 160px; }
 #b1_33_AV_OK .complete-booking-wrapper #complete-booking .icon-greenrightarrow { margin-right: -15px; }
 .check-row{float:left}
 .checklist{height:115px;border-bottom:solid 1px #94B4CB;background-color:#F2DC79;padding-top:16px}
@@ -102,9 +100,11 @@
 .check-row span.checkbox{margin-left:12px;margin-top:13px;margin:13px 10px 0 10px}
 .check-row-text{color:#414042;}
 
+
 /* jQuery Extras */
 
 #b1_33_AV_OK .logobox{position: relative;}
 #b1_33_AV_OK .logobox img{position: absolute; left: 9px; z-index: 100;}
-
+#b1_33_AV_OK #totalPackagePrice{font-size: 34px;}
+#b1_33_AV_OK .logobox span.icon-checked{position: absolute; left: 55px; z-index: 90; margin-top: 0!important; top:45px;}
 
